@@ -1,0 +1,55 @@
+1.if
+=if(a1<1,10,11) 
+ture:10 false:11
+
+2.sumifs
+=sumifs(c2:c10,a2:a10,"李*",b2:b10,"员工")
+求c2:c10的和 a2:a10,"李*",b2:b10,"员工" 为两个条件
+
+=sumif(a2:a10,"李*",c2:c10)
+求c2:c10的和 ,a2:a10,"李*"为条件
+
+3.countifs
+=countifs(a2:a10,">100",b2:b10,"员工")
+
+4.left
+=left(f1,1) 拆分单元格
+=mid(f1,2,1)
+=right(f1,1)
+=left(len(f1),1)
+
+单元格连接
+=f1&f2&f3<=>=PHONETIC(f1:f3)
+
+2015/3/3
+=YEAR(f1)
+=mouth(f1)
+=day(f1)
+=date(f1,f2,f3) 年月日
+=edate(f1,2) f1+2个月
+
+5.subtotal
+subtotal(1,f1:f5) f1:f5求平均
+sum求和中间单元格不能为空
+
+包含隐藏值     忽略隐藏值
+1	AVERAGE     101
+2	COUNT       102
+3	COUNTA      103
+4	MAX         104
+5	MIN
+6	PRODUCT
+7	STDEV
+8	STDEVP
+9	SUM
+10	VAR
+11	VARP
+
+
+
+
+
+
+
+
+
