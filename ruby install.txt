@@ -1,0 +1,2 @@
+yum -y install ruby rubygems ruby-devel
+gem install json

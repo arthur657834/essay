@@ -1,0 +1,12 @@
+ftp
+prompt
+mget * 
+如果在mget之前不执行prompt，下载每个文件都会提问,每次都要输入一个y
+
+linux 踢出在线用户
+pkill -kill -t pts/3
+
+pgrep用法
+pgrep name  进程名不匹配命令行参数
+pgrep -f name  匹配进程名和命令行参数 
+-l 会列出服务名
