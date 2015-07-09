@@ -1,12 +1,16 @@
-ftp
+1.ftp
 prompt
 mget * 
 如果在mget之前不执行prompt，下载每个文件都会提问,每次都要输入一个y
 
-linux 踢出在线用户
+2.linux 踢出在线用户
 pkill -kill -t pts/3
 
-pgrep用法
+3.pgrep用法
 pgrep name  进程名不匹配命令行参数
 pgrep -f name  匹配进程名和命令行参数 
 -l 会列出服务名
+
+4.使用板卡的raid卡做阵列时，需要选择不带uefi的启动项制作系统，否则会导致系统安装成功之后无法启动
+
+5.sed -i '2i\3455' test.txt  插入文件第二行
