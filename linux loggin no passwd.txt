@@ -1,0 +1,17 @@
+目的：主机A免密码登录主机B
+
+主机A:
+ssh-keygen -t rsa -P '' //-P表示密码，-P '' 就表示空密码，也可以不用-P参数，这样就要三车回车，用-P就一次回车。
+
+在.ssh下生成id_rsa和id_rsa.pub。
+
+主机B：
+vi /etc/ssh/sshd_config
+找到以下内容，并去掉注释符”#“
+RSAAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile      .ssh/authorized_keys
+
+service sshd restart
+复制主机A的id_rsa.pub到.ssh下，重命名为authorized_keys
+scp root@192.168.0.28:/root/.ssh/id_rsa.pub /root/.ssh/authorized_keys
