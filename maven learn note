@@ -1,0 +1,63 @@
+﻿1.maven 安装
+mvn -v 测试安装结果
+
+2.新建hello world 工程
+mvn archetype:generate -DgroupId=com.mycompany.helloworld -DartifactId=helloworld -Dpackage=com.mycompany.helloworld -Dversion=1.0-SNAPSHOT
+
+3.新建成功之后,编译jar包
+
+cd helloworld
+mvn package
+
+4.运行生成的jar包
+java -cp target/helloworld-1.0-SNAPSHOT.jar com.mycompany.helloworld.App
+
+POM (Project Object Model)
+
+maven 坐标
+groupId:artifactId:packaging:version
+ex.
+com.mycompany.helloworld: helloworld: jar: 1.0-SNAPSHOT
+
+Maven 生命周期
+
+process-resources 阶段：resources:resources
+
+compile 阶段：compiler:compile
+
+process-classes 阶段：(默认无目标)
+
+process-test-resources 阶段：resources:testResources
+
+test-compile 阶段：compiler:testCompile
+
+test 阶段：surefire:test
+
+prepare-package 阶段：(默认无目标)
+
+package 阶段：jar:jar
+
+
+mvn archetype:generate
+archetype 是一个插件的名字，generate是目标(goal)的名字。这个命令的意思是告诉 maven 执行 archetype 插件的 generate 目标。插件目标通常会写成 pluginId:goalId
+
+将构建的jar包安装到本地库
+mvn install
+
+maven依赖使用
+ <dependencies>
+<dependency>
+  <groupId>com.mycompany.helloworld</groupId>
+  <artifactId>helloworld</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <scope>test</scope>
+</dependency> 
+ <dependencies>
+
+
+scope 决定了依赖关系的适用范围
+查看POM 的全部内容
+mvn help:effective-pom
+
+查看maven环境变量
+mvn help:system

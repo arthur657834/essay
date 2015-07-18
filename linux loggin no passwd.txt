@@ -15,3 +15,11 @@ AuthorizedKeysFile      .ssh/authorized_keys
 service sshd restart
 复制主机A的id_rsa.pub到.ssh下，重命名为authorized_keys
 scp root@192.168.0.28:/root/.ssh/id_rsa.pub /root/.ssh/authorized_keys
+
+去除登录时yes/no 的询问
+
+1.vi /etc/ssh/ssh_config
+StrictHostKeyChecking ask =>StrictHostKeyChecking no
+
+2.ssh localhost -o StrictHostKeyChecking=no
+
