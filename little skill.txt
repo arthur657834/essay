@@ -31,3 +31,8 @@ pgrep -f name  匹配进程名和命令行参数
 	
 	vi /etc/yum.conf
 	keepcache=0 => keepcache=1
+	
+8.eclipse菜单乱码
+window->Preferences->General->Appearance
+修改Theme为classic
+Forn Theme为classic theme
