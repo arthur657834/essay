@@ -1,0 +1,87 @@
+yum -y install openssl mod_ssl
+
+创建私钥
+openssl genrsa -out server.key 1024
+
+用私钥生成证书请求
+openssl req -new -key server.key -out server.csr
+需要输入一些基本信息,challenge password之前一定要输入，否则会启动错误
+Common Name 最好填主机名
+
+生成证书CRT文件
+openssl x509 -days 3650 -req -in server.csr -signkey server.key -out server.crt
+
+证书有效期 -days 3650
+
+vi /etc/httpd/conf/httpd.conf 添加
+LoadModule ssl_module modules/mod_ssl.so //静态编进apache内核的则不需要此段,yum安装就不用了
+
+mkdir /etc/pki/tls/mycert
+mv server.* /etc/pki/tls/mycert
+
+vi /etc/httpd/conf.d/ssl.conf
+
+修改SSLCertificateFile /etc/pki/tls/mycert/server.crt
+修改SSLCertificateKeyFile /etc/pki/tls/mycert/server.key
+
+httpd重启生效
+
+全网站跳转到https(也可在单独目录下配置可以参见最后的虚拟机配置)
+
+在   
+<Directory />
+    Options FollowSymLinks
+    #AllowOverride None
+    AllowOverride All  修改None为All
+    RewriteEngine on        增加++            
+    RewriteCond %{SERVER_PORT} !^443$ 增加++ 
+    RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R] 增加++ 
+</Directory>
+
+%{SERVER_PORT} —— 访问端口
+
+%{REQUEST_URI} —— 比如如果url是 http://localhost/tz.php，则是指 /tz.php
+RewriteCond %{REQUEST_URI} !^/tz.php 
+
+%{SERVER_NAME} —— 比如如果url是 http://localhost/tz.php，则是指 localhost
+
+虚拟主机配置
+
+NameVirtualHost *:80
+<VirtualHost *:80>
+    ServerAdmin webmaster@dummy-host.example.com
+    DocumentRoot /var/www/lj/
+    ServerName dummy-host.example.com
+    ErrorLog logs/lj_error_log
+    CustomLog logs/lj_access_log common
+
+    <Directory "/var/www/lj/">
+    Options FollowSymLinks
+    AllowOverride None
+    Order deny,allow
+    allow from all
+    </Directory>
+</VirtualHost>
+
+NameVirtualHost *:8080
+Listen 8080 ----------------------------------非80端口要加这一句
+<VirtualHost *:8080>
+    ServerAdmin webmaster@dummy-host.example.com
+    DocumentRoot /var/www/lj1/
+    ServerName lj.example.com
+    ErrorLog logs/lj1_error_log
+    CustomLog logs/lj1_access_log common
+
+    <Directory "/var/www/lj1/">
+    Options FollowSymLinks
+    #AllowOverride None
+    Order deny,allow
+    allow from all
+    AllowOverride All
+    RewriteEngine on
+    RewriteCond %{SERVER_PORT} !^443$
+    RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+    </Directory>
+</VirtualHost>
+
+

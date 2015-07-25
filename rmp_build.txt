@@ -1,0 +1,106 @@
+yum -y install rpm-build rpmdevtools
+
+rpmdev-setuptree 生成rpmbuild目录
+
+编写spec文件放入SPEC下，源码放到SOURCES
+
+Summary: GNU indent
+Name: indent
+Version: 2.2.6
+Release: 2
+Source0: %{name}-%{version}.tar.gz
+License: GPL
+Group: Development/Tools
+BuildRoot: %{_builddir}/%{name}-root
+%description
+The GNU indent program reformats C code to any of a variety of
+formatting standards, or you can define your own.
+%prep
+%setup -q
+%build
+./configure
+make
+%install
+rm -rf $RPM_BUILD_ROOT
+make DESTDIR=$RPM_BUILD_ROOT install
+%clean
+rm -rf $RPM_BUILD_ROOT
+%files
+%defattr(-,root,root)
+/usr/local/bin/indent
+%doc /usr/local/info/indent.info
+%doc %attr(0444,root,root) /usr/local/man/man1/indent.1
+%doc COPYING AUTHORS README NEWS  这些文件都在源码目录下
+
+
+spec文件规范
+
+描述文件说明如下：
+Summary:摘要
+Name：软件包名称
+Version：软件包版本
+Release：发行版本号
+Group：组描述
+License：发行许可证
+Source[0-n]：指定源代码文件
+BuildRequires：编译源码时以来的软件包
+Requires：安装软件包时依赖的软件
+BuildRoot：安装文件时候的根目录
+Description：关于RPM包的描述
+Pre：安装前的准备
+Prep：编译前的准备
+Setup：寻找将源码包并解压
+Build：编译
+Install：安装
+File：文件列表
+Defattr：文件属性
+Post：安装之后的收尾工作
+Preun：卸载软件前的准备工作
+Postun：卸载软件后的收尾工作
+
+%files 列出应该捆绑到 RPM 中的文件，并能够可选地设置许可权和其它信息。 有些文件没有在源码中可以使用此方法包含进来
+
+在 %files 中，您可以使用 一次%defattr 来定义缺省的许可权、所有者和组；在这个示例中， %defattr(-,root,root) 会安装 root 用户拥有的所有文件，使用当 RPM 从构建系统捆绑它们时它们所具有的任何许可权。
+
+可以用 %attr(permissions,user,group) 覆盖个别文件的所有者和许可权。
+
+可以在 %files 中用一行包括多个文件。
+
+可以通过在行中添加 %doc 或 %config 来标记文件。 %doc 告诉 RPM 这是一个文档文件，因此如果用户安装软件包时使用 --excludedocs ，将不安装该文件。您也可以在 %doc 下不带路径列出文件名，RPM 会在构建目录下查找这些文件并在 RPM 文件中包括它们，并把它们安装到 /usr/share/doc/%{name}-%{version} 。以 %doc 的形式包括 README 和 ChangeLog 这样的文件是个好主意。
+
+%config 告诉 RPM 这是一个配置文件。在升级时，RPM 将会试图避免用 RPM 打包的缺省配置文件覆盖用户仔细修改过的配置。
+
+警告：如果在 %files 下列出一个目录名，RPM 会包括该目录下的所有文件。通常这不是您想要的，特别对于 /bin 这样的目录。 
+
+
+Group：
+软件包所属类别，具体类别有：
+Amusements/Games （娱乐/游戏）
+Amusements/Graphics（娱乐/图形）
+Applications/Archiving （应用/文档）
+Applications/Communications（应用/通讯）
+Applications/Databases （应用/数据库）
+Applications/Editors （应用/编辑器）
+Applications/Emulators （应用/仿真器）
+Applications/Engineering （应用/工程）
+Applications/File （应用/文件）
+Applications/Internet （应用/因特网）
+Applications/Multimedia（应用/多媒体）
+Applications/Productivity （应用/产品）
+Applications/Publishing（应用/印刷）
+Applications/System（应用/系统）
+Applications/Text （应用/文本）
+Development/Debuggers （开发/调试器）
+Development/Languages （开发/语言）
+Development/Libraries （开发/函数库）
+Development/System （开发/系统）
+Development/Tools （开发/工具）
+Documentation （文档）
+System Environment/Base（系统环境/基础）
+System Environment/Daemons （系统环境/守护）
+System Environment/Kernel （系统环境/内核）
+System Environment/Libraries （系统环境/函数库）
+System Environment/Shells （系统环境/接口）
+User Interface/Desktops（用户界面/桌面）
+User Interface/X （用户界面/X窗口）
+User Interface/X Hardware Support （用户界面/X硬件支持）
