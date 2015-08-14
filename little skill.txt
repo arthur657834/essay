@@ -36,3 +36,9 @@ pgrep -f name  匹配进程名和命令行参数
 window->Preferences->General->Appearance
 修改Theme为classic
 Forn Theme为classic theme
+
+9.root帐号无法登录，非root帐号可以登录
+修改/etc/ssh/sshd_config
+
+#PermitRootLogin without-password为
+PermitRootLogin yes
