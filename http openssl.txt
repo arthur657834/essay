@@ -24,7 +24,14 @@ vi /etc/httpd/conf.d/ssl.conf
 修改SSLCertificateFile /etc/pki/tls/mycert/server.crt
 修改SSLCertificateKeyFile /etc/pki/tls/mycert/server.key
 
-httpd重启生效
+配置使用的SSL协议
+#   SSL Protocol support:
+# List the enable protocol levels with which clients will be able to
+# connect.  Disable SSLv2 access by default:
+#SSLProtocol all -SSLv2
+SSLProtocol SSLv2 -TLSv1
+
+httpd重启生效(记得关闭selinux和iptables)
 
 全网站跳转到https(也可在单独目录下配置可以参见最后的虚拟机配置)
 
