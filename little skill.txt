@@ -16,14 +16,14 @@ pgrep -f name  匹配进程名和命令行参数
 5.sed -i '2i\3455' test.txt  插入文件第二行
 
 6.以非root用户执行命令
-	echo "command" | su - lj
+echo "command" | su - lj
 
-	su lj -c ls 
+su lj -c ls 
 
-	su - hadoop <<EOF
-	ls
-	exit；
-	EOF
+su - hadoop <<EOF
+ls
+exit；
+EOF
 
 7. yum只下载不安转
 	安装yum插件 yum -y install yum-downloadonly
@@ -42,3 +42,12 @@ Forn Theme为classic theme
 
 #PermitRootLogin without-password为
 PermitRootLogin yes
+
+10.linux 挂载windows共享
+​yum -y install samba-client cifs-utils samba-common
+mount -t cifs //192.168.0.89/share/apm /mnt/share -o username=broada,password="broada123" 
+
+11.查看所有服务状态
+service --status-all 
+
+
