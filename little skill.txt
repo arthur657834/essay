@@ -50,4 +50,6 @@ mount -t cifs //192.168.0.89/share/apm /mnt/share -o username=broada,password="b
 11.查看所有服务状态
 service --status-all 
 
-
+12.光盘挂载
+mount /dev/cdrom /mnt/cdrom
+mount -o loop 1.iso /var/www/html/1
