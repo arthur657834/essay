@@ -53,3 +53,15 @@ service --status-all
 12.光盘挂载
 mount /dev/cdrom /mnt/cdrom
 mount -o loop 1.iso /var/www/html/1
+
+13.利用SecureCRT上传下载文件
+yum -y install lrzsz
+
+下载文件
+sz filename
+
+上传文件
+rz 添加文件
+
+上传下载路径
+options — session options — X/Y/Zmodem
