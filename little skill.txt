@@ -13,7 +13,12 @@ pgrep -f name  匹配进程名和命令行参数
 
 4.使用板卡的raid卡做阵列时，需要选择不带uefi的启动项制作系统，否则会导致系统安装成功之后无法启动
 
-5.sed -i '2i\3455' test.txt  插入文件第二行
+5.批量添加用户
+#!/bin/bash
+for name in tom joy john mark james
+do  useradd $name
+    echo "redhat" | passwd --stdin $name
+done
 
 6.以非root用户执行命令
 echo "command" | su - lj
@@ -50,4 +55,18 @@ mount -t cifs //192.168.0.89/share/apm /mnt/share -o username=broada,password="b
 11.查看所有服务状态
 service --status-all 
 
+12.光盘挂载
+mount /dev/cdrom /mnt/cdrom
+mount -o loop 1.iso /var/www/html/1
 
+13.利用SecureCRT上传下载文件
+yum -y install lrzsz
+
+下载文件
+sz filename
+
+上传文件
+rz 添加文件
+
+上传下载路径
+options — session options — X/Y/Zmodem
