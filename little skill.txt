@@ -13,7 +13,12 @@ pgrep -f name  匹配进程名和命令行参数
 
 4.使用板卡的raid卡做阵列时，需要选择不带uefi的启动项制作系统，否则会导致系统安装成功之后无法启动
 
-5.sed -i '2i\3455' test.txt  插入文件第二行
+5.批量添加用户
+#!/bin/bash
+for name in tom joy john mark james
+do  useradd $name
+    echo "redhat" | passwd --stdin $name
+done
 
 6.以非root用户执行命令
 echo "command" | su - lj
