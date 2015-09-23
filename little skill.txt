@@ -70,3 +70,7 @@ rz 添加文件
 
 上传下载路径
 options — session options — X/Y/Zmodem
+
+14.ssl 隧道代理
+重启失效
+ssh -fNgL 8898:10.4.1.131:22 root@10.4.1.131
