@@ -1,0 +1,15 @@
+yum -y install sharutils mailx
+
+echo set from=123456@126.com smtp=smtp.126.com >>/etc/mail.rc
+echo set smtp-auth-user=123456@126.com smtp-auth-password=123456 smtp-auth=login >>/etc/mail.rc
+
+邮件发送:
+echo 1 | mail -s "1" 123456@qq.com
+mail -s "1" 123456@qq.com < 1.txt 
+
+uuencode lj.sh 1.sh | mail -s "1" 123456@qq.com
+
+(uuencode lj.sh 1.sh;uuencode install.log 2.log) | mail -s "1" 123456@qq.com
+
+使用uuencode发送附件出现乱码
+将乱码在文本文件中保存为uue后缀的文件，再使用rar解压
