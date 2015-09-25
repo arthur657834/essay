@@ -1,0 +1,155 @@
+1.安装jdk环境
+rpm -ivh http://192.168.100.10:8090/Centos/jdk-8u60-linux-x64.rpm;
+echo export JAVA_HOME=/usr/java/jdk1.8.0_60 >>/etc/profile;
+echo export PATH=\$JAVA_HOME/bin:\$PATH >>/etc/profile;
+echo export CLASSPATH=.:\$JAVA_HOME/lib/dt.jar:\$JAVA_HOME/lib/tools.jar:\$JAVA_HOME/jre/lib/rt.jar >>/etc/profile;
+source /etc/profile;
+
+2.服务端安装
+
+redis 安装需要至少2G内存，否则编译会出错
+
+	yum -y install tcl
+
+	wget http://download.redis.io/releases/redis-3.0.4.tar.gz
+	tar zxvf redis-3.0.4.tar.gz 
+	mv redis-3.0.4 /usr/local
+	cd /usr/local
+	ln -s redis-3.0.4 redis
+	cd redis
+	make;
+	make test;
+	make install;
+	cd utils/
+	./install_server.sh 
+	
+elasticsearch
+
+	wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.2.zip
+	unzip elasticsearch-1.7.2.zip
+	mv elasticsearch-1.7.2 /usr/local
+	cd /usr/local
+	ln -s elasticsearch-1.7.2 elasticsearch
+	cd elasticsearch/bin/
+	./elasticsearch -f  前台执行
+	./elasticsearch -d  后台执行 选一个就行
+	curl -X GET http://127.0.0.1:9200 验证elasticsearch是否启动成功
+	./plugin -install mobz/elasticsearch-head    http://192.168.0.124:9200/_plugin/head/
+	./plugin -install lukas-vlcek/bigdesk
+	
+logstash
+
+	wget -q https://download.elastic.co/logstash/logstash/logstash-1.5.4.zip
+	unzip logstash-1.5.4.zip
+	mv logstash-1.5.4 /usr/local
+	cd /usr/local
+	ln -s logstash-1.5.4 logstash
+	mkdir logstash/conf
+	cd logstash/conf
+	./logstash ../conf/logstash.conf 
+	./logstash agent ../conf/logstash-agent.conf 
+	
+	测试:
+	ex1:
+	bin/logstash -e 'input { stdin { } } output { stdout {} }'
+	helo
+	2015-03-19T09:09:38.161+0000 iZ28ywqw7nhZ helo
+
+	bin/logstash -e 'input { stdin { } } output { stdout { codec => rubydebug } }'
+	bin/logstash  -e 'input { stdin { } } output { elasticsearch { host => localhost } }'
+	
+	
+	logstash.conf  服务端配置
+	配置选项:
+	codec  => "json" tags => ["logstashdemo"]
+	查一下怎么用？
+	filter {
+	
+	grok {
+	
+	type => "linux-syslog"
+	
+	pattern => "%{SYSLOGLINE}"
+	
+	}
+	
+	grok {
+	
+	type => "nginx-access"
+	
+	pattern => "%{NGINXACCESSLOG}"
+	
+	}
+	
+	}
+
+
+	server:
+	input {
+	    redis
+	    {
+			host => "192.168.0.124"
+			data_type =>"list"
+			port => "6379"
+			key => "logstash"
+			type => "redis-input"
+	    }
+	}
+	
+	output
+	    {
+			elasticsearch {
+							host => "192.168.0.124"
+							port => "9300"
+	    }
+	}
+	
+	logstash-agent.conf 客户端配置
+	
+	agent:
+	input {
+		 file{
+							type => "linux-syslog"
+							path => [ "/var/log/*.log", "/var/log/messages", "/var/log/syslog" ]	
+				}
+	   file  {
+	            path =>"/var/log/messages"
+							type => "syslog"
+	         }
+	   file  {
+	            path => "/var/log/httpd/access_log"
+							type => "apache"
+	         }
+	}
+	
+	output {
+	        redis {
+										host => "192.168.0.124"
+										data_type =>"list"
+										key => "logstash"
+	       }
+	}
+	
+kibana
+
+	wget https://download.elastic.co/kibana/kibana/kibana-4.1.2-linux-x64.tar.gz
+	tar xzvf kibana-4.1.2-linux-x64.tar.gz
+	mv kibana-4.1.2-linux-x64 /var/www/html/
+	mv /var/www/html/kibana-4.1.2-linux-x64/ /var/www/html/kibana
+	
+	vi /var/www/html/kibana/config/kibana.yml
+	elasticsearch_url: "http://192.168.0.124:9200"
+	/var/www/html/kibana/bin/kibana 启动kibana
+	browser open http://192.168.0.29:5601/
+
+3.客户端安装
+
+logstash
+
+	./logstash agent ../conf/logstash-agent.conf 
+
+
+
+
+
+
