@@ -1,0 +1,32 @@
+1.webconsole
+支持php环境
+http://www.web-console.org/
+
+wget https://github.com/nickola/web-console/releases/download/v0.9.5/webconsole-0.9.5.zip
+
+unzip webconsole-0.9.5.zip
+mv webconsole /var/www/html
+
+cd /var/www/html/webconsole
+
+vi webconsole.php 设置帐号密码
+$USER = 'root';
+$PASSWORD = '123456';
+
+浏览器打开即可使用
+http://IP/webconsole/webconsole.php
+
+
+2.gateone
+
+git clone https://github.com/liftoff/GateOne.git
+
+cd GateOne
+python setup.py install
+pip install stdeb
+gateone 开启服务
+浏览器打开即可使用
+https://IP
+
+配置文件
+/etc/gateone/conf.d
