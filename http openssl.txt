@@ -95,3 +95,17 @@ apache 代理其他服务器
 vi /etc/httpd/conf/httpd.conf 添加
 ProxyPass /images http://10.10.1.3:8088/images
 ProxyPassReverse /images http://10.10.1.3:8088/images
+
+apache 开启http basic auth
+vi /etc/httpd/conf/httpd.conf
+在<Directory "/var/www/html">下添加
+AuthName "Private source  Access"
+AuthType Basic
+AuthUserFile /etc/httpd/conf/pass_file
+Require valid-user
+
+使用htpasswd添加帐号
+htpasswd -bc /etc/httpd/conf/pass_file lj 123
+
+重启httpd失效
+ 
