@@ -106,6 +106,7 @@ Require valid-user
 
 使用htpasswd添加帐号
 htpasswd -bc /etc/httpd/conf/pass_file lj 123
-
-重启httpd失效
+htpasswd -b /etc/httpd/conf/pass_file lj2 123 添加第二个帐号
+htpasswd -D /etc/httpd/conf/pass_file lj2 删除帐号
+重启httpd生效
  
