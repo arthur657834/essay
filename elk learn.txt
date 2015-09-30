@@ -1,3 +1,5 @@
+https://www.elastic.co/downloads/
+
 1.安装jdk环境
 rpm -ivh http://192.168.100.10:8090/Centos/jdk-8u60-linux-x64.rpm;
 echo export JAVA_HOME=/usr/java/jdk1.8.0_60 >>/etc/profile;
