@@ -166,3 +166,8 @@ Alias /def /ghi
 
 以下是例子:有空研究
 http://smilejay.com/2012/10/apache-rewrite/
+
+RewriteLog "/usr/local/var/apache/logs/rewrite.log" 
+RewriteLogLevel 3
+ 
+不能写在<Directory>或<options>中
