@@ -164,3 +164,5 @@ Alias /def /ghi
   
 15) E=VAR:VAL(set environment variable) 设置环境变量  
 
+以下是例子:有空研究
+http://smilejay.com/2012/10/apache-rewrite/
