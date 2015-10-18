@@ -66,8 +66,19 @@ logstash
 	
 	logstash.conf  服务端配置
 	配置选项:
-	codec  => "json" tags => ["logstashdemo"]
+	codec  => "json" 
+	tags => ["logstashdemo"]
+	discover_interval:logstash 每隔多久去检查一次被监听的 path 下是否有新文件。默认值是 15 秒。
+	exclude:不想被监听的文件可以排除出去
+	sincedb_path:sincedb路径
+	sincedb_write_interval：logstash 每隔多久写一次 sincedb 文件，默认是 15 秒
+	stat_interval：logstash 每隔多久检查一次被监听文件状态（是否有更新），默认是 1 秒。
+	start_position：logstash 从什么位置开始读取文件数据，默认是结束位置，也就是说 logstash 进程会以类似 tail -F 的形式运行。如果你是要导入原有数据，把这个设定改成 "beginning"，logstash 进程就从头开始读取，有点类似 cat ，但是读到最后一行不会终止，而是继续变成 tail -F 。
+	
+	add_field => {"key" => "value"}
+	
 	查一下怎么用？
+	ex1:
 	filter {
 	
 	grok {
@@ -87,6 +98,68 @@ logstash
 	}
 	
 	}
+	
+	ex2:
+	input {
+stdin {
+type => "web"
+}
+}
+filter {
+if [type] == "web" {
+grok {
+match => ["message", %{COMBINEDAPACHELOG}]
+}
+}
+}
+output {
+if "_grokparsefailure" in [tags] {
+nagios_nsca {
+nagios_status => "1"
+}
+} else {
+elasticsearch {
+}
+}
+}
+
+ex3:
+input {
+syslog {
+port => "514"
+}
+}
+
+ex4:
+input {
+tcp {
+port => "8514"
+}
+}
+filter {
+grok {
+match => ["message", "%{SYSLOGLINE}" ]
+}
+syslog_pri { }
+}
+
+ex5:
+input {
+tcp {
+port => 8888
+mode => "server"
+ssl_enable => false
+}
+}
+
+ex6:
+input {
+file {
+path => "/var/log/nginx/access.log_json""
+codec => "json"
+}
+}
+
 
 
 	server:
