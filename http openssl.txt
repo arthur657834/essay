@@ -17,6 +17,7 @@ vi /etc/httpd/conf/httpd.conf 添加
 LoadModule ssl_module modules/mod_ssl.so //静态编进apache内核的则不需要此段,yum安装就不用了
 
 mkdir /etc/pki/tls/mycert
+rm -fr /etc/pki/tls/mycert/*
 mv server.* /etc/pki/tls/mycert
 
 vi /etc/httpd/conf.d/ssl.conf
