@@ -109,6 +109,6 @@ start ["title"] [/dPath] [/I][/min] [/max] [{/separate | /shared}] [{/low | /nor
 /wait 启动应用程序，并等待其结束。 ­
 
 /b 启动应用程序时不必打开新的“命令提示符”窗口。除非应用程序启用 CTRL+C，否则将忽略 CTRL+C 操作。使用 CTRL+BREAK 中断应用程序。 ­
-
+ex.
 start /max iexplore.exe
 
