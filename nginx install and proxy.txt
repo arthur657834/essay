@@ -85,6 +85,11 @@ last – 基本上都用这个Flag。
 break – 中止Rewirte，不在继续匹配
 redirect – 返回临时重定向的HTTP状态302
 permanent – 返回永久重定向的HTTP状态301
+
+location =/ {
+  rewrite  ^/(.*)$  http://www.uyun.cn/overview/mobile/#/user/home/  permanent;
+}
+
 1、下面是可以用来判断的表达式：
 -f和!-f用来判断是否存在文件
 -d和!-d用来判断是否存在目录
