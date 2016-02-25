@@ -1,7 +1,16 @@
 http://nginx.org/en/linux_packages.html
 
+方法1：
 rpm -ivh http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm
 
+yum -y install nginx
+
+方法2：
+echo '[nginx]' >> /etc/yum.repos.d/nginx.repo
+echo 'name=nginx.repo' >> /etc/yum.repos.d/nginx.repo
+echo 'baseurl=http://nginx.org/packages/centos/$releasever/$basearch/' >> /etc/yum.repos.d/nginx.repo
+echo 'gpgcheck=0' >> /etc/yum.repos.d/nginx.repo
+echo 'enabled=1' >> /etc/yum.repos.d/nginx.repo
 yum -y install nginx
 
 include /etc/nginx/conf.d/*.conf;
