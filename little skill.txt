@@ -112,3 +112,6 @@ start ["title"] [/dPath] [/I][/min] [/max] [{/separate | /shared}] [{/low | /nor
 ex.
 start /max iexplore.exe
 
+16. samba 挂载
+smbclient //10.1.50.23/logs -U backup%broada_backup
+mount -t cifs -o username=backup%broada_backup //10.1.50.23/logs /root/ljlog/
