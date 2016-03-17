@@ -54,7 +54,34 @@ maven依赖使用
 	</dependency> 
 	<dependencies>
 
+引用本地jar
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.5-SNAPSHOT</version>
+    <scope>system</scope>
+    <!--本地jar的路径,相对或者绝对都可以-->
+    <systemPath>/Users/nonkr/uyun-collector/lib/commons-io-2.5-20151119.212356-154.jar</systemPath>
+</dependency>
 
+添加mvn 仓库
+<repositories>
+        <repository>
+            <id>jboss-public-repository-group</id>
+            <name>JBoss Public Repository Group</name>
+            <url>http://repository.jboss.org/nexus/content/groups/public/</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+	
 scope 决定了依赖关系的适用范围
 查看POM 的全部内容
 mvn help:effective-pom
