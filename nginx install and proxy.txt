@@ -141,6 +141,29 @@ location ~* \.(txt|doc)${
 root /data/www/wwwroot/linuxtone/test;
 deny all;
 }
+7. 代理多子目录
+server {
+    listen 8080;
+    access_log  /root/proxy.access.log  main;
+    error_log  /root/proxy.error.log;
+
+       try_files $uri @tornado;
+ 
+        location @tornado {
+                proxy_pass_header Server;
+                proxy_set_header Host $http_host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Scheme $scheme;
+ 
+                proxy_pass http://10.1.2.219:8081;
+        }
+     location  /jira {
+        proxy_pass   http://10.1.2.219:8081/login.jsp;
+}
+
+}
+当链接在本地不存在时，代理生效
+
 一些可用的全局变量:
 $args
 $content_length
