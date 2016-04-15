@@ -65,6 +65,10 @@ cd my-cluster
 ceph-deploy   new  node1   
 echo osd pool default size = 2 >> ceph.conf
 
+# 验证monitor是否安装成功
+ceph -s
+ceph mon_status
+
 #安装ceph
 ceph-deploy install admin-node node1 node2 node3
 
@@ -79,10 +83,22 @@ mkdir  /var/local/osd1
 
 #开启其他节点osd进程，并激活
 ceph-deploy osd prepare node2:/var/local/osd0  node3:/var/local/osd1
-ceph-deploy osd activate  node2:/var/local/osd0  node3:/var/local/osd1
+ceph-deploy osd activate  node2:/var/local/osd0  node3:/var/local/osd1  <=> ceph-disk activate all
+
 
 查看一下 Ceph 存储节点的硬盘情况：
 ceph-deploy disk list node2
+
+ceph osd tree
+ceph osd dump 
+ceph osd perf
+ceph osd df
+ceph osd down 0 #osd.0 节点
+ceph osd rm 0 #
+ceph osd pool set rbd pg_num 3000
+
+
+
 
 把admin-node节点的配置文件与keyring同步至其它节点
 ceph-deploy admin admin-node node1 node2 node3
@@ -100,6 +116,11 @@ rbd create foo --size 4096
 
 将ceph提供的块设备映射到client-node:
 sudo rbd map foo --pool rbd --name client.admin
+
+ceph osd lspools
+ceph osd pool get data pg_num
+ceph osd pool get data pgp_num
+
 
 创建文件系统
 sudo mkfs.ext4 -m0 /dev/rbd/rbd/foo
