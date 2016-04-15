@@ -108,7 +108,7 @@ sudo chmod +r /etc/ceph/ceph.client.admin.keyring
 ceph health
 
 部署client-node：
-ceph-deploy  install client-node
+ceph-deploy install client-node
 ceph-deploy admin client-node
 
 创建块设备映像：
