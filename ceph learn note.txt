@@ -107,8 +107,9 @@ sudo chmod +r /etc/ceph/ceph.client.admin.keyring
 #测试
 ceph health
 
+Ceph存储空间使用：
 部署client-node：
-ceph-deploy  install client-node
+ceph-deploy install client-node
 ceph-deploy admin client-node
 
 创建块设备映像：
