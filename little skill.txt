@@ -115,3 +115,6 @@ start /max iexplore.exe
 16. samba 挂载
 smbclient //10.1.50.23/logs -U backup%broada_backup
 mount -t cifs -o username=backup%broada_backup //10.1.50.23/logs /root/ljlog/
+
+17.找命令执行的依赖包
+ldd $(which ./nginx)
