@@ -1,0 +1,18 @@
+1、错误描述
+[sdb] No Caching mode page found
+[sdb] Assuming drive cache:write through
+....
+Could not boot
+/dev/root does not exist
+
+2、进入安装界面时，按下e键
+将
+vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS\x207\x20x86_64 rd.live.check quiet
+更改为（即更改inst.stage2=hd:后面的内容即可）
+vmlinuz initrd=initrd.img inst.stage2=hd:/dev/sdb4:/ quiet
+
+说明：
+sdb4是你U盘的挂载名称，可以通过 ls /dev/sd*获取。
+一般是sdb1,因为硬盘一般是sda,可能会有不同，具体看情况。
+
+再按下CTRL + X 快捷键即可继续安装了。
