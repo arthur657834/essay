@@ -118,3 +118,22 @@ mount -t cifs -o username=backup%broada_backup //10.1.50.23/logs /root/ljlog/
 
 17.找命令执行的依赖包
 ldd $(which ./nginx)
+
+18.
+#查看网卡UUID
+nmcli con show
+
+#查看网卡信息
+nmcli device show ens32
+
+find /home/website -mtime +30 -print0 | xargs -0 rm -v
+find /home/website -mtime +30 -exec ls {} \;
+
+find -print 和 -print0的区别:
+-print 在每一个输出后会添加一个回车换行符，而-print0则不会。
+
+#查看进程的流量
+nethogs
+
+#设置 secureCRT - 选项 - 会话选项 - 终端 - 仿真： 选择终端为 Xterm ，而不是 VT100
+glances

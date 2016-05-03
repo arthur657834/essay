@@ -38,6 +38,13 @@ prepare-package 阶段：(默认无目标)
 package 阶段：jar:jar
 
 
+pre-clean
+
+clean
+
+post-clean
+
+
 mvn archetype:generate
 archetype 是一个插件的名字，generate是目标(goal)的名字。这个命令的意思是告诉 maven 执行 archetype 插件的 generate 目标。插件目标通常会写成 pluginId:goalId
 
