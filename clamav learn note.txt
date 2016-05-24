@@ -1,14 +1,62 @@
+https://www.clamav.net/
+https://github.com/vrtadmin/clamav-faq/blob/master/manual/clamdoc.pdf
+
 yum -y install bind-utils openssl-devel
 yum -y install clamav clamav-update clamav-server clamav-scanner
+pip install pyClamd
+
+cp /usr/share/doc/clamav-server-0.99.1/clamd.conf /etc/
+vi /etc/clamd.conf
+# Example 注释掉这一行
+TCPSocket 3310
+TCPAddr 10.1.50.250
+PidFile /var/run/clamd.<SERVICE>/clamd.pid
+LogFile /var/log/clamd.<SERVICE>
+DatabaseDirectory /var/lib/clamav
+User root
 
 vi /etc/freshclam.conf
 # Example 注释掉这一行
- 
+UpdateLogFile /var/log/freshclam.log
+PidFile /var/run/freshclam.pid
+DatabaseDirectory /var/lib/clamav
+
 freshclam 更新病毒库
+/usr/bin/freshclam --quiet --daemon
 
-clamscan -r /home --remove -l /var/log/clamscan.log
+ex:
+	扫描文件:
+	clamscan -r /home --remove -l /var/log/clamscan.log --bell
+	--remove 自动删除异常文件
+	--bell 扫描到病毒文件之后声音提醒
+	
+	clamscan -r -i --exclude-dir='^/sys|^/proc|^/dev|^/lib|^/bin|^/sbin' /
+	cat testfile | clamscan -
+	clamscan -r --mbox /var/spool/mail
 
+	
+python api 调用：
+import pyclamd
+try:
+    cd = pyclamd.ClamdUnixSocket()
+    cd.ping()
+except pyclamd.ConnectionError:
+    # if failed, test for network socket
+    cd = pyclamd.ClamdNetworkSocket("10.1.50.250",3310)
+    try:
+        cd.ping()
+    except pyclamd.ConnectionError:
+        raise ValueError('could not connect to clamd server either by unix or network socket')
 
+print(cd.version().split()[0])
+print(cd.reload())
+print(cd.stats().split()[0])
+
+void = open('/tmp/EICAR','w').write(cd.EICAR())
+void = open('/tmp/NO_EICAR','w').write('no virus in this file')
+cd.scan_file('/tmp/EICAR')
+cd.scan_file('/tmp/NO_EICAR') is None
+cd.scan_stream(cd.EICAR())
 
 
 
