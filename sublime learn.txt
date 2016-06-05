@@ -1,0 +1,28 @@
+http://www.jianshu.com/
+
+安装package control
+https://packagecontrol.io/installation
+
+安装插件:
+控制面板==>install package==>MarkDown Preview
+
+MarkDown
+	浏览器预览:控制板中键入Markdown，选择preview in browser，再选择github
+
+OmniMarkupPreviwer：实时在浏览器中预
+	Ctrl+Alt+O: Preview Markup in Browser.
+	Ctrl+Alt+X: Export Markup as HTML.
+	Ctrl+Alt+C: Copy Markup as HTML.
+	
+快捷键：
+	Ctrl + Enter在当前行下面新增一行然后跳至该行；
+	Ctrl + Shift + Enter在当前行上面增加一行并跳至该行。
+	Ctrl + ←/→进行逐词移动
+	Ctrl + Shift + ←/→进行逐词选择。
+	Ctrl + ↑/↓移动当前显示区域
+	Ctrl + Shift + ↑/↓移动当前行。
+	
+	
+	
+	
+	
