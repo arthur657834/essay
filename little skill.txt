@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 U2FsdGVkX1+wIrY38npOoXG4isk1qSdLF7aWRzjap9RhUQInTLEZNu711//amYZF
 seWTcvarbzTmcl+sM61rxPWdsMHH3UilkyRmlYYBwWH3ANT3Yzv98EDkMPVCUOFj
 aemq4+MpWIZQgMG2ffOBc3A5j0l+F+zX1Tb8R9NIdt4eeJwYf+cW73zPn/NzlggZ
@@ -71,3 +72,152 @@ hIasyWrTxbwRD0HewHuuzN31jk9J+WgA8e3qKHn3U8rFaPrW3dbVvqy48wWWshOe
 ojlzmnTpTHPf/pJeHX2k/tAdJbtaPQ08yxwJENlq993j/8/uiMAhRaDGtMxLxvJe
 3ltM9DvrDMkpaKgo39Oq5k0HdeyYV8zPA5Wqo7Lrj6R6qwTGOllIzNFLZWeQ+DRW
 yt3GT55vg2E=
+=======
+1.ftp
+prompt
+mget * 
+如果在mget之前不执行prompt，下载每个文件都会提问,每次都要输入一个y
+
+2.linux 踢出在线用户
+pkill -kill -t pts/3
+
+3.pgrep用法
+pgrep name  进程名不匹配命令行参数
+pgrep -f name  匹配进程名和命令行参数 
+-l 会列出服务名
+
+4.使用板卡的raid卡做阵列时，需要选择不带uefi的启动项制作系统，否则会导致系统安装成功之后无法启动
+
+5.批量添加用户
+#!/bin/bash
+for name in tom joy john mark james
+do  useradd $name
+    echo "redhat" | passwd --stdin $name
+done
+
+6.以非root用户执行命令
+echo "command" | su - lj
+
+su lj -c ls 
+
+su - hadoop <<EOF
+ls
+exit；
+EOF
+
+7. yum只下载不安转
+	安装yum插件 yum -y install yum-downloadonly
+	yum install unixODBC --downloadonly --downloaddir=/var
+	
+	vi /etc/yum.conf
+	keepcache=0 => keepcache=1
+	
+8.eclipse菜单乱码
+window->Preferences->General->Appearance
+修改Theme为classic
+Forn Theme为classic theme
+
+9.root帐号无法登录，非root帐号可以登录
+修改/etc/ssh/sshd_config
+
+#PermitRootLogin without-password为
+PermitRootLogin yes
+
+10.linux 挂载windows共享
+?yum -y install samba-client cifs-utils samba-common
+mount -t cifs //192.168.0.89/share/apm /mnt/share -o username=broada,password="broada123" 
+
+11.查看所有服务状态
+service --status-all 
+
+12.光盘挂载
+mount /dev/cdrom /mnt/cdrom
+mount -o loop 1.iso /var/www/html/1
+
+13.利用SecureCRT上传下载文件
+yum -y install lrzsz
+
+下载文件
+sz filename
+
+上传文件
+rz 添加文件
+
+上传下载路径
+options — session options — X/Y/Zmodem
+
+14.ssl 隧道代理
+重启失效
+ssh -fNgL 8898:10.4.1.131:22 root@10.4.1.131
+
+15.windows 批处理 start
+start ["title"] [/dPath] [/I][/min] [/max] [{/separate | /shared}] [{/low | /normal | /high | /realtime | /abovenormal | belownormal}] [/wait] [/B][FileName] [parameters] -
+
+参数 -
+
+"title" 指定在“命令提示符”窗口标题栏中显示的标题。 -
+
+/dpatch 指定启动目录。 -
+
+/i 将 Cmd.exe 启动环境传送到新的“命令提示符”窗口。 -
+
+/min 启动新的最小化窗口。 -
+
+/max 启动新的最大化窗口。 -
+
+/separate 在单独的内存空间启动 16 位程序。 -
+
+/shared 在共享的内存空间启动 16 位程序。 -
+
+/low 以空闲优先级启动应用程序。 -
+
+/normal 以一般优先级启动应用程序。 -
+
+/high 以高优先级启动应用程序。 -
+
+/realtime 以实时优先级启动应用程序。 -
+
+/abovenormal 以超出常规优先级的方式启动应用程序。 -
+
+/belownormal 以低出常规优先级的方式启动应用程序。 -
+
+/wait 启动应用程序，并等待其结束。 -
+
+/b 启动应用程序时不必打开新的“命令提示符”窗口。除非应用程序启用 CTRL+C，否则将忽略 CTRL+C 操作。使用 CTRL+BREAK 中断应用程序。 -
+ex.
+start /max iexplore.exe
+
+16. samba 挂载
+smbclient //10.1.50.23/logs -U backup%broada_backup
+mount -t cifs -o username=backup%broada_backup //10.1.50.23/logs /root/ljlog/
+
+17.找命令执行的依赖包
+ldd $(which ./nginx)
+
+18.
+#查看网卡UUID
+nmcli con show
+
+#查看网卡信息
+nmcli device show ens32
+
+find /home/website -mtime +30 -print0 | xargs -0 rm -v
+find /home/website -mtime +30 -exec ls {} \;
+
+find -print 和 -print0的区别:
+-print 在每一个输出后会添加一个回车换行符，而-print0则不会。
+
+#查看进程的流量
+nethogs
+
+#设置 secureCRT - 选项 - 会话选项 - 终端 - 仿真： 选择终端为 Xterm ，而不是 VT100
+glances
+
+19.
+eclipse会报告一个“Class not found:org.eclipse.jdt.core.JDTCompilerAdapter”
+这时你需要选“Run As -- Ant Build...”选项，在弹出的对话框中选择“JRE”选项卡，在“Runtime JRE”栏中选择“Run in the same JRE as the workspace”
+
+20.
+centos7 安装php5.6/7
+rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+>>>>>>> a3ddfbccb1db64c489f0e94a9fc79af625b5bfd9
