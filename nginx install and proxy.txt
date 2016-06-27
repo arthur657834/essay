@@ -1,224 +1,177 @@
-http://nginx.org/en/linux_packages.html
-
-方法1：
-rpm -ivh http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm
-
-yum -y install nginx
-
-方法2：
-echo '[nginx]' >> /etc/yum.repos.d/nginx.repo
-echo 'name=nginx.repo' >> /etc/yum.repos.d/nginx.repo
-echo 'baseurl=http://nginx.org/packages/centos/$releasever/$basearch/' >> /etc/yum.repos.d/nginx.repo
-echo 'gpgcheck=0' >> /etc/yum.repos.d/nginx.repo
-echo 'enabled=1' >> /etc/yum.repos.d/nginx.repo
-yum -y install nginx
-
-include /etc/nginx/conf.d/*.conf;
-include vhost.conf;
-
-命名为vhost.conf，可以在nginx.conf加一行或者放到/etc/nginx/conf.d/下
-
-反向代理配置模版
-
-## Basic reverse proxy server ##
-## Apache backend for www.quancha.cn ##
-upstream apachephp  {
-    server 192.168.1.11:8080; #Apache
-}
-
-## Start www.quancha.cn ##
-server {
-    listen 8080;
-    server_name  192.168.1.11;
-
-    access_log  /var/log/nginx/quancha.access.log  main;
-    error_log  /var/log/nginx/quancha.error.log;
-    root   html;
-    index  index.html index.htm index.php;
-
-    ## send request back to apache ##
-    location / {
-        proxy_pass  http://192.168.1.11:8080;
-
-        #Proxy Settings
-        proxy_redirect     off;
-        proxy_set_header   Host             $host;
-        proxy_set_header   X-Real-IP        $remote_addr;   ##show the real IP
-        proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
-        proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
-        proxy_max_temp_file_size 0;
-        proxy_connect_timeout      90;
-        proxy_send_timeout         90;
-        proxy_read_timeout         90;
-        proxy_buffer_size          4k;
-        proxy_buffers              4 32k;
-        proxy_busy_buffers_size    64k;
-        proxy_temp_file_write_size 64k;
-   }
-}
-## End www.quancha.cn ##
-
-修改代理的apache下的配置文件httpd.conf显示真实IP
-
-LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined -> LogFormat "%{X-Real-IP}i %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
-
-代理多台就多配置几个代理文件
-
-负载均衡
-upstream test.net{
-ip_hash;
-server 192.168.10.13:80;
-server 192.168.10.14:80  down;
-server 192.168.10.15:8009 weight=1 max_fails=3  fail_timeout=20s;
-server 192.168.10.16:8080;
-}
-
-server {
-  location / {
-    proxy_pass  http://test.net;
-  }
-}
-
-location语法规则： location [=|~|~*|^~] /uri/ { … }
-= 开头表示精确匹配
-^~ 开头表示uri以某个常规字符串开头，理解为匹配 url路径即可。nginx不对url做编码，因此请求为/static/20%/aa，可以被规则^~ /static/ /aa匹配到（注意是空格）。
-~ 开头表示区分大小写的正则匹配
-~*  开头表示不区分大小写的正则匹配
-!~和!~*分别为区分大小写不匹配及不区分大小写不匹配 的正则
-/ 通用匹配，任何请求都会匹配到。
-多个location配置的情况下匹配顺序为（参考资料而来，还未实际验证，试试就知道了，不必拘泥，仅供参考）:
-首先匹配 =，其次匹配^~, 其次是按文件中顺序的正则匹配，最后是交给 / 通用匹配。当有匹配成功时候，停止匹配，按当前匹配规则处理请求。
-
-ReWrite语法
-last – 基本上都用这个Flag。
-break – 中止Rewirte，不在继续匹配
-redirect – 返回临时重定向的HTTP状态302
-permanent – 返回永久重定向的HTTP状态301
-
-location =/ {
-  rewrite  ^/(.*)$  http://www.uyun.cn/overview/mobile/#/user/home/  permanent;
-}
-
-1、下面是可以用来判断的表达式：
--f和!-f用来判断是否存在文件
--d和!-d用来判断是否存在目录
--e和!-e用来判断是否存在文件或目录
--x和!-x用来判断文件是否可执行.
-2、下面是可以用作判断的全局变量
-例：http://localhost:88/test1/test2/test.php
-$host：localhost
-$server_port：88
-$request_uri：http://localhost:88/test1/test2/test.php
-$document_uri：/test1/test2/test.php
-$document_root：D:\nginx/html
-$request_filename：D:\nginx/html/test1/test2/test.php
-3、Redirect语法
-server {
-listen 80;
-server_name start.igrow.cn;
-index index.html index.php;
-root html;
-if ($http_host !~ “^star\.igrow\.cn$&quot {
-rewrite ^(.*) http://star.igrow.cn$1 redirect;
-}
-}
-4、防盗链
-location ~* \.(gif|jpg|swf)$ {
-valid_referers none blocked start.igrow.cn sta.igrow.cn;
-if ($invalid_referer) {
-rewrite ^/ http://$host/logo.png;
-}
-}
-5、根据文件类型设置过期时间
-location ~* \.(js|css|jpg|jpeg|gif|png|swf)$ {
-if (-f $request_filename) {
-expires 1h;
-break;
-}
-}
-6、禁止访问某个目录
-location ~* \.(txt|doc)${
-root /data/www/wwwroot/linuxtone/test;
-deny all;
-}
-7. 代理多子目录
-server {
-    listen 8080;
-    access_log  /root/proxy.access.log  main;
-    error_log  /root/proxy.error.log;
-
-       try_files $uri @tornado;
- 
-        location @tornado {
-                proxy_pass_header Server;
-                proxy_set_header Host $http_host;
-                proxy_set_header X-Real-IP $remote_addr;
-                proxy_set_header X-Scheme $scheme;
- 
-                proxy_pass http://10.1.2.219:8081;
-        }
-     location  /jira {
-        proxy_pass   http://10.1.2.219:8081/login.jsp;
-}
-
-}
-当链接在本地不存在时，代理生效
-
-一些可用的全局变量:
-$args
-$content_length
-$content_type
-$document_root
-$document_uri
-$host
-$http_user_agent
-$http_cookie
-$limit_rate
-$request_body_file
-$request_method
-$remote_addr
-$remote_port
-$remote_user
-$request_filename
-$request_uri
-$query_string
-$scheme
-$server_protocol
-$server_addr
-$server_name
-$server_port
-$uri
-
-
-upstream 支持的负载均衡算法
-
-Nginx的负载均衡模块目前支持4种调度算法，下面进行分别介绍，其中后两项属于第三方调度算法。  
-
-轮询（默认）:每个请求按时间顺序逐一分配到不同的后端服务器，如果后端某台服务器宕机，故障系统被自动剔除，使用户访问不受影响。Weight 指定轮询权值，Weight值越大，分配到的访问机率越高，主要用于后端每个服务器性能不均的情况下。
-
-ip_hash:每个请求按访问IP的hash结果分配，这样来自同一个IP的访客固定访问一个后端服务器，有效解决了动态网页存在的session共享问题。
-
-fair:这是比上面两个更加智能的负载均衡算法。此种算法可以依据页面大小和加载时间长短智能地进行负载均衡，也就是根据后端服务器的响应时间来分配请求，响应时间短的优先分配。Nginx本身是不支持fair的，如果需要使用这种调度算法，必须下载Nginx的upstream_fair模块。
-
-url_hash:此方法按访问url的hash结果来分配请求，使每个url定向到同一个后端服务器，可以进一步提高后端缓存服务器的效率。Nginx本身是不支持url_hash的，如果需要使用这种调度算法，必须安装Nginx 的hash软件包。
-
-3.upstream 支持的状态参数
-
-在HTTP Upstream模块中，可以通过server指令指定后端服务器的IP地址和端口，同时还可以设定每个后端服务器在负载均衡调度中的状态。常用的状态有：      
-
-down，表示当前的server暂时不参与负载均衡。
-
-backup，预留的备份机器。当其他所有的非backup机器出现故障或者忙的时候，才会请求backup机器，因此这台机器的压力最轻。
-
-max_fails，允许请求失败的次数，默认为1。当超过最大次数时，返回proxy_next_upstream 模块定义的错误。
-
-fail_timeout，在经历了max_fails次失败后，暂停服务的时间。max_fails可以和fail_timeout一起使用。
-
-缓存设置：
-proxy_cache_path /data/nginx/cache/webserver levels=1:2 keys_zone=webserver:20m max_size=1g;
-levels指定目录结构，可以使用任意的1位或2位数字作为目录结构，如 X, X:X,或X:X:X 例如: “2”, “2:2”, “1:1:2“，但是最多只能是三级目录。  
-所有活动的key和元数据存储在共享的内存池中，这个区域用keys_zone参数指定。webserver指的是共享池的名称，10m指的是共享池的大小。 
- 
-只对代码为200, 302和所有应答进行缓存。
-proxy_cache_valid  200 302  10m;
-proxy_cache_valid  any 1h;
+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

@@ -1,233 +1,105 @@
-https://www.elastic.co/downloads/
-
-1.安装jdk环境
-rpm -ivh http://192.168.100.10:8090/Centos/jdk-8u60-linux-x64.rpm;
-echo export JAVA_HOME=/usr/java/jdk1.8.0_60 >>/etc/profile;
-echo export PATH=\$JAVA_HOME/bin:\$PATH >>/etc/profile;
-echo export CLASSPATH=.:\$JAVA_HOME/lib/dt.jar:\$JAVA_HOME/lib/tools.jar:\$JAVA_HOME/jre/lib/rt.jar >>/etc/profile;
-source /etc/profile;
-
-2.服务端安装
-
-redis 安装需要至少2G内存，否则编译会出错
-
-	yum -y install tcl
-
-	wget http://download.redis.io/releases/redis-3.0.4.tar.gz
-	tar zxvf redis-3.0.4.tar.gz 
-	mv redis-3.0.4 /usr/local
-	cd /usr/local
-	ln -s redis-3.0.4 redis
-	cd redis
-	make;
-	make test;
-	make install;
-	cd utils/
-	./install_server.sh 
-	
-	配置认证密码
-	requirepass  test123
-	
-elasticsearch
-
-	wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.2.zip
-	unzip elasticsearch-1.7.2.zip
-	mv elasticsearch-1.7.2 /usr/local
-	cd /usr/local
-	ln -s elasticsearch-1.7.2 elasticsearch
-	cd elasticsearch/bin/
-	./elasticsearch -f  前台执行
-	./elasticsearch -d  后台执行 选一个就行
-	curl -X GET http://127.0.0.1:9200 验证elasticsearch是否启动成功
-	./plugin -install mobz/elasticsearch-head    http://192.168.0.124:9200/_plugin/head/
-	./plugin -install lukas-vlcek/bigdesk
-	
-logstash
-
-	wget -q https://download.elastic.co/logstash/logstash/logstash-1.5.4.zip
-	unzip logstash-1.5.4.zip
-	mv logstash-1.5.4 /usr/local
-	cd /usr/local
-	ln -s logstash-1.5.4 logstash
-	mkdir logstash/conf
-	cd logstash/conf
-	./logstash ../conf/logstash.conf 
-	./logstash agent ../conf/logstash-agent.conf 
-	
-	测试:
-	ex1:
-	bin/logstash -e 'input { stdin { } } output { stdout {} }'
-	helo
-	2015-03-19T09:09:38.161+0000 iZ28ywqw7nhZ helo
-
-	bin/logstash -e 'input { stdin { } } output { stdout { codec => rubydebug } }'
-	bin/logstash  -e 'input { stdin { } } output { elasticsearch { host => localhost } }'
-	
-	
-	logstash.conf  服务端配置
-	配置选项:
-	codec  => "json" 
-	tags => ["logstashdemo"]
-	discover_interval:logstash 每隔多久去检查一次被监听的 path 下是否有新文件。默认值是 15 秒。
-	exclude:不想被监听的文件可以排除出去
-	sincedb_path:sincedb路径
-	sincedb_write_interval：logstash 每隔多久写一次 sincedb 文件，默认是 15 秒
-	stat_interval：logstash 每隔多久检查一次被监听文件状态（是否有更新），默认是 1 秒。
-	start_position：logstash 从什么位置开始读取文件数据，默认是结束位置，也就是说 logstash 进程会以类似 tail -F 的形式运行。如果你是要导入原有数据，把这个设定改成 "beginning"，logstash 进程就从头开始读取，有点类似 cat ，但是读到最后一行不会终止，而是继续变成 tail -F 。
-	
-	add_field => {"key" => "value"}
-	
-	查一下怎么用？
-	ex1:
-	filter {
-	
-	grok {
-	
-	type => "linux-syslog"
-	
-	pattern => "%{SYSLOGLINE}"
-	
-	}
-	
-	grok {
-	
-	type => "nginx-access"
-	
-	pattern => "%{NGINXACCESSLOG}"
-	
-	}
-	
-	}
-	
-	ex2:
-	input {
-stdin {
-type => "web"
-}
-}
-filter {
-if [type] == "web" {
-grok {
-match => ["message", %{COMBINEDAPACHELOG}]
-}
-}
-}
-output {
-if "_grokparsefailure" in [tags] {
-nagios_nsca {
-nagios_status => "1"
-}
-} else {
-elasticsearch {
-}
-}
-}
-
-ex3:
-input {
-syslog {
-port => "514"
-}
-}
-
-ex4:
-input {
-tcp {
-port => "8514"
-}
-}
-filter {
-grok {
-match => ["message", "%{SYSLOGLINE}" ]
-}
-syslog_pri { }
-}
-
-ex5:
-input {
-tcp {
-port => 8888
-mode => "server"
-ssl_enable => false
-}
-}
-
-ex6:
-input {
-file {
-path => "/var/log/nginx/access.log_json""
-codec => "json"
-}
-}
-
-
-
-	server:
-	input {
-	    redis
-	    {
-			host => "192.168.0.124"
-			data_type =>"list"
-			port => "6379"
-			key => "logstash"
-			type => "redis-input"
-	    }
-	}
-	
-	output
-	    {
-			elasticsearch {
-							host => "192.168.0.124"
-							port => "9300"
-	    }
-	}
-	
-	logstash-agent.conf 客户端配置
-	
-	agent:
-	input {
-		 file{
-							type => "linux-syslog"
-							path => [ "/var/log/*.log", "/var/log/messages", "/var/log/syslog" ]	
-				}
-	   file  {
-	            path =>"/var/log/messages"
-							type => "syslog"
-	         }
-	   file  {
-	            path => "/var/log/httpd/access_log"
-							type => "apache"
-	         }
-	}
-	
-	output {
-	        redis {
-										host => "192.168.0.124"
-										data_type =>"list"
-										key => "logstash"
-	       }
-	}
-	
-kibana
-
-	wget https://download.elastic.co/kibana/kibana/kibana-4.1.2-linux-x64.tar.gz
-	tar xzvf kibana-4.1.2-linux-x64.tar.gz
-	mv kibana-4.1.2-linux-x64 /var/www/html/
-	mv /var/www/html/kibana-4.1.2-linux-x64/ /var/www/html/kibana
-	
-	vi /var/www/html/kibana/config/kibana.yml
-	elasticsearch_url: "http://192.168.0.124:9200"
-	/var/www/html/kibana/bin/kibana 启动kibana
-	browser open http://192.168.0.29:5601/
-
-3.客户端安装
-
-logstash
-
-	./logstash agent ../conf/logstash-agent.conf 
-
-
-
-
-
-
+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
+WoZ+xeLrjvw0IG1cxqg+zRkIBB3Q3OQkWhFas8dkOevaElWcaPVvkrOafZOaxHKI
+wo9hD05a6T8CjOXwGtIj09koX0nV5POPj5ZxP2AnlLADaW9V0yRpBi+4zSZ9nFHl
+amoT5+Np/f3hFrUUM3L3VY9xiAO0XS7G1+rHE5evhCvPnbWjJKxoKqFiZW8XcUEB
+w0MhZi9W0a0vZk40t2VdGWQIyrv7EhAghvS/o9QWAJevJLreY8CE7C9BU56OJozk
+ihDboSYlVaJJkmUknOtddpak/NDyAunZ9SstpgGYow1tf0iHNNmtf+83VbjhyxgJ
+dbeqYdKTjHskX8RQNsnfynytSXNn32CJBlChd9aW1MvtMHVnnWDIuLw2kpT8kdZX
+B2AKccWNoKK+1etkNKLmcujolk5DsE0s0J4o/J7Pis4FgNvCq2fpw5OISlpFBAxZ
+pjiWnbp/JiBfnmXFv7BMZUzv6esOjO6Y/rjWMyEYJ5Ixr3ATOxfhy/7J1yfdbNdn
+cy5vljtxxMK5vqK+8BR3K9zkjra5XQHYHOmoOZHZsHoz3PoJL7e7abQb7V46JVjm
+v/fiK93PKY1deme7z2l9ZpZ1BXzZG9AjrBbTP/z5Zq2oquwGOzDhueXQzwjrkymH

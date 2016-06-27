@@ -1,106 +1,87 @@
-yum -y install rpm-build rpmdevtools
-
-rpmdev-setuptree 生成rpmbuild目录
-
-编写spec文件放入SPEC下，源码放到SOURCES
-
-Summary: GNU indent
-Name: indent
-Version: 2.2.6
-Release: 2
-Source0: %{name}-%{version}.tar.gz
-License: GPL
-Group: Development/Tools
-BuildRoot: %{_builddir}/%{name}-root
-%description
-The GNU indent program reformats C code to any of a variety of
-formatting standards, or you can define your own.
-%prep
-%setup -q
-%build
-./configure
-make
-%install
-rm -rf $RPM_BUILD_ROOT
-make DESTDIR=$RPM_BUILD_ROOT install
-%clean
-rm -rf $RPM_BUILD_ROOT
-%files
-%defattr(-,root,root)
-/usr/local/bin/indent
-%doc /usr/local/info/indent.info
-%doc %attr(0444,root,root) /usr/local/man/man1/indent.1
-%doc COPYING AUTHORS README NEWS  这些文件都在源码目录下
-
-
-spec文件规范
-
-描述文件说明如下：
-Summary:摘要
-Name：软件包名称
-Version：软件包版本
-Release：发行版本号
-Group：组描述
-License：发行许可证
-Source[0-n]：指定源代码文件
-BuildRequires：编译源码时以来的软件包
-Requires：安装软件包时依赖的软件
-BuildRoot：安装文件时候的根目录
-Description：关于RPM包的描述
-Pre：安装前的准备
-Prep：编译前的准备
-Setup：寻找将源码包并解压
-Build：编译
-Install：安装
-File：文件列表
-Defattr：文件属性
-Post：安装之后的收尾工作
-Preun：卸载软件前的准备工作
-Postun：卸载软件后的收尾工作
-
-%files 列出应该捆绑到 RPM 中的文件，并能够可选地设置许可权和其它信息。 有些文件没有在源码中可以使用此方法包含进来
-
-在 %files 中，您可以使用 一次%defattr 来定义缺省的许可权、所有者和组；在这个示例中， %defattr(-,root,root) 会安装 root 用户拥有的所有文件，使用当 RPM 从构建系统捆绑它们时它们所具有的任何许可权。
-
-可以用 %attr(permissions,user,group) 覆盖个别文件的所有者和许可权。
-
-可以在 %files 中用一行包括多个文件。
-
-可以通过在行中添加 %doc 或 %config 来标记文件。 %doc 告诉 RPM 这是一个文档文件，因此如果用户安装软件包时使用 --excludedocs ，将不安装该文件。您也可以在 %doc 下不带路径列出文件名，RPM 会在构建目录下查找这些文件并在 RPM 文件中包括它们，并把它们安装到 /usr/share/doc/%{name}-%{version} 。以 %doc 的形式包括 README 和 ChangeLog 这样的文件是个好主意。
-
-%config 告诉 RPM 这是一个配置文件。在升级时，RPM 将会试图避免用 RPM 打包的缺省配置文件覆盖用户仔细修改过的配置。
-
-警告：如果在 %files 下列出一个目录名，RPM 会包括该目录下的所有文件。通常这不是您想要的，特别对于 /bin 这样的目录。 
-
-
-Group：
-软件包所属类别，具体类别有：
-Amusements/Games （娱乐/游戏）
-Amusements/Graphics（娱乐/图形）
-Applications/Archiving （应用/文档）
-Applications/Communications（应用/通讯）
-Applications/Databases （应用/数据库）
-Applications/Editors （应用/编辑器）
-Applications/Emulators （应用/仿真器）
-Applications/Engineering （应用/工程）
-Applications/File （应用/文件）
-Applications/Internet （应用/因特网）
-Applications/Multimedia（应用/多媒体）
-Applications/Productivity （应用/产品）
-Applications/Publishing（应用/印刷）
-Applications/System（应用/系统）
-Applications/Text （应用/文本）
-Development/Debuggers （开发/调试器）
-Development/Languages （开发/语言）
-Development/Libraries （开发/函数库）
-Development/System （开发/系统）
-Development/Tools （开发/工具）
-Documentation （文档）
-System Environment/Base（系统环境/基础）
-System Environment/Daemons （系统环境/守护）
-System Environment/Kernel （系统环境/内核）
-System Environment/Libraries （系统环境/函数库）
-System Environment/Shells （系统环境/接口）
-User Interface/Desktops（用户界面/桌面）
-User Interface/X （用户界面/X窗口）
-User Interface/X Hardware Support （用户界面/X硬件支持）
+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

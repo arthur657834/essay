@@ -1,97 +1,54 @@
-﻿1.maven 安装
-mvn -v 测试安装结果
-
-2.新建hello world 工程
-mvn archetype:generate -DgroupId=com.mycompany.helloworld -DartifactId=helloworld -Dpackage=com.mycompany.helloworld -Dversion=1.0-SNAPSHOT
-
-3.新建成功之后,编译jar包
-
-cd helloworld
-mvn package
-
-4.运行生成的jar包
-java -cp target/helloworld-1.0-SNAPSHOT.jar com.mycompany.helloworld.App
-
-POM (Project Object Model)
-
-maven 坐标
-groupId:artifactId:packaging:version
-ex.
-com.mycompany.helloworld: helloworld: jar: 1.0-SNAPSHOT
-
-Maven 生命周期
-
-process-resources 阶段：resources:resources
-
-compile 阶段：compiler:compile
-
-process-classes 阶段：(默认无目标)
-
-process-test-resources 阶段：resources:testResources
-
-test-compile 阶段：compiler:testCompile
-
-test 阶段：surefire:test
-
-prepare-package 阶段：(默认无目标)
-
-package 阶段：jar:jar
-
-
-pre-clean
-
-clean
-
-post-clean
-
-
-mvn archetype:generate
-archetype 是一个插件的名字，generate是目标(goal)的名字。这个命令的意思是告诉 maven 执行 archetype 插件的 generate 目标。插件目标通常会写成 pluginId:goalId
-
-将构建的jar包安装到本地库
-mvn install
-
-maven依赖使用
- <dependencies>
-	<dependency>
-		<groupId>com.mycompany.helloworld</groupId>
-		<artifactId>helloworld</artifactId>
-		<version>1.0-SNAPSHOT</version>
-		<scope>test</scope>
-	</dependency> 
-	<dependencies>
-
-引用本地jar
-<dependency>
-    <groupId>commons-io</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>2.5-SNAPSHOT</version>
-    <scope>system</scope>
-    <!--本地jar的路径,相对或者绝对都可以-->
-    <systemPath>/Users/nonkr/uyun-collector/lib/commons-io-2.5-20151119.212356-154.jar</systemPath>
-</dependency>
-
-添加mvn 仓库
-<repositories>
-        <repository>
-            <id>jboss-public-repository-group</id>
-            <name>JBoss Public Repository Group</name>
-            <url>http://repository.jboss.org/nexus/content/groups/public/</url>
-            <layout>default</layout>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>never</updatePolicy>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>never</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
-	
-scope 决定了依赖关系的适用范围
-查看POM 的全部内容
-mvn help:effective-pom
-
-查看maven环境变量
-mvn help:system
+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
+FRV+NAHm5B4T6P+DFVVrv5XyK/sVRB85

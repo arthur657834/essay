@@ -1,174 +1,115 @@
-yum -y install openssl mod_ssl
-
-创建私钥
-openssl genrsa -out server.key 1024
-
-用私钥生成证书请求
-openssl req -new -key server.key -out server.csr
-需要输入一些基本信息,challenge password之前一定要输入，否则会启动错误
-Common Name 最好填主机名
-
-生成证书CRT文件
-openssl x509 -days 3650 -req -in server.csr -signkey server.key -out server.crt
-
-证书有效期 -days 3650
-
-vi /etc/httpd/conf/httpd.conf 添加
-LoadModule ssl_module modules/mod_ssl.so //静态编进apache内核的则不需要此段,yum安装就不用了
-
-mkdir /etc/pki/tls/mycert
-rm -fr /etc/pki/tls/mycert/*
-mv server.* /etc/pki/tls/mycert
-
-vi /etc/httpd/conf.d/ssl.conf
-
-修改SSLCertificateFile /etc/pki/tls/mycert/server.crt
-修改SSLCertificateKeyFile /etc/pki/tls/mycert/server.key
-
-配置使用的SSL协议
-#   SSL Protocol support:
-# List the enable protocol levels with which clients will be able to
-# connect.  Disable SSLv2 access by default:
-#SSLProtocol all -SSLv2
-SSLProtocol SSLv2 -TLSv1
-
-httpd重启生效(记得关闭selinux和iptables)
-
-全网站跳转到https(也可在单独目录下配置可以参见最后的虚拟机配置)
-
-在   
-<Directory />
-    Options FollowSymLinks
-    #AllowOverride None
-    AllowOverride All  修改None为All
-    RewriteEngine on        增加++            
-    RewriteCond %{SERVER_PORT} !^443$ 增加++ 
-    RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R] 增加++ 
-</Directory>
-
-%{SERVER_PORT} —— 访问端口
-
-%{REQUEST_URI} —— 比如如果url是 http://localhost/tz.php，则是指 /tz.php
-RewriteCond %{REQUEST_URI} !^/tz.php 
-
-%{SERVER_NAME} —— 比如如果url是 http://localhost/tz.php，则是指 localhost
-
-虚拟主机配置
-
-NameVirtualHost *:80
-<VirtualHost *:80>
-    ServerAdmin webmaster@dummy-host.example.com
-    DocumentRoot /var/www/lj/
-    ServerName dummy-host.example.com
-    ErrorLog logs/lj_error_log
-    CustomLog logs/lj_access_log common
-
-    <Directory "/var/www/lj/">
-    Options FollowSymLinks
-    AllowOverride None
-    Order deny,allow
-    allow from all
-    </Directory>
-</VirtualHost>
-
-NameVirtualHost *:8080
-Listen 8080 ----------------------------------非80端口要加这一句
-<VirtualHost *:8080>
-    ServerAdmin webmaster@dummy-host.example.com
-    DocumentRoot /var/www/lj1/
-    ServerName lj.example.com
-    ErrorLog logs/lj1_error_log
-    CustomLog logs/lj1_access_log common
-
-    <Directory "/var/www/lj1/">
-    Options FollowSymLinks
-    #AllowOverride None
-    Order deny,allow
-    allow from all
-    AllowOverride All
-    RewriteEngine on
-    RewriteCond %{SERVER_PORT} !^443$
-    RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
-    </Directory>
-</VirtualHost>
-
-apache 代理其他服务器
-vi /etc/httpd/conf/httpd.conf 添加
-ProxyPass /images http://10.10.1.3:8088/images
-ProxyPassReverse /images http://10.10.1.3:8088/images
-
-apache 开启http basic auth
-vi /etc/httpd/conf/httpd.conf
-在<Directory "/var/www/html">下添加
-AuthName "Private source  Access"
-AuthType Basic
-AuthUserFile /etc/httpd/conf/pass_file
-Require valid-user
-
-使用htpasswd添加帐号
-htpasswd -bc /etc/httpd/conf/pass_file lj 123
-htpasswd -b /etc/httpd/conf/pass_file lj2 123 添加第二个帐号
-htpasswd -D /etc/httpd/conf/pass_file lj2 删除帐号
-重启httpd生效
- 
-apache主页跳转子目录
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^192.168.100.10:8090$
-RewriteCond %{REQUEST_URI} !^/zabbix/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-RewriteRule ^(.*)$ /zabbix/$1
-RewriteCond %{HTTP_HOST} ^192.168.100.10:8090$
-
-RewriteRule ^(/)?$ zabbix/$1 [L]
-
-
-Apache Rewrite规则重写的标志
-1) R[=code](force redirect) 强制外部重定向  
-强制在替代字符串加上http://thishost[:thisport]/前缀重定向到外部的URL.如果code不指定，将用缺省的302 HTTP状态码。  
-  
-2) F(force URL to be forbidden)禁用URL,返回403HTTP状态码。  
-  
-3) G(force URL to be gone) 强制URL为GONE，返回410HTTP状态码。  
-  
-4) P(force proxy) 强制使用代理转发。  
-  
-5) L(last rule) 表明当前规则是最后一条规则，停止分析以后规则的重写。  
-  
-6) N(next round) 重新从第一条规则开始运行重写过程。  
-  
-7) C(chained with next rule) 与下一条规则关联  
-如果规则匹配则正常处理，该标志无效，如果不匹配，那么下面所有关联的规则都跳过。  
-  
-8 ) T=MIME-type(force MIME type) 强制MIME类型  
-  
-9) NS (used only if no internal sub-request) 只用于不是内部子请求  
-  
-10) NC(no case) 不区分大小写  
-  
-11) QSA(query string append) 追加请求字符串  
-  
-12) NE(no URI escaping of output) 不在输出转义特殊字符  
-例如：RewriteRule /foo/(.*) /bar?arg=P1%3d$1 [R,NE] 将能正确的将/foo/zoo转换成/bar?arg=P1=zoo  
-  
-13) PT(pass through to next handler) 传递给下一个处理  
-例如：  
- 
-
-代码示例:
-RewriteRule ^/abc(.*) /def$1 [PT] # 将会交给/def规则处理  
-Alias /def /ghi  
- 
-14) S=num(skip next rule(s)) 跳过num条规则  
-  
-15) E=VAR:VAL(set environment variable) 设置环境变量  
-
-以下是例子:有空研究
-http://smilejay.com/2012/10/apache-rewrite/
-
-RewriteLog "/usr/local/var/apache/logs/rewrite.log" 
-RewriteLogLevel 3
- 
-不能写在<Directory>或<options>中
+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
+ZZD1Wdh6xuyUfv9L2IkQ2fln6x5aGRv4

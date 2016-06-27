@@ -1,85 +1,34 @@
-1.if
-=if(a1<1,10,11) 
-ture:10 false:11
-
-2.sumifs
-=sumifs(c2:c10,a2:a10,"李*",b2:b10,"员工")
-求c2:c10的和 a2:a10,"李*",b2:b10,"员工" 为两个条件
-
-=sumif(a2:a10,"李*",c2:c10)
-求c2:c10的和 ,a2:a10,"李*"为条件
-
-3.countifs
-=countifs(a2:a10,">100",b2:b10,"员工")
-
-4.left
-=left(f1,1) 拆分单元格
-=mid(f1,2,1)
-=right(f1,1)
-=left(len(f1),1)
-
-单元格连接
-=f1&f2&f3<=>=PHONETIC(f1:f3)
-
-2015/3/3
-=YEAR(f1)
-=mouth(f1)
-=day(f1)
-=date(f1,f2,f3) 年月日
-=edate(f1,2) f1+2个月
-
-5.subtotal
-subtotal(1,f1:f5) f1:f5求平均
-sum求和中间单元格不能为空
-
-包含隐藏值     忽略隐藏值
-1	AVERAGE     101
-2	COUNT       102
-3	COUNTA      103
-4	MAX         104
-5	MIN
-6	PRODUCT
-7	STDEV
-8	STDEVP
-9	SUM
-10	VAR
-11	VARP
-
-6.vlookup 一维查询
-vlookup(a1,b2:e4,4,0)
-
-a1中的内容在区域b2:e4查找去第4列的值,0是精确匹配，1模糊 区间匹配
-
-还可以替代if函数
-
-50 ？ 0 差
-88 ?  60 中
-67 ？ 80 良
-90 ？ 90 优
-
-7.match 二维查询
-match(a1,b2:e4,1)a1在区域b2:e4排第几 1 小于 升序 0 等于 -1大于 降序
-
-8.index
-index(b2:e4,3,5)区域b2:e4中行3列5单元格的值
-
-9.indirect
-indirect(a1) 显示a1单元格中的值
-多表联动：indirect(sheet1&"!"&"b2:e4") sheet1的b2:e4单元格的值
-
-10.offset
-offset(a5,2,2,5,3) a5为基点，下2，右2开始的5*3区域
-
-11.counta
-COUNTA函数功能是返回参数列表中非空值的单元格个数
-counta(B:B) B列非空值的单元格个数
-
-12.round
-=round(c1,4)
-提取小数点后几位
-
-
-
-
-
-
+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
+mIK8yT2Nh6oEBNW2Qo4EvznBC3NcHB6m

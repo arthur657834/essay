@@ -1,51 +1,28 @@
-echo ftptest>> ftp.txt
-echo 123456>> ftp.txt
-echo ascii>> ftp.txt
-echo type>> ftp.txt
-echo bin>> ftp.txt
-echo pwd>> ftp.txt
-echo ls>> ftp.txt
-echo dir>> ftp.txt
-echo status>> ftp.txt
-echo verbose>> ftp.txt
-echo help>> ftp.txt
-echo ?>> ftp.txt
-echo prompt>> ftp.txt
-echo mkdir test>> ftp.txt
-echo put ftp.txt>> ftp.txt
-echo append ftp1.txt>> ftp.txt
-echo send ftp2.txt>> ftp.txt
-echo mput ftp4.txt ftp3.txt>> ftp.txt
-echo rmdir test>> ftp.txt
-echo rename ftp.txt 1.txt>> ftp.txt
-echo delete 1.txt>> ftp.txt
-echo mdelete ftp1.txt ftp2.txt ftp3.txt ftp4.txt>> ftp.txt
-echo quote 1>> ftp.txt
-echo literal 1>> ftp.txt
-echo remotehelp>> ftp.txt
-echo trace>> ftp.txt
-echo hash>> ftp.txt
-echo glob>> ftp.txt
-echo bell>> ftp.txt
-echo debug 3>> ftp.txt
-echo lcd C:\tmp>> ftp.txt
-echo ls>> ftp.txt
-echo cd picture>> ftp.txt
-echo cd ..>> ftp.txt
-echo get picture/grass.jpg>> ftp.txt
-echo trace>> ftp.txt
-echo hash>> ftp.txt
-echo debug 3>> ftp.txt
-echo glob>> ftp.txt
-echo prompt>> ftp.txt
-echo verbose>> ftp.txt
-echo bell>> ftp.txt
-echo bye>> ftp.txt
-copy ftp.txt ftp1.txt
-copy ftp.txt ftp2.txt
-copy ftp.txt ftp3.txt
-copy ftp.txt ftp4.txt
-ftp -s:%~dp0ftp.txt 192.168.0.28
-ping 127.0.0.1 -n 2
-del C:\tmp\grass.jpg %~dp0ftp.txt %~dp0ftp1.txt %~dp0ftp2.txt %~dp0ftp3.txt %~dp0ftp4.txt
-pause
+U2FsdGVkX18XdwhuDlcmF20yPwJSKzYO7z4K0nVTOtaOb+yqnabWO2tjQCcMDUPc
+afMaNR7yubolTvCP+K+388ymQTVRtipPmq8DgNiPFPvlxoRRHfGwvpI1x8/TxcKc
+fKJLSky0PYnxePj2+hP5BlcMRLM8o3fJ0Op9p3oqsWh/b90jvMvWYF0SjHcbyVBy
+SCFZJGNVLwVquu4vfujBTrX+ipPSG+ixmyLqFnQKADc/mpveAId0RKm4I0P9DAKQ
+QlfQr2o1awznSk9tdP8P7nXApOdm2FwdttNqnyy8CVRfwXzM3+fZlhXJ4tciZ5E3
+yZOUAQ37ZBE2edX8vNDbUwkTuHr4jyaZl25GnknJoJDIv6gSX8t9kZefXP0m2547
+JRklmm9ULU33/o/Ok6goqO3zUwDePRjykFXBXiWAcAihac52Xlmjk4i8xVvzBgGt
+OQ4Jsv5KSIyu2OMgE0z4iMEmZOCAC+NtSXfKu6f66ZHkpI0czui4Qo98o6uSxhCB
+D2mHWk0jCZgzyPFCdbQT3bt0dzK8+XXE4IUULpZxGGzNz3Y+PT6c6X6cl4+XlTIK
+fiKXdamL3LGB4dvYX/U7EaE9S3YDqmcwluiGpWqdEeAtbhhODW59yREQkNuMtwJS
+btW7t6uROJEtes2RC7n66G5IROYhQDiQWRG7a7Rt33h97XHSwQq6sINLCXgaMam8
+se9Hy08nxmMa73qOhLgE/vXcFfLhz6v8SJJVfXhkiZCSjjDhvCSavTK1G8nfgCp2
+1w+P1EBL4v5YLB2FokXFh3Ig1fAVHdW4WM7mB9wBtDS9CRLpS+B2fp5OCrQLjink
+hszO9JkRD71FlG06R+V1tgZy6QxPlwuqpFuHf0VI+l44pHzfBQsTdv9ulxFjYtV2
+PTqcHshG2aN/XrDK6Uxrh9qjvFbZCLfiy07PDyo50PmHqP55HdBLRXlxwPbysk24
+4K5e/24zPVW/BFrcgvm0/PYr/ZmO5dZWMeKCHICEawnRD3M7R75aXX8B9v8mvj1e
+bO1xzPMinW5wQsYwS9w10b7l52Xe4sjP65jNDGjfAIQumph/WRTFCuCb+nLEm+Bm
+To6K1MHzgVdGxJmFN09+MsaSTZQxl52yp1YXCks1gdBfka+iA1abud/dVAqmH0gG
+XNUHrJPLebTadjIWliCIYBjEi1L+I9lo2Ydmgu6sS+QBPNlhnGo4Tt0M3Us1VyQh
+12JIWvkJBem0BEGKX2ai0F8OnlvYPhyrx/LzxzCR12LGSc+Tbk2UHUXfNwUfoflw
+ZfATizttzxQ2khAZg5uDwY9HYc8X4F9tQ29IplmG9vMR9eRtacokrqnPp14MCj+0
+YRmQMtnwuH1y6sZTJEmsUFf7VnEUcZWD81ZMf1bDeIB4TRy0I6iBNgPrBfWNzBte
+rVK0ush89xvjFHGkdv/OOoRItR1INbedskrajfhgcDPqs+/ay8WUQe/m4UnQxBBP
+i8KOn2OWU+n9NVS+itf63g5o475kLDaccrNmU1o0PaEMafftMKtwv0xRhkJ1YY1a
+NLPq3LdyfbQKv+1noHVsvoDzeLcPD2DfAUKiK3kqKU1SDAWu1g33GNQPRFx7Frwn
+wBOohUV2USUJ8mGMv3I0TfTkxw+1Uc+GzEcUIgp6HtoFv0fH0F0pnHVv7iNJgfVS
+eosAuRfIHFJPrd0XJaoXatpN8Gdq3I4ZXcDothiV0o/dHJ+/y4EtNwyMLmKHbgsh
+Um3/MudX57mMEHRiFz/Ixq2btN48MW5bt/o6XxSMAutfCK2GYvRWSIkxwWf/tO7i

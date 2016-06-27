@@ -1,63 +1,36 @@
-https://www.clamav.net/
-https://github.com/vrtadmin/clamav-faq/blob/master/manual/clamdoc.pdf
-
-yum -y install bind-utils openssl-devel
-yum -y install clamav clamav-update clamav-server clamav-scanner
-pip install pyClamd
-
-cp /usr/share/doc/clamav-server-0.99.1/clamd.conf /etc/
-vi /etc/clamd.conf
-# Example 注释掉这一行
-TCPSocket 3310
-TCPAddr 10.1.50.250
-PidFile /var/run/clamd.<SERVICE>/clamd.pid
-LogFile /var/log/clamd.<SERVICE>
-DatabaseDirectory /var/lib/clamav
-User root
-
-vi /etc/freshclam.conf
-# Example 注释掉这一行
-UpdateLogFile /var/log/freshclam.log
-PidFile /var/run/freshclam.pid
-DatabaseDirectory /var/lib/clamav
-
-freshclam 更新病毒库
-/usr/bin/freshclam --quiet --daemon
-
-ex:
-	扫描文件:
-	clamscan -r /home --remove -l /var/log/clamscan.log --bell
-	--remove 自动删除异常文件
-	--bell 扫描到病毒文件之后声音提醒
-	
-	clamscan -r -i --exclude-dir='^/sys|^/proc|^/dev|^/lib|^/bin|^/sbin' /
-	cat testfile | clamscan -
-	clamscan -r --mbox /var/spool/mail
-
-	
-python api 调用：
-import pyclamd
-try:
-    cd = pyclamd.ClamdUnixSocket()
-    cd.ping()
-except pyclamd.ConnectionError:
-    # if failed, test for network socket
-    cd = pyclamd.ClamdNetworkSocket("10.1.50.250",3310)
-    try:
-        cd.ping()
-    except pyclamd.ConnectionError:
-        raise ValueError('could not connect to clamd server either by unix or network socket')
-
-print(cd.version().split()[0])
-print(cd.reload())
-print(cd.stats().split()[0])
-
-void = open('/tmp/EICAR','w').write(cd.EICAR())
-void = open('/tmp/NO_EICAR','w').write('no virus in this file')
-cd.scan_file('/tmp/EICAR')
-cd.scan_file('/tmp/NO_EICAR') is None
-cd.scan_stream(cd.EICAR())
-
-
-
-
+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
+gGuKIuTeGp4=

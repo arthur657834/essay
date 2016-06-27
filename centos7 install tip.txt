@@ -1,18 +1,14 @@
-1、错误描述
-[sdb] No Caching mode page found
-[sdb] Assuming drive cache:write through
-....
-Could not boot
-/dev/root does not exist
-
-2、进入安装界面时，按下e键
-将
-vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS\x207\x20x86_64 rd.live.check quiet
-更改为（即更改inst.stage2=hd:后面的内容即可）
-vmlinuz initrd=initrd.img inst.stage2=hd:/dev/sdb4:/ quiet
-
-说明：
-sdb4是你U盘的挂载名称，可以通过 ls /dev/sd*获取。
-一般是sdb1,因为硬盘一般是sda,可能会有不同，具体看情况。
-
-再按下CTRL + X 快捷键即可继续安装了。
+U2FsdGVkX1+AipzAIHX3IZQXpA7CRUWeN7AvAuD62b9hoY3+bvZFF8FyYZBSGZ5C
+8AzeDdOogSXFGBX6vXsuhUSGxPFD57/HEl/MtifaOcUrntDFJxK86zKMtuoLVkw2
+gs8Jrp9dq8T4irvIREjfNVDBJeZtk7z6T2Q8qB8zUhRpLr2j1wS3/jMh0K2nk0HO
+ktTL6fz3kF+ohntp6XkLcQtG4+IGOKso+lnxhPuABBWD3Mx2Q3qU8VSMljFlPacb
+cZO5h3HtAuCCvzVrLEJhNFl+sOk52WOF77TMr5VfvXRFj536U1RJKnK+sV/6ENP0
+6ggdV5s2khFh1ocnBEXzWUzCHOcC7+ShHF0h9IcbddrG8MgR8kPtIXYihnTM6ZqR
+4371YhkZHv1vIdSxpUQ2m+VLkbjqdGKQd//0wLy1Uf7vec0XerfSoieV8GSEEoeD
+6E5hukGwfGAL+c2lgFLsd7v3c1IXxtLU+BA/PfuyZ5KrjG8vgzyCjm7nr/nZnVKM
+CnPJq0th7gI4LeI6k1UlroFRfNUuiPSDQcY83DbKm++3swaYtYOAUKFGtTKC9Vup
+aICx+TJMtbSxs8PE32ca2TJx15ptcC6MsF6E5OkwDY7+DLe/14bnqrbFOf88E7rd
+jsx93u8VXxYpsxSeVdgNOAJ+b9mpa5G+FPtEjWgBurqwhHWqpyMJr4BhQDKh2E5q
+R4DVQYzpjKYx8SoZ/DQr9g3Pq47bf0sJ7uv67tz8+RYLAi+FVJvhQK1DQ7Q5O4OF
+08Hts6vAiU1xMbde4sZRIuIkIQZcxUG/JXAczvdCYO42i4JQ1AiyCjAM/9UEJ4sx
+FZrORXFteegPCo7NXbG85g==
