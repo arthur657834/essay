@@ -1,223 +1,73 @@
-<<<<<<< HEAD
-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
-yt3GT55vg2E=
-=======
-1.ftp
-prompt
-mget * 
-如果在mget之前不执行prompt，下载每个文件都会提问,每次都要输入一个y
-
-2.linux 踢出在线用户
-pkill -kill -t pts/3
-
-3.pgrep用法
-pgrep name  进程名不匹配命令行参数
-pgrep -f name  匹配进程名和命令行参数 
--l 会列出服务名
-
-4.使用板卡的raid卡做阵列时，需要选择不带uefi的启动项制作系统，否则会导致系统安装成功之后无法启动
-
-5.批量添加用户
-#!/bin/bash
-for name in tom joy john mark james
-do  useradd $name
-    echo "redhat" | passwd --stdin $name
-done
-
-6.以非root用户执行命令
-echo "command" | su - lj
-
-su lj -c ls 
-
-su - hadoop <<EOF
-ls
-exit；
-EOF
-
-7. yum只下载不安转
-	安装yum插件 yum -y install yum-downloadonly
-	yum install unixODBC --downloadonly --downloaddir=/var
-	
-	vi /etc/yum.conf
-	keepcache=0 => keepcache=1
-	
-8.eclipse菜单乱码
-window->Preferences->General->Appearance
-修改Theme为classic
-Forn Theme为classic theme
-
-9.root帐号无法登录，非root帐号可以登录
-修改/etc/ssh/sshd_config
-
-#PermitRootLogin without-password为
-PermitRootLogin yes
-
-10.linux 挂载windows共享
-?yum -y install samba-client cifs-utils samba-common
-mount -t cifs //192.168.0.89/share/apm /mnt/share -o username=broada,password="broada123" 
-
-11.查看所有服务状态
-service --status-all 
-
-12.光盘挂载
-mount /dev/cdrom /mnt/cdrom
-mount -o loop 1.iso /var/www/html/1
-
-13.利用SecureCRT上传下载文件
-yum -y install lrzsz
-
-下载文件
-sz filename
-
-上传文件
-rz 添加文件
-
-上传下载路径
-options — session options — X/Y/Zmodem
-
-14.ssl 隧道代理
-重启失效
-ssh -fNgL 8898:10.4.1.131:22 root@10.4.1.131
-
-15.windows 批处理 start
-start ["title"] [/dPath] [/I][/min] [/max] [{/separate | /shared}] [{/low | /normal | /high | /realtime | /abovenormal | belownormal}] [/wait] [/B][FileName] [parameters] -
-
-参数 -
-
-"title" 指定在“命令提示符”窗口标题栏中显示的标题。 -
-
-/dpatch 指定启动目录。 -
-
-/i 将 Cmd.exe 启动环境传送到新的“命令提示符”窗口。 -
-
-/min 启动新的最小化窗口。 -
-
-/max 启动新的最大化窗口。 -
-
-/separate 在单独的内存空间启动 16 位程序。 -
-
-/shared 在共享的内存空间启动 16 位程序。 -
-
-/low 以空闲优先级启动应用程序。 -
-
-/normal 以一般优先级启动应用程序。 -
-
-/high 以高优先级启动应用程序。 -
-
-/realtime 以实时优先级启动应用程序。 -
-
-/abovenormal 以超出常规优先级的方式启动应用程序。 -
-
-/belownormal 以低出常规优先级的方式启动应用程序。 -
-
-/wait 启动应用程序，并等待其结束。 -
-
-/b 启动应用程序时不必打开新的“命令提示符”窗口。除非应用程序启用 CTRL+C，否则将忽略 CTRL+C 操作。使用 CTRL+BREAK 中断应用程序。 -
-ex.
-start /max iexplore.exe
-
-16. samba 挂载
-smbclient //10.1.50.23/logs -U backup%broada_backup
-mount -t cifs -o username=backup%broada_backup //10.1.50.23/logs /root/ljlog/
-
-17.找命令执行的依赖包
-ldd $(which ./nginx)
-
-18.
-#查看网卡UUID
-nmcli con show
-
-#查看网卡信息
-nmcli device show ens32
-
-find /home/website -mtime +30 -print0 | xargs -0 rm -v
-find /home/website -mtime +30 -exec ls {} \;
-
-find -print 和 -print0的区别:
--print 在每一个输出后会添加一个回车换行符，而-print0则不会。
-
-#查看进程的流量
-nethogs
-
-#设置 secureCRT - 选项 - 会话选项 - 终端 - 仿真： 选择终端为 Xterm ，而不是 VT100
-glances
-
-19.
-eclipse会报告一个“Class not found:org.eclipse.jdt.core.JDTCompilerAdapter”
-这时你需要选“Run As -- Ant Build...”选项，在弹出的对话框中选择“JRE”选项卡，在“Runtime JRE”栏中选择“Run in the same JRE as the workspace”
-
-20.
-centos7 安装php5.6/7
-rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
->>>>>>> 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
+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
+fecn0qSDLbI=
