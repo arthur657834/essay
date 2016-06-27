@@ -141,3 +141,7 @@ glances
 19.
 eclipse会报告一个“Class not found:org.eclipse.jdt.core.JDTCompilerAdapter”
 这时你需要选“Run As -- Ant Build...”选项，在弹出的对话框中选择“JRE”选项卡，在“Runtime JRE”栏中选择“Run in the same JRE as the workspace”
+
+20.
+centos7 安装php5.6/7
+rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
