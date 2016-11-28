@@ -1,12 +1,15 @@
-U2FsdGVkX18eBIit06XcjYnTbU7MwSc77uFjxdUSAue645fyMzsGtF76KuV2BDyQ
-zNW+MbnU/47mMRzWPOR9x8r5FPJE+mHiVqJznUnhHe3od8FatM3WWbGEBrab5nkX
-cxTIfpc1pzGiaOKP0YdSfguFnJokwSVLNwwPW6E0WG0M3gjrCS6yVAzKGLFntgf4
-Hfqj7MxufmrwyQbw675mVL20GDVHU9pl+veqDzSbO9qUZtK7+NMqvIoP19ucWFsO
-PR8gNFRXplB7tXTGEyRNPT1DgOu0sYkBZpHKlQC6O7f/DPSKCAwRMUUH3Pl9tmUZ
-rBI4Kwik0M/GnaBH1icKG7x5SvArgLZ0DPCqqiralBWg2VuLAnKc0LIW8htPnvEp
-VOLgMn7AqGErP87iPj35QUv+WJTdWFMOgsamDabmVwsCA9QHbaa7ngKGv8GmkDMm
-Dd2l/xonguCbtTUyxANkIcZAy4w7nsx+TGQElNCbqEgzqJMnFgt2c8tE6Yy+MTrk
-ls69HMYGN7INRuTsnq7SdgYcCaZwv33GJEMBLatdYFmsXR5ZaQGWpe1MSI+/IMkL
-46jWyhs4XQaTC3Hmuj25UaFpg636Op08gJG1jaBUSEEPVREYql2/pnskFH3fOhut
-MVrxhczetsues3007Mn8PZRX+twVkOYl0SKmtJzacKl7YatJKcTsU1iI8HYiy3ju
-lbFiJj7om6DK42U+MUuXFiTdXGNl+RYl
+yum -y install sharutils mailx
+
+echo set from=123456@126.com smtp=smtp.126.com >>/etc/mail.rc
+echo set smtp-auth-user=123456@126.com smtp-auth-password=123456 smtp-auth=login >>/etc/mail.rc
+
+邮件发送:
+echo 1 | mail -s "1" 123456@qq.com
+mail -s "1" 123456@qq.com < 1.txt 
+
+uuencode lj.sh 1.sh | mail -s "1" 123456@qq.com
+
+(uuencode lj.sh 1.sh;uuencode install.log 2.log) | mail -s "1" 123456@qq.com
+
+使用uuencode发送附件出现乱码
+将乱码在文本文件中保存为uue后缀的文件，再使用rar解压

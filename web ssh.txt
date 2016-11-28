@@ -1,14 +1,32 @@
-U2FsdGVkX1+C8MdCvQLpI8EYbitO5ZF0hPPksunsFIbK3q6mZetKaNwod3Ut75XM
-96PAsgU062A/IeV8Uftu2wcijnjtkPo6OrahKTMcs2CEwGasLF+POBM6iW7TFJhy
-kNwt7694ykdLGe+HEUDv/kuRH3wxN0eGM5ZJcbHE73QFR5HjegPCfkRZWrxRNoUF
-IhLKTxTIHRad64bNKf7FAhArPWWnYJcBkOvmVE15b0EZbDLiPIpYJLCLnFE/ObZf
-xBwygBIh7Va2PWifLHqqsHys/OO0YZXEsMQon1yysMzHPp/B5h2TQLzqomgPZjx6
-HzQDuAyqikuh10rw9Ooj5ZfPI3yIWhWxPo76g18qpopxkIyJDW9nUlAwnErlRW5b
-5lJ12M8da9ZvF3F4sfnFrvmfbBHQtDi92EqqPyX2qY5/EZikiKeZrcKOw//zHau6
-JWedTONEFcjipwkTiiBdDGQlXWQKMDRyP9N6INhCdzeKxc11IA/FOPhXbxaZ+JNT
-aMpvi1Z5gt9j5ZyqmOADWg9Yr+ej0WV3f/I6PSkJvndVYEC/PEO4ogN2BmQdpu6W
-IkSsMcXjgP+YtRq0yKJ9M9rSREJYJKCNfcBWPXoGy83Mkgbh9yHD1SfrKUUxVjWv
-VYJnuzEjbCR2U6vP7uwpsAYOrkekV+095bHd3SyXu0cV9QEDWxdO1Iw38r7sv63Z
-p9kh/DdB+HfJbQAomw7+aDA6jg9JGtsJ1sx8PR6WSLxNb+mLnup/mm2lkXflKrjh
-3SqqhUEeYjGVXaVrOB6w++Yj26TMKaiBm+L2iyg/Tc2o5H5bc+nSV3g1RgWkU+5X
-L3wc6wZT7V62mXyRajAHFw==
+1.webconsole
+支持php环境
+http://www.web-console.org/
+
+wget https://github.com/nickola/web-console/releases/download/v0.9.5/webconsole-0.9.5.zip
+
+unzip webconsole-0.9.5.zip
+mv webconsole /var/www/html
+
+cd /var/www/html/webconsole
+
+vi webconsole.php 设置帐号密码
+$USER = 'root';
+$PASSWORD = '123456';
+
+浏览器打开即可使用
+http://IP/webconsole/webconsole.php
+
+
+2.gateone
+
+git clone https://github.com/liftoff/GateOne.git
+
+cd GateOne
+python setup.py install
+pip install stdeb
+gateone 开启服务
+浏览器打开即可使用
+https://IP
+
+配置文件
+/etc/gateone/conf.d

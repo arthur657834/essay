@@ -1,28 +1,51 @@
-U2FsdGVkX19/GQaMvipAuLyN8XL/FdJXWTA2Pf2uTDjNi0rpS+L5W5Ta+zOndW6n
-4JaX1qIyUua8pQzcb1ngoEEC9jpbnn2ND0L2z6KQjVjRd2WN2sy7YugeDSQsw6G7
-6mXvmPtYihejJQ3+u2w+ip5kR62vcXmYzE1MqX2Anz2ZRAn+3l4j93oBeJW19SBz
-gkK72qQzTg69PR2gPmFqpJ/DYRKFs4P8/OM5P58nDVofX+AAgEzqDXCjZW9igFkf
-UTiTSZ91c2hSrN6zCIeHk+Mvf1LNQ2tPJaILilormw2kae3hg4ckQ2tBBGPvqdn1
-dpm2mVBzl1gJ7AH+kCA1u62oVWVVH0HDRwSxmtcUhKwobcbMh7aSTMzrzSZBy3Kd
-WxeZSSFyHFd2NszJ1Rc/uem2I++DfixaA4OVLxdfxRHj0XdjUwiS8YCoerXmw04T
-afk2aazLHQCINtjhUXQCb8xv+s8z5eBSQQwAGjOoyDnzN2m5PyEocoVThhWwn7Y2
-PmF22luqyof6sdzql4crKZYF1NMhauNFQSh0wE6N0ijf8QKezR5YOOn6jAT9FNlZ
-Whp0JSjejuMOF9+no5TH9TrGdGzfjUyVhmtHDW96n/lxfucWAnf23aPc9mbPHw6b
-0VmkbcV/O9QOCbCSoBOHfLqYabZLFHRhPQH/jP6u3dmTG2UkiqzI+a7ig+uIabqP
-cOM69zD0aZbCR2OC7QpWddDd3K/LOUF19Z9lhU5gW2NpFe9wiWBlSY3OHBixv0X2
-O4oAvRU831f4inA9xLBNqFCXh1qMkhLq3YtFvW3ILFBQKYdeGjy61Df0go1FYXLv
-TftHkSIOJW5De3z0FUc82ymY/KokERH17JA9nfrODz4nPXxXO1cJjupq9fG+cpkP
-4yGiw6hTOR8No2+PPhBsEkcj9QHtyqx+UItwh1p6wqdd1FctM7b/2sXOg4EwBwg+
-v8OqjWvEmuLLM7kFf5Rm1QXgXQvi8fnWanY2BuyBV3CZtfz8bU8wEdFRjwnHtisr
-5yEkY4gqg4o/tdYFi+/5X0dyHC0n8hR95o9QCG0Lj66fag3r5vixuyNduq8WGYFm
-2VJQ9QL4ZKgRGWvIjPvjNtDWFGOyWW/J9FRponAFlq4ccRU9jM6K+JPwcyrRN30f
-nM10rd5WfJPeaOJs/LbcWoAVD6KR26ME7PndsrZMxoXBPpAHFvLfXc/rq55CJJ5M
-NjIxc4tQipgvIXzRncuxQLe8oSdD5aXXYyw3IdbcOOLNI3wf68M1JTx67ZDKhQlE
-ux/CSB6StuF0O32001WZxIATkJ5pCJd84o1tg4DT7vB20EqU/mfpBdXacyWe6CES
-yQBqcB1O1BGGA18ml7eEfjKob/dZKvPwpO8YRzzHo0z/JDR92eO4DKwfGEkrnUAx
-8dB7gljBMG4h6BYMupJI7PHCp+LrbkKk1Zwr291t+U0FJS0MdEQzxlwvxMU3G6zW
-9o3KlyJgSD9CAFXqrBqoB5LfLkvanlgxSZ1ObUm5uWKmtg50JuvegPgsXA1wp4EN
-Uht3WZHY6baTXYuy8us5MDvwgSODlunvXdNM1Q0EA4CvFZinYY/4j0qu76+S9CWn
-D48DMnQLO7fxy3d0kpKAaWv+6P4SHO57kNl53q+jSJPTN+M1HKxkrt7tTKusL7dm
-QjtKBBCwhJdzx4WCCSYpVNBMmli2lUp9kAnInC4dck7YDvgrRoaejzppvBeDrIKq
-YMgV65miPa9y6/giLd4HsHeuX0jhsAVv61UZuTkzIzjc2NysN00cCIKpY6cKzT9r
+echo ftptest>> ftp.txt
+echo 123456>> ftp.txt
+echo ascii>> ftp.txt
+echo type>> ftp.txt
+echo bin>> ftp.txt
+echo pwd>> ftp.txt
+echo ls>> ftp.txt
+echo dir>> ftp.txt
+echo status>> ftp.txt
+echo verbose>> ftp.txt
+echo help>> ftp.txt
+echo ?>> ftp.txt
+echo prompt>> ftp.txt
+echo mkdir test>> ftp.txt
+echo put ftp.txt>> ftp.txt
+echo append ftp1.txt>> ftp.txt
+echo send ftp2.txt>> ftp.txt
+echo mput ftp4.txt ftp3.txt>> ftp.txt
+echo rmdir test>> ftp.txt
+echo rename ftp.txt 1.txt>> ftp.txt
+echo delete 1.txt>> ftp.txt
+echo mdelete ftp1.txt ftp2.txt ftp3.txt ftp4.txt>> ftp.txt
+echo quote 1>> ftp.txt
+echo literal 1>> ftp.txt
+echo remotehelp>> ftp.txt
+echo trace>> ftp.txt
+echo hash>> ftp.txt
+echo glob>> ftp.txt
+echo bell>> ftp.txt
+echo debug 3>> ftp.txt
+echo lcd C:\tmp>> ftp.txt
+echo ls>> ftp.txt
+echo cd picture>> ftp.txt
+echo cd ..>> ftp.txt
+echo get picture/grass.jpg>> ftp.txt
+echo trace>> ftp.txt
+echo hash>> ftp.txt
+echo debug 3>> ftp.txt
+echo glob>> ftp.txt
+echo prompt>> ftp.txt
+echo verbose>> ftp.txt
+echo bell>> ftp.txt
+echo bye>> ftp.txt
+copy ftp.txt ftp1.txt
+copy ftp.txt ftp2.txt
+copy ftp.txt ftp3.txt
+copy ftp.txt ftp4.txt
+ftp -s:%~dp0ftp.txt 192.168.0.28
+ping 127.0.0.1 -n 2
+del C:\tmp\grass.jpg %~dp0ftp.txt %~dp0ftp1.txt %~dp0ftp2.txt %~dp0ftp3.txt %~dp0ftp4.txt
+pause

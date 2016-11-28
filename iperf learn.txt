@@ -1,15 +1,24 @@
-U2FsdGVkX1/nJ/ZN3lbr1kGNzu5N+uv0pcT2Ts3oxFtpdBDt4Ti6B+49bYObK98G
-s/A7XWklMq93JEtw4QfaU7291E1cGqB/rTppjbwKBXUrpkTKHans8nSW9Pu3zMUl
-WGh6Ad0kgh3V31gcISoXB7WBTt7yWP9D2FQ90rlkFRgqCJf0+aZBTNZwiJ3VO27x
-/jhNlahj7sUY/vFCbxg0unC4lpR1w1PAe/xVJ3jO1OE60cytb7VkCGL8T6ebd2pl
-WMmY8z+I0s50COZRaqBFAd//dn7a+6JLFwOPzliXvUPpvuXRZAV+jzM33xyqN6GX
-+AggbW2hoWCBMugrUUn4PXuSzMV7fFXfW0NZasYIjv+YHZP/TOzGBJ61c2VqoVN+
-ZKz8pMb3INSirkRHJXu/ANi5BdWJdc54DJBQE+hozbwybEhknE/xNLbnWTXOljtJ
-i69K5ySPAN/akLpxXrU+5P7Bo4IrkhXxcPdMH5cTvdpPqqem/yTAqDo8260JRdQf
-yHaB49+ARazPnOYyLCZCnHc+1DuTR/m1eku094gOrQHpVj9IzcFNuyuiFR1cqqC2
-kLAXN0HW5MnUpsNXVMTunOzUMcQoPiQbZk+HUiyb8MjXsgEkRKkHDgoPj7wyc/wz
-2jLWtopux78qC/jaaRUm49gk2ZLE4IDSSLzOY6tO3ygc4D5QUVpSU44E3J/71QIZ
-uZ/n1aFQEfqacg/mBdPtrB5URcP2S4cbK+rvb88UCMbcdF+fHmXh1tnR+NsHFFAJ
-QIK3dcagQWCxinRgFwxPufkE6I480pDxcbXbqFWgJ0ggnUpafJAB6Wi87quZdXWC
-TNQPtU4DjFqtWPruV8Bx1SNCkfOE+XAX8TahrQSXZ5Wqeu/xYnkmc3P+UB6m7GE0
-O637++fzpX5hwqH2eALt3nehpMs/P7f4
+iperf –s –p 12345 –i 1 –M
+iperf –c server-ip –p server-port –i 1 –t 10 –w 20K
+
+-c：客户端模式，后接服务器ip
+
+-p：后接服务端监听的端口
+
+-i：设置带宽报告的时间间隔，单位为秒
+
+-t：设置测试的时长，单位为秒
+
+-w：设置tcp窗口大小，一般可以不用设置，默认即可
+
+-u：udp 服务端和客户端都要加这个参数
+
+-b：带宽 bit/s
+
+-P: 线程数
+
+-d: 运行双向测试模式，客户端会与服务端进行udp往返测试。可以使用-L参数指定本端双测试监听的端口。
+
+-r: 以运行交互模式
+
+-B: 命令绑定网卡的某一个ip地址以测试

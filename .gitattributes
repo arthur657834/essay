@@ -1,9 +1,17 @@
-U2FsdGVkX19KAQeT5oZyQulLNOqU1pCvsXkoTwquAb9LuR8bL5RvrviIqdsBytCA
-7Wbn4G9ZAyQFNIzSRnd+yRtqsX6w4fUvr3PYq1GzJFA5lcbKpP1E4v+6Iwo2Iytx
-hdNeoglFjjOPbGrsvFVIkaiS+g1S228fp2c6HsyWkuMG7KHRZY/R/sq1roGe4PqZ
-PB90EhOztxbln6nbh1kB2XFS+5tTacOvUKXF/vgr8eELkOg6v9H5AVClP1l3NB9U
-OqtZbqNiM7jTiJm4sjrxXTtRR7/Wwae1QuKBxSlqguHeLDyAgoQNPYq2NThGY3Em
-9LTkiLZUPGRskwYR8lGjTVdwAlbr0lzCH6OjgCdUYssuwxj3fTr0oDyNcnUvO77x
-J3qwWLMReXuQX9VLYWGzR4+znLjJP4iBVWdINaam5SHZu4OSG8RWGSD4C9yNg/Ok
-iknX474bb+EsSY6pka0uaBeoETDSpJhIKtq5M2+nar3+hkpRnRAc/4QV5N3aU1wB
-IPqWMb5NzmC17QdjGe8sBjzdxwO519KKeQqG9wPn0vQ=
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain

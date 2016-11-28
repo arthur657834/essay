@@ -1,16 +1,28 @@
-U2FsdGVkX18v4p9fdiHqlv2zy0npnkm80VixVv5zN0KSiG5dk7ApH7qSD+IIl0Z7
-EChi5vjLeA85R5AoMJcScjb28gCexQgLbxtQrQN1YA2PI9wlVcgEUuY8KaRZSwpI
-462AGyxAms2g0FLLrxbZSVyeCW2TKV91YaXjB5jPzmPsfRtARokHD6ZUhvb+bHwG
-rQaU64e0hyCIwpPVF2Ge+kGLP476BwGVOBNYCGjtB3SpBnfULapDgRGrX5LXpW0m
-hEWNk3qJqyeNnsZOow00IGUml1JdsnLbdzBTZLeIj4RySKHqblAHddma+NHseC7r
-e4KKJhipHxG3ZC6fFxrYwGCIP0wLBz+9pxPJ8PpvFhXlOVmjXy1MhRuiIkwajTLf
-nXesyreRAJylE/Lnwcabh+ZWGbitBo3D5QoXwA7JQgozmr7upSUrHaZEjIMfoIRs
-CCgTdQZxIDuTv6MnjG/On6vbLluZnTZQ2DqM7IMK74D365aDlgu4OiBM8X2XqibH
-DHh19khxQjftZw6iJh0Yb8kvZBPOkFzUlsw9So10FVPe//usDQfHwSTF0VGL3OCk
-kJj1Cb3SR8n2Pp7Wy2e7HhNo8azcZgPAUnnHlI/eOAKA5xgajuLkNhVf+7M7cCEb
-S2uJ29SPDyzasbdyEds5uHZKGJz/luBb+oJwhDlopHp195gRLl8tdh58TdbTpRIA
-PAH2KWztA741Av52zhWs2aobd8ENa0Wg88ranYs5mtVI/HWdz5QMI5icAHT7qbql
-KKUYUQvUA1XQCpiTLEbIB5R7vxsnMNbQXSIXtNrgyEiC5hCtgJaozb2SShc7HHw2
-9Fy8lQIuYF5Ek98wurq8K2SC/Eu4gEi+LCAX9dj4+OaOdgAq+cU/18s3nEXG9RUQ
-uQbl8Bm+q7Ey6XWZK3HZSmeW8RFYVbTcTaO2YO3AwxQQlwdLd/aylm2L+UinTFCy
-dLTpI+JvP6kHwkEDXp+cQ66/pGHnH9nKK3TCk68sSiY=
+http://www.jianshu.com/
+
+安装package control
+https://packagecontrol.io/installation
+
+安装插件:
+控制面板==>install package==>MarkDown Preview
+
+MarkDown
+	浏览器预览:控制板中键入Markdown，选择preview in browser，再选择github
+
+OmniMarkupPreviwer：实时在浏览器中预
+	Ctrl+Alt+O: Preview Markup in Browser.
+	Ctrl+Alt+X: Export Markup as HTML.
+	Ctrl+Alt+C: Copy Markup as HTML.
+	
+快捷键：
+	Ctrl + Enter在当前行下面新增一行然后跳至该行；
+	Ctrl + Shift + Enter在当前行上面增加一行并跳至该行。
+	Ctrl + ←/→进行逐词移动
+	Ctrl + Shift + ←/→进行逐词选择。
+	Ctrl + ↑/↓移动当前显示区域
+	Ctrl + Shift + ↑/↓移动当前行。
+	
+	
+	
+	
+	

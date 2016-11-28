@@ -1,17 +1,25 @@
-U2FsdGVkX1/uQtYaCX/g09bT2x+esBWcSBqBPMbmh2dRv/+dbAiI4mmVQt+/0ibq
-HjjUzRLml1QKe7IaK4TZbKIFUUrkFBUIKnaN0mXlTemlEdOtjdkXe8ZcNmQuYJHF
-971+ICw9uf+fQuNISUwUYK90Xqmzq6Fu1KH2oOnp8OJOUZhCwC2iAqCZpjFjHHb5
-ox8zwyhy3R/5aU9azoNpBietnjudXG4mrjL8v5LZlackOPZCMMhLDvznTaLSAdcS
-WwClVY2T0icDb8T11exnaBrD2/BygkODCwxDwX5TL7IokJjJKqffNZgJO1aft7OK
-Y2kyYN5rAvuQa/PHAQFiptXAH3DyfTAPQXY7ahgFELE7FsA/W/No3tU4DVqWGpmO
-9rX5hdGC9P+o7ymoWyFZjWS9IWsa3zbigIruFZt9C62ETkF7Yg1XMsHerk7ePT49
-imZs5vT4xyFM8rdiaa8/3BPxw/sFd2ZxRw08EiMzTgQT77VohdJr2tiY6CYAz98i
-rj9SkBJ/V/JWihicrf+ja/NQEoaYGh+qnGEryXGFhBAnqK+yS7xEiTSNNjkqHkgu
-FiGJhDtDK0njtuVMf8pCgsQDcI4sLvDb4Aqjvs9h6IvuIONODc7UHmxhsKbfJg4r
-qfOTAI4TSA5AW5H+8CZYaMYBTxpWHIQTY8prcQ+k8YjLJ7vNM9XF4STqyFPnEeq5
-6+5AMXRO7OIzOjMw+80iYYCmcfZPjNb9yFaI8kCuspRBPAqnIMYx4hifUZG5OgRU
-gluVAR3aO+41v5zv8glwF8WwU5ov7lDlc6nebGB7MEFljL1wQXxDEc2nFrCSsset
-ALFAeIUallDa5HdQu+SutvMnN987xOfLIfBNvVXlRHR/KtxlYgHNsK9GGqccMCeh
-Id/V3BysMOIXokVVHexfG9Qbxzd394DbTgK9yhroghwXmisTRx6tBvJfyUUuVNqL
-YwyEaTElJkF1+LZfHBzvVSjcoKS9jhwOsqzw9NUZVHap+2Iv1Z+9LuXxu74sb3Ja
-/VdsDw1o5Mk=
+目的：主机A免密码登录主机B
+
+主机A:
+ssh-keygen -t rsa -P '' //-P表示密码，-P '' 就表示空密码，也可以不用-P参数，这样就要三车回车，用-P就一次回车。
+
+在.ssh下生成id_rsa和id_rsa.pub。
+
+主机B：
+vi /etc/ssh/sshd_config
+找到以下内容，并去掉注释符”#“
+RSAAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile      .ssh/authorized_keys
+
+service sshd restart
+复制主机A的id_rsa.pub到.ssh下，重命名为authorized_keys
+scp root@192.168.0.28:/root/.ssh/id_rsa.pub /root/.ssh/authorized_keys
+
+去除登录时yes/no 的询问
+
+1.vi /etc/ssh/ssh_config
+StrictHostKeyChecking ask =>StrictHostKeyChecking no
+
+2.ssh localhost -o StrictHostKeyChecking=no
+

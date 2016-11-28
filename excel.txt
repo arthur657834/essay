@@ -1,34 +1,85 @@
-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
-jkDxsy3auRHk+SjLoTe6oUeBrWUZnWTv
+1.if
+=if(a1<1,10,11) 
+ture:10 false:11
+
+2.sumifs
+=sumifs(c2:c10,a2:a10,"李*",b2:b10,"员工")
+求c2:c10的和 a2:a10,"李*",b2:b10,"员工" 为两个条件
+
+=sumif(a2:a10,"李*",c2:c10)
+求c2:c10的和 ,a2:a10,"李*"为条件
+
+3.countifs
+=countifs(a2:a10,">100",b2:b10,"员工")
+
+4.left
+=left(f1,1) 拆分单元格
+=mid(f1,2,1)
+=right(f1,1)
+=left(len(f1),1)
+
+单元格连接
+=f1&f2&f3<=>=PHONETIC(f1:f3)
+
+2015/3/3
+=YEAR(f1)
+=mouth(f1)
+=day(f1)
+=date(f1,f2,f3) 年月日
+=edate(f1,2) f1+2个月
+
+5.subtotal
+subtotal(1,f1:f5) f1:f5求平均
+sum求和中间单元格不能为空
+
+包含隐藏值     忽略隐藏值
+1	AVERAGE     101
+2	COUNT       102
+3	COUNTA      103
+4	MAX         104
+5	MIN
+6	PRODUCT
+7	STDEV
+8	STDEVP
+9	SUM
+10	VAR
+11	VARP
+
+6.vlookup 一维查询
+vlookup(a1,b2:e4,4,0)
+
+a1中的内容在区域b2:e4查找去第4列的值,0是精确匹配，1模糊 区间匹配
+
+还可以替代if函数
+
+50 ？ 0 差
+88 ?  60 中
+67 ？ 80 良
+90 ？ 90 优
+
+7.match 二维查询
+match(a1,b2:e4,1)a1在区域b2:e4排第几 1 小于 升序 0 等于 -1大于 降序
+
+8.index
+index(b2:e4,3,5)区域b2:e4中行3列5单元格的值
+
+9.indirect
+indirect(a1) 显示a1单元格中的值
+多表联动：indirect(sheet1&"!"&"b2:e4") sheet1的b2:e4单元格的值
+
+10.offset
+offset(a5,2,2,5,3) a5为基点，下2，右2开始的5*3区域
+
+11.counta
+COUNTA函数功能是返回参数列表中非空值的单元格个数
+counta(B:B) B列非空值的单元格个数
+
+12.round
+=round(c1,4)
+提取小数点后几位
+
+
+
+
+
+

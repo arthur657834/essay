@@ -1,14 +1,18 @@
-U2FsdGVkX18zNFo6lU63nmKEOq//DoWJnZLIc+MjlxAMrI2h1EerBZIeMuntzRuO
-2w+YIje1sBDXnwNjcYTa7ngWoPPFX8AsRisoKYmcUulRf6JkdlU6G8CvpHP/F4na
-K8EKFT9e87mCXH+7JUmZWWgjAFyWdwm/Qmu2rGtsZWrjZk5pas7jYcB9fhdENxdF
-ef+KZ2PLEGOkvLJMcHDtzJZwf79zVeA/J0x0zKkWi+oxvf66Vrsq5Flv3RnCHgK2
-FCK3L6Jn0nFzkHY5pCd49/IhtVe0rUvWYDazdv1Si+1nsZXhdj8wmmvVv2v9KJfw
-zWW3C5AhIwsBxNn4JOHfxyDOSUzvfwgyBoS4PKsTNXybCL/LfH3jyoiQ9kxCra1y
-aclUVqMzQtPGvClIf8xz76vYqGEG1nSt/8ME/UsJdq1aq2R/SdkfxaJ13fecPyxs
-u6acfGMMvw62C6+POcG4MYHJT3t+FLqNYwTCNyfujfsCv/DKNXsU+v1n9Z4YFRRt
-Do2V10hJwS4YlO+rjWAS35Z2F+fqvB+bp5FdnDUeOPMxSVrqUZRUZBL+ike8LxwF
-yDi3nFJC9fx2ghiq0D0CP/4Peqj9uDHuSdjKZX8rAhfHY/he9NcAvEhqhQ65v1B3
-CAQZYcutY516nVKaaKkI/6u53yM5JcWIiS3ukshXEHrk31Gf234DmqYCEh6tybuo
-JAAWGLTHg+o9KPNBDxEyAfoqd4uBkQhxgeJSOU444hKFYZmcqEaVgZZoKBuxmgDG
-M5MPkhGb46nrDay/LJ4ez/8z8tvvp9ZoFdGCvWKAGKYfXYJmXr5G5jfJT9fnI5VB
-+79xi0JYoQck9sPuTJYnDQ==
+1、错误描述
+[sdb] No Caching mode page found
+[sdb] Assuming drive cache:write through
+....
+Could not boot
+/dev/root does not exist
+
+2、进入安装界面时，按下e键
+将
+vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS\x207\x20x86_64 rd.live.check quiet
+更改为（即更改inst.stage2=hd:后面的内容即可）
+vmlinuz initrd=initrd.img inst.stage2=hd:/dev/sdb4:/ quiet
+
+说明：
+sdb4是你U盘的挂载名称，可以通过 ls /dev/sd*获取。
+一般是sdb1,因为硬盘一般是sda,可能会有不同，具体看情况。
+
+再按下CTRL + X 快捷键即可继续安装了。
