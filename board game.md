@@ -1,3 +1,4 @@
+```
 sentinel    		哨兵
 minion      		爪牙
 werewolf    		狼人
@@ -11,3 +12,4 @@ curator    			长老
 revealer  			启示者
 gremlin    			小鬼
 tanner          	皮匠
+```
