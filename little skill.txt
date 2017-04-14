@@ -1,152 +1,157 @@
 1.ftp
 prompt
 mget * 
-Èç¹ûÔÚmgetÖ®Ç°²»Ö´ĞĞprompt£¬ÏÂÔØÃ¿¸öÎÄ¼ş¶¼»áÌáÎÊ,Ã¿´Î¶¼ÒªÊäÈëÒ»¸öy
+å¦‚æœåœ¨mgetä¹‹å‰ä¸æ‰§è¡Œpromptï¼Œä¸‹è½½æ¯ä¸ªæ–‡ä»¶éƒ½ä¼šæé—®,æ¯æ¬¡éƒ½è¦è¾“å…¥ä¸€ä¸ªy
 
-2.linux Ìß³öÔÚÏßÓÃ»§
+2.linux è¸¢å‡ºåœ¨çº¿ç”¨æˆ·
 pkill -kill -t pts/3
 
-3.pgrepÓÃ·¨
-pgrep name  ½ø³ÌÃû²»Æ¥ÅäÃüÁîĞĞ²ÎÊı
-pgrep -f name  Æ¥Åä½ø³ÌÃûºÍÃüÁîĞĞ²ÎÊı 
--l »áÁĞ³ö·şÎñÃû
+3.pgrepç”¨æ³•
+pgrep name  è¿›ç¨‹åä¸åŒ¹é…å‘½ä»¤è¡Œå‚æ•°
+pgrep -f name  åŒ¹é…è¿›ç¨‹åå’Œå‘½ä»¤è¡Œå‚æ•° 
+-l ä¼šåˆ—å‡ºæœåŠ¡å
 
-4.Ê¹ÓÃ°å¿¨µÄraid¿¨×öÕóÁĞÊ±£¬ĞèÒªÑ¡Ôñ²»´øuefiµÄÆô¶¯ÏîÖÆ×÷ÏµÍ³£¬·ñÔò»áµ¼ÖÂÏµÍ³°²×°³É¹¦Ö®ºóÎŞ·¨Æô¶¯
+4.ä½¿ç”¨æ¿å¡çš„raidå¡åšé˜µåˆ—æ—¶ï¼Œéœ€è¦é€‰æ‹©ä¸å¸¦uefiçš„å¯åŠ¨é¡¹åˆ¶ä½œç³»ç»Ÿï¼Œå¦åˆ™ä¼šå¯¼è‡´ç³»ç»Ÿå®‰è£…æˆåŠŸä¹‹åæ— æ³•å¯åŠ¨
 
-5.ÅúÁ¿Ìí¼ÓÓÃ»§
+5.æ‰¹é‡æ·»åŠ ç”¨æˆ·
 #!/bin/bash
 for name in tom joy john mark james
 do  useradd $name
     echo "redhat" | passwd --stdin $name
 done
 
-6.ÒÔ·ÇrootÓÃ»§Ö´ĞĞÃüÁî
+6.ä»¥érootç”¨æˆ·æ‰§è¡Œå‘½ä»¤
 echo "command" | su - lj
 
 su lj -c ls 
 
 su - hadoop <<EOF
 ls
-exit£»
+exitï¼›
 EOF
 
-7. yumÖ»ÏÂÔØ²»°²×ª
-	°²×°yum²å¼ş yum -y install yum-downloadonly
+7. yumåªä¸‹è½½ä¸å®‰è½¬
+	å®‰è£…yumæ’ä»¶ yum -y install yum-downloadonly
 	yum install unixODBC --downloadonly --downloaddir=/var
 	
 	vi /etc/yum.conf
 	keepcache=0 => keepcache=1
 	
-8.eclipse²Ëµ¥ÂÒÂë
+8.eclipseèœå•ä¹±ç 
 window->Preferences->General->Appearance
-ĞŞ¸ÄThemeÎªclassic
-Forn ThemeÎªclassic theme
+ä¿®æ”¹Themeä¸ºclassic
+Forn Themeä¸ºclassic theme
 
-9.rootÕÊºÅÎŞ·¨µÇÂ¼£¬·ÇrootÕÊºÅ¿ÉÒÔµÇÂ¼
-ĞŞ¸Ä/etc/ssh/sshd_config
+9.rootå¸å·æ— æ³•ç™»å½•ï¼Œérootå¸å·å¯ä»¥ç™»å½•
+ä¿®æ”¹/etc/ssh/sshd_config
 
-#PermitRootLogin without-passwordÎª
+#PermitRootLogin without-passwordä¸º
 PermitRootLogin yes
 
-10.linux ¹ÒÔØwindows¹²Ïí
+10.linux æŒ‚è½½windowså…±äº«
 ?yum -y install samba-client cifs-utils samba-common
 mount -t cifs //192.168.0.89/share/apm /mnt/share -o username=broada,password="broada123" 
 
-11.²é¿´ËùÓĞ·şÎñ×´Ì¬
+11.æŸ¥çœ‹æ‰€æœ‰æœåŠ¡çŠ¶æ€
 service --status-all 
 
-12.¹âÅÌ¹ÒÔØ
+12.å…‰ç›˜æŒ‚è½½
 mount /dev/cdrom /mnt/cdrom
 mount -o loop 1.iso /var/www/html/1
 
-13.ÀûÓÃSecureCRTÉÏ´«ÏÂÔØÎÄ¼ş
+13.åˆ©ç”¨SecureCRTä¸Šä¼ ä¸‹è½½æ–‡ä»¶
 yum -y install lrzsz
 
-ÏÂÔØÎÄ¼ş
+ä¸‹è½½æ–‡ä»¶
 sz filename
 
-ÉÏ´«ÎÄ¼ş
-rz Ìí¼ÓÎÄ¼ş
+ä¸Šä¼ æ–‡ä»¶
+rz æ·»åŠ æ–‡ä»¶
 
-ÉÏ´«ÏÂÔØÂ·¾¶
-options ¡ª session options ¡ª X/Y/Zmodem
+ä¸Šä¼ ä¸‹è½½è·¯å¾„
+options â€” session options â€” X/Y/Zmodem
 
-14.ssl ËíµÀ´úÀí
-ÖØÆôÊ§Ğ§
+14.ssl éš§é“ä»£ç†
+é‡å¯å¤±æ•ˆ
 ssh -fNgL 8898:10.4.1.131:22 root@10.4.1.131
 
-15.windows Åú´¦Àí start
+15.windows æ‰¹å¤„ç† start
 start ["title"] [/dPath] [/I][/min] [/max] [{/separate | /shared}] [{/low | /normal | /high | /realtime | /abovenormal | belownormal}] [/wait] [/B][FileName] [parameters] -
 
-²ÎÊı -
+å‚æ•° -
 
-"title" Ö¸¶¨ÔÚ¡°ÃüÁîÌáÊ¾·û¡±´°¿Ú±êÌâÀ¸ÖĞÏÔÊ¾µÄ±êÌâ¡£ -
+"title" æŒ‡å®šåœ¨â€œå‘½ä»¤æç¤ºç¬¦â€çª—å£æ ‡é¢˜æ ä¸­æ˜¾ç¤ºçš„æ ‡é¢˜ã€‚ -
 
-/dpatch Ö¸¶¨Æô¶¯Ä¿Â¼¡£ -
+/dpatch æŒ‡å®šå¯åŠ¨ç›®å½•ã€‚ -
 
-/i ½« Cmd.exe Æô¶¯»·¾³´«ËÍµ½ĞÂµÄ¡°ÃüÁîÌáÊ¾·û¡±´°¿Ú¡£ -
+/i å°† Cmd.exe å¯åŠ¨ç¯å¢ƒä¼ é€åˆ°æ–°çš„â€œå‘½ä»¤æç¤ºç¬¦â€çª—å£ã€‚ -
 
-/min Æô¶¯ĞÂµÄ×îĞ¡»¯´°¿Ú¡£ -
+/min å¯åŠ¨æ–°çš„æœ€å°åŒ–çª—å£ã€‚ -
 
-/max Æô¶¯ĞÂµÄ×î´ó»¯´°¿Ú¡£ -
+/max å¯åŠ¨æ–°çš„æœ€å¤§åŒ–çª—å£ã€‚ -
 
-/separate ÔÚµ¥¶ÀµÄÄÚ´æ¿Õ¼äÆô¶¯ 16 Î»³ÌĞò¡£ -
+/separate åœ¨å•ç‹¬çš„å†…å­˜ç©ºé—´å¯åŠ¨ 16 ä½ç¨‹åºã€‚ -
 
-/shared ÔÚ¹²ÏíµÄÄÚ´æ¿Õ¼äÆô¶¯ 16 Î»³ÌĞò¡£ -
+/shared åœ¨å…±äº«çš„å†…å­˜ç©ºé—´å¯åŠ¨ 16 ä½ç¨‹åºã€‚ -
 
-/low ÒÔ¿ÕÏĞÓÅÏÈ¼¶Æô¶¯Ó¦ÓÃ³ÌĞò¡£ -
+/low ä»¥ç©ºé—²ä¼˜å…ˆçº§å¯åŠ¨åº”ç”¨ç¨‹åºã€‚ -
 
-/normal ÒÔÒ»°ãÓÅÏÈ¼¶Æô¶¯Ó¦ÓÃ³ÌĞò¡£ -
+/normal ä»¥ä¸€èˆ¬ä¼˜å…ˆçº§å¯åŠ¨åº”ç”¨ç¨‹åºã€‚ -
 
-/high ÒÔ¸ßÓÅÏÈ¼¶Æô¶¯Ó¦ÓÃ³ÌĞò¡£ -
+/high ä»¥é«˜ä¼˜å…ˆçº§å¯åŠ¨åº”ç”¨ç¨‹åºã€‚ -
 
-/realtime ÒÔÊµÊ±ÓÅÏÈ¼¶Æô¶¯Ó¦ÓÃ³ÌĞò¡£ -
+/realtime ä»¥å®æ—¶ä¼˜å…ˆçº§å¯åŠ¨åº”ç”¨ç¨‹åºã€‚ -
 
-/abovenormal ÒÔ³¬³ö³£¹æÓÅÏÈ¼¶µÄ·½Ê½Æô¶¯Ó¦ÓÃ³ÌĞò¡£ -
+/abovenormal ä»¥è¶…å‡ºå¸¸è§„ä¼˜å…ˆçº§çš„æ–¹å¼å¯åŠ¨åº”ç”¨ç¨‹åºã€‚ -
 
-/belownormal ÒÔµÍ³ö³£¹æÓÅÏÈ¼¶µÄ·½Ê½Æô¶¯Ó¦ÓÃ³ÌĞò¡£ -
+/belownormal ä»¥ä½å‡ºå¸¸è§„ä¼˜å…ˆçº§çš„æ–¹å¼å¯åŠ¨åº”ç”¨ç¨‹åºã€‚ -
 
-/wait Æô¶¯Ó¦ÓÃ³ÌĞò£¬²¢µÈ´ıÆä½áÊø¡£ -
+/wait å¯åŠ¨åº”ç”¨ç¨‹åºï¼Œå¹¶ç­‰å¾…å…¶ç»“æŸã€‚ -
 
-/b Æô¶¯Ó¦ÓÃ³ÌĞòÊ±²»±Ø´ò¿ªĞÂµÄ¡°ÃüÁîÌáÊ¾·û¡±´°¿Ú¡£³ı·ÇÓ¦ÓÃ³ÌĞòÆôÓÃ CTRL+C£¬·ñÔò½«ºöÂÔ CTRL+C ²Ù×÷¡£Ê¹ÓÃ CTRL+BREAK ÖĞ¶ÏÓ¦ÓÃ³ÌĞò¡£ -
+/b å¯åŠ¨åº”ç”¨ç¨‹åºæ—¶ä¸å¿…æ‰“å¼€æ–°çš„â€œå‘½ä»¤æç¤ºç¬¦â€çª—å£ã€‚é™¤éåº”ç”¨ç¨‹åºå¯ç”¨ CTRL+Cï¼Œå¦åˆ™å°†å¿½ç•¥ CTRL+C æ“ä½œã€‚ä½¿ç”¨ CTRL+BREAK ä¸­æ–­åº”ç”¨ç¨‹åºã€‚ -
 ex.
 start /max iexplore.exe
 
-16. samba ¹ÒÔØ
+16. samba æŒ‚è½½
 smbclient //10.1.50.23/logs -U backup%broada_backup
 mount -t cifs -o username=backup%broada_backup //10.1.50.23/logs /root/ljlog/
 
-17.ÕÒÃüÁîÖ´ĞĞµÄÒÀÀµ°ü
+17.æ‰¾å‘½ä»¤æ‰§è¡Œçš„ä¾èµ–åŒ…
 ldd $(which ./nginx)
 
 18.
-#²é¿´Íø¿¨UUID
+#æŸ¥çœ‹ç½‘å¡UUID
 nmcli con show
 
-#²é¿´Íø¿¨ĞÅÏ¢
+#æŸ¥çœ‹ç½‘å¡ä¿¡æ¯
 nmcli device show ens32
 
 find /home/website -mtime +30 -print0 | xargs -0 rm -v
 find /home/website -mtime +30 -exec ls {} \;
 
-find -print ºÍ -print0µÄÇø±ğ:
--print ÔÚÃ¿Ò»¸öÊä³öºó»áÌí¼ÓÒ»¸ö»Ø³µ»»ĞĞ·û£¬¶ø-print0Ôò²»»á¡£
+find -print å’Œ -print0çš„åŒºåˆ«:
+-print åœ¨æ¯ä¸€ä¸ªè¾“å‡ºåä¼šæ·»åŠ ä¸€ä¸ªå›è½¦æ¢è¡Œç¬¦ï¼Œè€Œ-print0åˆ™ä¸ä¼šã€‚
 
-#²é¿´½ø³ÌµÄÁ÷Á¿
+#æŸ¥çœ‹è¿›ç¨‹çš„æµé‡
 nethogs
 
-#ÉèÖÃ secureCRT - Ñ¡Ïî - »á»°Ñ¡Ïî - ÖÕ¶Ë - ·ÂÕæ£º Ñ¡ÔñÖÕ¶ËÎª Xterm £¬¶ø²»ÊÇ VT100
+#è®¾ç½® secureCRT - é€‰é¡¹ - ä¼šè¯é€‰é¡¹ - ç»ˆç«¯ - ä»¿çœŸï¼š é€‰æ‹©ç»ˆç«¯ä¸º Xterm ï¼Œè€Œä¸æ˜¯ VT100
 glances
 
 19.
-eclipse»á±¨¸æÒ»¸ö¡°Class not found:org.eclipse.jdt.core.JDTCompilerAdapter¡±
-ÕâÊ±ÄãĞèÒªÑ¡¡°Run As -- Ant Build...¡±Ñ¡Ïî£¬ÔÚµ¯³öµÄ¶Ô»°¿òÖĞÑ¡Ôñ¡°JRE¡±Ñ¡Ïî¿¨£¬ÔÚ¡°Runtime JRE¡±À¸ÖĞÑ¡Ôñ¡°Run in the same JRE as the workspace¡±
+eclipseä¼šæŠ¥å‘Šä¸€ä¸ªâ€œClass not found:org.eclipse.jdt.core.JDTCompilerAdapterâ€
+è¿™æ—¶ä½ éœ€è¦é€‰â€œRun As -- Ant Build...â€é€‰é¡¹ï¼Œåœ¨å¼¹å‡ºçš„å¯¹è¯æ¡†ä¸­é€‰æ‹©â€œJREâ€é€‰é¡¹å¡ï¼Œåœ¨â€œRuntime JREâ€æ ä¸­é€‰æ‹©â€œRun in the same JRE as the workspaceâ€
 
 20.
-centos7 °²×°php5.6/7
+centos7 å®‰è£…php5.6/7
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 
 21.
-shopt -s  extglob    #¿ªÆôÀ©Õ¹Í¨Åä·û
-rm -rf !(demo)      #É¾³ı³ıÁËdemoµÄÎÄ¼ş
-rm -rf !(demo1|demo2)      #É¾³ı³ıÁËdemoµÄÎÄ¼ş
+shopt -s  extglob    #å¼€å¯æ‰©å±•é€šé…ç¬¦
+rm -rf !(demo)      #åˆ é™¤é™¤äº†demoçš„æ–‡ä»¶
+rm -rf !(demo1|demo2)      #åˆ é™¤é™¤äº†demoçš„æ–‡ä»¶
+
+22.
+### åˆ é™¤windowsè·¯å¾„è¿‡æ·±çš„é—®é¢˜
+npm i -g rimraf
+rimraf dir
