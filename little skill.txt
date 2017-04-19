@@ -155,3 +155,8 @@ rm -rf !(demo1|demo2)      #删除除了demo的文件
 ### 删除windows路径过深的问题
 npm i -g rimraf
 rimraf dir
+
+23.
+### 开启http server
+npm install anywhere -g
+anywhere 8860
