@@ -15,22 +15,22 @@
 2. 2
 
 
-###quote
+### quote
 > here is a quote
 >> here 2
 
-###link
+### link
 [Cloudapp](https://my.cl.ly/login)
 
 I get 10 times more traffic from [Google][1] than from [Yahoo][2]
 [1]: http://google.com/        "Google" 
 [2]: http://search.yahoo.com/  "Yahoo Search" 
 
-###picture
+### picture
 ![batman](http://cl.ly/1I0U1d3X2W0X )
 ![batman](http://cl.ly/1I0U1d3X2W0X "batman")
 
-###italic
+### italic
 *italic*
 _italic_
 
@@ -38,7 +38,7 @@ _italic_
 **Bold**
 __Bold__
 
-###Strikethrough
+### Strikethrough
 ~~this~~
 
 ### sheet
@@ -48,10 +48,10 @@ __Bold__
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-###code 
+### code 
 `code`
 
-###code
+### code
 ``There is a literal backtick (`) here.``
 
 ```javascript
@@ -62,15 +62,15 @@ function fancyAlert(arg) {
 }
 ```
 
-###Task lists
+### Task lists
 - [x] Finish my changes
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
 
-###split line1
+### split line1
 ***
 
-###split line2
+### split line2
 ---
 
 <http://example.com/>
