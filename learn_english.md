@@ -70,4 +70,9 @@ vt.	挤进; 将（某人[某物]）压扁; 使沉默; 平定（叛乱等）;
 vi.	挤入; 受挤压; 发出挤压声;
 n.	（软式） 墙网球; 南瓜小果（主要种类为笋瓜 winter squash 和西葫芦 summer squash）; 果汁汽水; 拥挤的人群;
 
+portfolio	
+英[pɔ:tˈfəʊliəʊ] 美[pɔ:rtˈfoʊlioʊ]
+n.	证券投资组合; 公文包; 代表作品集; 部长[大臣]的职位;
+[例句]After dinner that evening, Edith showed them a portfolio of her own political cartoons.
+那天吃过晚饭，伊迪丝向他们展示了她的一组政治漫画作品。
 
