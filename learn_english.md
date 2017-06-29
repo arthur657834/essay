@@ -76,4 +76,20 @@ n.	证券投资组合; 公文包; 代表作品集; 部长[大臣]的职位;
 [例句]After dinner that evening, Edith showed them a portfolio of her own political cartoons.
 那天吃过晚饭，伊迪丝向他们展示了她的一组政治漫画作品。
 
+lava	
+英[ˈlɑ:və] 美['lɑ:və]
+n.	熔岩; 火山岩;
+[例句]A volcano spouts flame and lava.
+火山喷出火焰和岩浆。
+[其他]	复数：lavas
+
+volcano	
+英[vɒlˈkeɪnəʊ] 美[vɑ:lˈkeɪnoʊ]
+n.	火山;
+[例句]The volcano erupted last year killing about 600 people
+去年那座火山喷发致使约600人遇难。
+[其他]	复数：volcanoes
+
+
+
 ```
