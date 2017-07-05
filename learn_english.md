@@ -90,6 +90,49 @@ n.	火山;
 去年那座火山喷发致使约600人遇难。
 [其他]	复数：volcanoes
 
+bio	
+英['bi:əʊ] 美['bi:oʊ]
+n.	（尤其供公开发表的） 个人简历(biography的缩写);
+[例句]Bio: I'm allergic to bees and cats.
+我对蜜蜂和猫过敏
+
+glitter	
+英[ˈglɪtə(r)] 美[ˈɡlɪtɚ]
+vi.	闪烁，闪耀; 华丽夺目，炫耀;
+n.	闪烁; 灿烂的光辉; （表面的） 诱惑力; 吸引力;
+[例句]The bay glittered in the sunshine
+海湾在阳光下闪闪发光。
+[其他]	第三人称单数：glitters 现在分词：glittering 过去式：glittered 过去分词：glittered
+
+foam	
+英[fəʊm] 美[foʊm]
+vi.	起泡沫; 吐白沫;
+n.	泡沫; 泡沫材料，泡沫状物;
+vt.	使起泡沫; 使成泡沫状物;
+[例句]The water curved round the rocks in great bursts of foam.
+水流撞击岩石，产生大量泡沫。
+[其他]	第三人称单数：foams 复数：foams 现在分词：foaming 过去式：foamed 过去分词：foamed
+
+fanout	英[fænaʊt]
+美[fænaʊt]
+[词典]	[经]分列（帐户）;
+[例句]According to the concept of observability, the fanout nodes are dealt with.
+按照观察率的定义，我们处理了扇出节点。
+
+indent	
+英[ɪnˈdent] 美[ɪnˈdent]
+vt.	切割…使呈锯齿状; 缩进排版;
+n.	（印刷中的） 缩进; 订单，订购;
+[例句]Indent the second line.
+第二行行首留空格。
+[其他]	第三人称单数：indents 现在分词：indenting 过去式：indented 过去分词：indented
+
+tenable	
+英[ˈtenəbl] 美[ˈtɛnəbəl]
+adj.	站得住脚的; 守得住的; 可防守的; 合理的;
+[例句]This argument is simply not tenable
+这个论点根本站不住脚。
+
 
 
 ```
