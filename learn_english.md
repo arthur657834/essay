@@ -46,7 +46,6 @@ recipient
 n.	接受者; 容器; 容纳者;
 adj.	容易接受的; 感受性强的;
 
-
 vary	
 英[ˈveəri] 美[ˈveri]
 vi.	变化; 不同，偏离; [生] 变异;
@@ -56,7 +55,6 @@ eccentric
 英[ɪkˈsentrɪk] 美[ɪkˈsɛntrɪk, ɛk-]
 adj.	古怪的，异常的; 偏离轨道的; 离心的;
 n.	古怪的人; [物] 偏心轮;
-
 
 throttle	
 英[ˈθrɒtl] 美[ˈθrɑ:tl]
@@ -89,6 +87,37 @@ n.	火山;
 [例句]The volcano erupted last year killing about 600 people
 去年那座火山喷发致使约600人遇难。
 [其他]	复数：volcanoes
+
+corpus	
+英[ˈkɔ:pəs] 美[ˈkɔ:rpəs]
+n.	全集，文集; 资金，本金; [计] 语料库; 器官;
+
+cargo	
+英[ˈkɑ:gəʊ] ·美[ˈkɑ:rgoʊ]
+n.	（船或飞机装载的） 货物; 负荷，荷重;
+[例句]The boat calls at the main port to load its regular cargo of bananas.
+船停靠这个主要港口以装载其常规货物——香蕉。
+[其他]	复数：cargoes
+
+cucumber	
+英[ˈkju:kʌmbə(r)] 美[ˈkjuˌkʌmbɚ]
+n.	黄瓜，胡瓜;
+[例句]You can hardly be held responsible for Darrow waltzing in, cool as a cucumber, and demanding thousands of pounds.
+达罗不慌不忙、大摇大摆地走进来，索要几千英镑，这跟你一点关系都没有。
+
+vendor	
+英[ˈvendə(r)] 美[ˈvɛndɚ]
+n.	卖主; 摊贩，小贩; [贸易] 自动售货机; <正式>供应商;
+[例句]Remember, the estate agent is working for the vendor.
+记住，房地产代理商是为房地产卖方服务的。
+[其他]	复数：vendors
+
+errata	
+英[eˈrɑ:tə] 美[e'rɑ:tə]
+n.	错误; 正误表，勘误表; 写错( erratum的名词复数 ); 排错; 错字勘误表;
+[例句]There are mistakes in the errata, which means that the quality of this publication is not good.
+正误表中还有错误，说明此刊物质量不好。
+[其他]	原型： erratum
 
 bio	
 英['bi:əʊ] 美['bi:oʊ]
@@ -132,7 +161,5 @@ tenable
 adj.	站得住脚的; 守得住的; 可防守的; 合理的;
 [例句]This argument is simply not tenable
 这个论点根本站不住脚。
-
-
 
 ```
