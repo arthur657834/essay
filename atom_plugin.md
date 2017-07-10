@@ -7,5 +7,6 @@ Highlight Selected
 emmet
 atom-beautify
 pretty-json
+atom-clock
 ```
 
