@@ -19,6 +19,15 @@
 || parallel 双线号
 -- dash 破折号 
 
+rogue	
+英[rəʊg] 美[roʊg]
+n.	流氓，无赖; 调皮捣蛋的人人; 离群的野兽;
+vt.	欺骗; [农] 去劣;
+vi.	流浪; [农] 淘汰劣种;
+[例句]Mr Ward wasn't a rogue at all.
+沃德先生根本不是恶棍。
+[其他]	第三人称单数：rogues 复数：rogues 现在分词：roguing 过去式：rogued 过去分词：rogued
+
 punctuation
 英[ˌpʌŋktʃuˈeɪʃn] 美[ˌpʌŋktʃuˈeʃən]
 n.	标点符号; 标点符号的使用; 标点法; 点标点;
