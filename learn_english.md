@@ -162,4 +162,40 @@ adj.	站得住脚的; 守得住的; 可防守的; 合理的;
 [例句]This argument is simply not tenable
 这个论点根本站不住脚。
 
+bracket	
+英[ˈbrækɪt] 美[ˈbrækɪt]
+n.	支架，悬臂; 括弧; 类别，等级; [数] 同类项;
+vt.	为…装托架; 把…括在一起; 把…分类; 排除;
+[例句]Do you fall outside that age bracket?
+你不属于那个年龄段吗？
+[其他]	第三人称单数：brackets 复数：brackets 现在分词：bracketing 过去式：bracketed 过去分词：bracketed
+
+brace	
+英[breɪs] 美[bres]
+vt.	支撑; 系紧; 准备，预备; 振作起来;
+vi.	准备好; 支持; 打起精神;
+n.	支持物; 铁钳，夹子; [语] 大括号; 绷紧（身体部位的）肌肉;
+[例句]He braced himself for the icy plunge into the black water
+他做好了准备要跳进冰冷的脏水里。
+[其他]	第三人称单数：braces 复数：braces 现在分词：bracing 过去式：braced 过去分词：braced
+
+
+plunge	
+英[plʌndʒ] 美[plʌndʒ]
+vt.	用力插入; 使陷入;
+vi.	跳入; 全心投入; 突降，俯冲;
+n.	投入，陷入; 游泳，跳水;
+[例句]The government's political and economic reforms threaten to plunge the country into chaos
+政府的政治和经济改革可能会使国家陷入混乱局面。
+[其他]	第三人称单数：plunges 现在分词：plunging 过去式：plunged 过去分词：plunged
+
+curly	
+英[ˈkɜ:li] 美[ˈkɜ:rli]
+adj.	有卷发的，长卷毛的; （木材） 有皱状纹理的; 蜷缩的; （植物） 有卷叶病的;
+[例句]I've got naturally curly hair
+我的头发是自来卷儿。
+[其他]	比较级：curlier 最高级：curliest
+
+
+
 ```
