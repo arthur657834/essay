@@ -1,4 +1,30 @@
 ```
+{ open brace, open curly 左花括号
+} close brace, close curly 右花括号 
+( open parenthesis, open paren 左圆括号 
+) close parenthesis, close paren 右圆括号 
+() brakets/ parentheses 括号 
+[ open bracket 左方括号 
+] close bracket 右方括号 
+[] square brackets 方括号 
+~ tilde 波浪符
+. full stop 句号 
+, comma 逗号 
+: colon 冒号 
+; semicolon 分号 
+? question mark 问号 
+/ slash, divide, oblique 斜线，斜杠，除号 
+// slash-slash, comment 双斜线，注释符 
+- hyphen 连字号 
+|| parallel 双线号
+-- dash 破折号 
+
+punctuation
+英[ˌpʌŋktʃuˈeɪʃn] 美[ˌpʌŋktʃuˈeʃən]
+n.	标点符号; 标点符号的使用; 标点法; 点标点;
+[例句]He was known for his poor grammar and punctuation.
+他不通语法和乱用标点是出了名的。
+
 synopsis	
 英[sɪˈnɒpsɪs] 美[sɪˈnɑ:psɪs]
 n.	大纲; 摘要，梗概;
