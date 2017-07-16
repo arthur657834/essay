@@ -19,6 +19,14 @@
 || parallel 双线号
 -- dash 破折号 
 
+haste	
+英[heɪst] 美[heɪst]
+n.	匆忙，急忙; 急速，紧迫; 轻率;
+v.	赶紧，匆忙; <古>使快，催促;
+[例句]In their haste to escape the rising water, they dropped some expensive equipment
+他们在河水上涨仓促逃离时，丢掉了一些值钱的装备。
+[其他]	第三人称单数：hastes 现在分词：hasting 过去式：hasted 过去分词：hasted
+
 rogue	
 英[rəʊg] 美[roʊg]
 n.	流氓，无赖; 调皮捣蛋的人人; 离群的野兽;
