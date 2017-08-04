@@ -261,4 +261,20 @@ adj.	原始的; 发展水平低的; 落后的; [生物学] 原生的;
 n.	原始人; 早期的艺术家（作品）; 单纯的人：不世故的人; 自学的艺术家;
 [例句]Primitive humans needed to be able to react like this to escape from dangerous animals
 原始人必须要能作出这样的反应以逃避危险的动物。
+
+mutex	
+英[m'ju:teks] 美[m'ju:teks]
+[词典]	互斥（体）;
+[例句]This creates a new mutex and initializes the structure.
+这将创建一个新的互斥锁并初始化其结构。
+
+brew	
+英[bru:] 美[bru]
+vt.	酿造; 泡，煮; 策划，酿成;
+vi.	以酿造麦酒或啤酒为职业; 被冲泡; 即将发生;
+n.	啤酒; 酿造的饮料;
+[例句]I'll get Venner to brew some tea
+我会让文纳沏些茶。
+[其他]	第三人称单数：brews 复数：brews 现在分词：brewing 过去式：brewed 过去分词：brewed
+
 ```
