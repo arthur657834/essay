@@ -277,4 +277,10 @@ n.	啤酒; 酿造的饮料;
 我会让文纳沏些茶。
 [其他]	第三人称单数：brews 复数：brews 现在分词：brewing 过去式：brewed 过去分词：brewed
 
+artificial	
+英[ˌɑ:tɪˈfɪʃl] 美[ˌɑ:rtɪˈfɪʃl]
+adj.	人工的; 人造的; 人为的; 虚假的，非原产地的;
+n.	人造肥料; <美>假花;
+[例句]The city is dotted with small lakes, natural and artificial
+这个城市小型湖泊星罗棋布，有天然的也有人工的。
 ```
