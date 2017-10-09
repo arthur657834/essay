@@ -19,6 +19,14 @@
 || parallel 双线号
 -- dash 破折号 
 
+shred	
+英[ʃred] 美[ʃrɛd]
+n.	碎片; 破布; 少量;
+vt.	撕碎，切碎; 用撕毁机撕毁（文件）;
+[例句]They may be shredding documents
+他们可能是在粉碎文件。
+[其他]	第三人称单数：shreds 复数：shreds 现在分词：shredding 过去式：shredded 过去分词：shredded
+
 intruder	
 英[ɪnˈtru:də(r)] 美[ɪn'tru:dər]
 n.	闯入者，侵入者; 干扰者，妨碍者; 爱管闲事的人; [航] 轰炸机;
