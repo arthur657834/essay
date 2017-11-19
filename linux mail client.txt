@@ -9,7 +9,9 @@ mail -s "1" 123456@qq.com < 1.txt
 
 uuencode lj.sh 1.sh | mail -s "1" 123456@qq.com
 
-(uuencode lj.sh 1.sh;uuencode install.log 2.log) | mail -s "1" 123456@qq.com
+(uuencode lj.sh 1.sh;uuencode install.log 2.log) | mail -s "1" -c "1@y.cn 2@y.cn" 123456@qq.com
+
+-c 抄送
 
 使用uuencode发送附件出现乱码
 将乱码在文本文件中保存为uue后缀的文件，再使用rar解压
