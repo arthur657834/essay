@@ -290,4 +290,24 @@ adj.	人工的; 人造的; 人为的; 虚假的，非原产地的;
 n.	人造肥料; <美>假花;
 [例句]The city is dotted with small lakes, natural and artificial
 这个城市小型湖泊星罗棋布，有天然的也有人工的。
+
+contra	
+英['kɒntrə] 美['kɒntrə]
+n.	反对（地），相反（地）;
+[例句]The proceeds of the arms sales were then funneled to Contra fighters in Central America
+出售武器所得的收入随后用来支持了中美洲的反政府武装组织。
+[其他]	复数：contras
+
+levo	
+英['li:vəʊ] 美['li:voʊ]
+adj.	左旋的;
+[例句]Effects of Dextro-and Levo-Gossypol on Isolated Rat Luteal Cells in Vitro
+右旋棉酚和左旋棉酚对离体大鼠黄体细胞的影响
+
+dextro	
+英['dekstrəʊ] 美['dekstroʊ]
+n.	右旋性的;
+
+
+
 ```
