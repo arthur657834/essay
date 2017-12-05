@@ -19,6 +19,14 @@
 || parallel 双线号
 -- dash 破折号 
 
+vice versa	
+英[ˌvaɪs ˈvɜ:sə]
+美[ˌvaɪs ˈvɜ:rsə]
+adv.	反之亦然; 反过来也一样;
+[例句]Teachers qualified to teach in England are not accepted in Scotland and vice versa.
+在英格兰有教书资格的老师在苏格兰得不到认可，反之亦然。
+
+
 shred	
 英[ʃred] 美[ʃrɛd]
 n.	碎片; 破布; 少量;
