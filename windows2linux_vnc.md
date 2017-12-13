@@ -40,7 +40,6 @@ systemctl set-default graphical.target
 systemctl get-default
 systemctl isolate graphical.target
 在不重启的情况下，切换到图形界面下
-=======
 
 ```
->>>>>>> f2e0fa7621fe7177f1de38a05c688cffa96d29fe
+
