@@ -22,6 +22,9 @@ vncpasswd
 systemctl start vncserver@:1.service
 systemctl status vncserver@:1.service
 
+vncserver -kill :1
+vncserver :1
+
 netstat -lnt | grep 590*
 grep vnc /var/log/messages
 
@@ -35,7 +38,7 @@ http://www.realvnc.com/
 
 centos7 开机图形化界面启动
 ln -sf /lib/systemd/system/graphical.target /etc/systemd/system/default.target
-<<<<<<< HEAD
+
 systemctl set-default graphical.target
 systemctl get-default
 systemctl isolate graphical.target
