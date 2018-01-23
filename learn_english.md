@@ -19,6 +19,14 @@
 || parallel 双线号
 -- dash 破折号 
 
+squelch	英[skweltʃ]
+美[skwɛltʃ]
+vi.	发吧唧声，发扑哧声;
+vt.	压制; 遏制; <美>制止; 限制;
+[例句]He squelched across the turf
+他扑哧扑哧地走过草皮。
+[其他]	第三人称单数：squelches 现在分词：squelching 过去式：squelched 过去分词：squelched
+
 vice versa	
 英[ˌvaɪs ˈvɜ:sə]
 美[ˌvaɪs ˈvɜ:rsə]
