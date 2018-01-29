@@ -19,6 +19,14 @@
 || parallel 双线号
 -- dash 破折号 
 
+flavor	英['fleɪvə]
+美[ˈflevɚ]
+n.	味; 香料; 韵味; 特点;
+vt.	给…调味; 给…增添风趣;
+[例句]Vegetables such as peppers can overpower the flavor of the stock.
+像甜椒这样的蔬菜会抢了原汤的味道。
+[其他]	第三人称单数：flavors 复数：flavors 现在分词：flavoring 过去式：flavored 过去分词：flavored
+
 squelch	英[skweltʃ]
 美[skwɛltʃ]
 vi.	发吧唧声，发扑哧声;
