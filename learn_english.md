@@ -19,6 +19,14 @@
 || parallel 双线号
 -- dash 破折号 
 
+dry run: 在做一件事或执行一项计划前进行的演习。
+We're certainly glad we did a dry run on our new marketing plan
+
+Cut and dried: 老一套
+It was all cut and dried - the same old speakers saying the same things they said last year.
+
+chairman of the board: 董事长
+
 flavor	英['fleɪvə]
 美[ˈflevɚ]
 n.	味; 香料; 韵味; 特点;
