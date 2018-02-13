@@ -16,3 +16,26 @@ sdb4是你U盘的挂载名称，可以通过 ls /dev/sd*获取。
 一般是sdb1,因为硬盘一般是sda,可能会有不同，具体看情况。
 
 再按下CTRL + X 快捷键即可继续安装了。
+
+初始化：
+#!/bin/bash
+yum -y install ntpdate
+yes | cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+/usr/sbin/ntpdate us.pool.ntp.org
+hwclock -w
+
+yum -y update
+yum -y groupinstall 'Development Tools'
+yum install -y wget ftp net-tools telnet python-setuptools python-devel openssl-devel epel-release
+yum clean all
+yum -y install python-pip tree
+systemctl disable firewalld
+systemctl stop firewalld
+setenforce 0
+sed -i  "s/^SELINUX=enforcing/SELINUX=disabled/g"  /etc/selinux/config
+
+crontab -r
+echo "*/10 * * * * /usr/sbin/ntpdate us.pool.ntp.org" >> crontab.txt
+crontab crontab.txt
+rm -f crontab.txt
+echo "unset MAILCHECK" >> /etc/profile
