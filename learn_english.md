@@ -27,6 +27,55 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+monospace	
+英['mɒnəspeɪs]
+美['mɒnəspeɪs]
+[词典]	单间隔;
+[例句]To render this fragment of text properly, you would use an
+要正确地显示这段文本，可使用带font-family=“monospace”属性的
+
+inhibit	
+英[ɪnˈhɪbɪt] 美[ɪnˈhɪbɪt]
+v.	抑制; 禁止;
+[例句]Wine or sugary drinks inhibit digestion
+葡萄酒或含糖饮料抑制消化。
+[其他]	第三人称单数：inhibits 现在分词：inhibiting 过去式：inhibited 过去分词：inhibited
+
+rationale	
+英[ˌræʃəˈnɑ:l] 美[ˌræʃəˈnæl]
+n.	理论的说明; 基本原理，基础理论; 根据;
+[例句]However, the rationale for such initiatives is not, of course, solely economic
+然而，这种提议的根据当然并不仅仅是经济方面的。
+[其他]	复数：rationales
+
+remediation
+英[rɪˌmi:dɪ'eɪʃn]
+美[rɪˌmi:dɪ'eɪʃn]
+n.	补救; 补习; 辅导; 纠正;
+[例句]Yet this system results in effective communication and remediation through this tiny information network.
+然而，这一系统通过这一小小的信息网络而产生了有效的交流和修复。
+
+tedious	
+英[ˈti:diəs]
+美[ˈtidiəs]
+adj.	冗长乏味的; 单调沉闷的; 令人生厌的;
+[例句]Such lists are long and tedious to read.
+这种表单读起来冗长乏味。
+[其他]	比较级：more tedious 最高级：most tedious
+
+dedicate	
+英[ˈdedɪkeɪt] 美[ˈdɛdɪˌket]
+vt.	奉献，献身; （为表示感情或敬意将著作、乐曲、艺术作品等） 题献给（某人、某事业等）(to); （在书、音乐或作品的前部） 题献辞; 以…供奉;
+[例句]Back on the island, he dedicated himself to politics
+回到岛上后，他便投身于政治。
+[其他]	第三人称单数：dedicates 现在分词：dedicating 过去式：dedicated 过去分词：dedicated
+
+gnocchi	英[ˈnjɒki]
+美[ˈnjɑ:ki]
+n.	（面粉或马铃薯做的） 汤团，团子;
+[例句]Now, with quick-freezing process, gnocchi appeared on the store.
+现在有了速冻工艺，汤团才出现在商店里。
+
 flavor	英['fleɪvə]
 美[ˈflevɚ]
 n.	味; 香料; 韵味; 特点;
