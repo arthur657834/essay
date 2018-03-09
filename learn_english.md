@@ -27,6 +27,30 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+ergodic
+英 [ɜ:'gɒdɪk] 美 [ɜ:'gɒdɪk]  
+adj.
+各态历经的
+
+recursion	
+英[rɪˈkɜ:ʃn] 美[rɪˈkɜ:rʃn]
+n.	递推; 递归，递归式;
+[例句]The output generated from the transformation demonstrates the recursion process in the algorithm.
+转换生成的输出内容展示了算法中的递归流程。
+
+iteration	
+英[ˌɪtəˈreɪʃn] 美[ˌɪtəˈreʃən]
+n.	反复; 重述; 重述的事; [计算机] 循环;
+[例句]This can be defined for the project, Iteration and a Sprint.
+可以针对项目、迭代和Sprint而定义。
+
+dough	
+英[dəʊ] 美[doʊ]
+n.	生面团; 〈美俚〉钱;
+[例句]Roll out the dough into one large circle
+将面团擀成大的圆形面皮。
+[其他]	复数：doughs
+
 monospace	
 英['mɒnəspeɪs]
 美['mɒnəspeɪs]
