@@ -27,6 +27,79 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+forensic	
+英[fəˈrensɪk] 美[fəˈrɛnsɪk,-zɪk]
+adj.	法庭的，法院的; 公开辩论的，论争的; 适于法庭的;
+n.	辩论练习; 辩论学，辩论术;
+[例句]He won admiration for his forensic skills in cross-examining ministers.
+他在盘问几位部长时表现出的问案技巧为他赢得了赞赏。
+[其他]	复数：forensics
+
+
+adjacent	
+英[əˈdʒeɪsnt] 美[əˈdʒesənt]
+adj.	相邻; 邻近的，毗邻的; （时间上） 紧接着的;
+[例句]He sat in an adjacent room and waited
+他坐在隔壁房间里等候。
+
+equation	
+英[ɪˈkweɪʒn] 美[ɪˈkweʒən, -ʃən]
+n.	方程式; 等式; 相等; [化学] 反应式;
+[例句]The equation is simple: research breeds new products
+情况很简单：研究产生新产品。
+[其他]	复数：equations
+
+sanitizer	
+英['sænɪtaɪzə] 美['sænɪtaɪzə]
+[词典]	（食物加工设备所用的） 消毒杀菌剂;
+[例句]You see, ordinary soup and water dry my hands, so I switch to a hand sanitizer.
+你知道的，用普通的肥皂或是水来洗手的话手会变得很干，所以我改用洗手液了。
+
+parrot	
+英[ˈpærət] 美[ˈperət]
+n.	鹦鹉; 应声虫，学舌者; 机械模仿别人的人;
+vt.	机械地重复; 随声附和; 死背; 做…的应声虫;
+[例句]Generations of students have learnt to parrot the standard explanations.
+一代又一代学生学会了机械地重复这些标准解释。
+
+ostrich	
+英[ˈɒstrɪtʃ] 美[ˈɑ:strɪtʃ]
+n.	鸵鸟; 逃避现实的人;
+[例句]I've eaten ostrich meat on the continent.
+我在欧洲大陆时吃过鸵鸟肉。
+
+mammal	
+英[ˈmæml] 美[ˈmæməl]
+n.	哺乳动物;
+[例句]Most native mammal species have been severely depleted.
+大多数本地哺乳动物的数量都已经大大减少了。
+
+carnivorous
+英[kɑ:'nɪvərəs] 美[kɑrˈnɪvərəs]
+adj.	肉食; （动物） 食肉的;
+[例句]Snakes are carnivorous.
+蛇是食肉动物。
+
+herbivores	
+英['hɜ:bɪvɔ:z] 美['hɜ:bɪvɔ:z]
+n.	食草动物( herbivore的名词复数 );
+[例句]Cows and sheep are herbivores.
+牛和羊是食草动物。
+[其他]	原型： herbivore
+
+aide	
+英[eɪd] 美[ed]
+n.	助手; 副官; 侍从武官;
+[例句]The brothers chip in a certain amount of money each month to hire a home health aide.
+兄弟几个每个月凑一笔钱，请了一个家庭护理。
+
+jury	
+英[ˈdʒʊəri] 美[ˈdʒʊri]
+n.	陪审团; （展览会，竞赛等的） 全体评审员; 舆论的裁决; 评判委员会;
+adj.	应急的; [航] （船上） 应急用的; 暂时的;
+[例句]The jury convicted Mr Hampson of all offences.
+陪审团裁定汉普森先生全部罪名成立。
+
 ergodic
 英 [ɜ:'gɒdɪk] 美 [ɜ:'gɒdɪk]  
 adj.
