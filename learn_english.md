@@ -35,6 +35,33 @@ n.	辩论练习; 辩论学，辩论术;
 他在盘问几位部长时表现出的问案技巧为他赢得了赞赏。
 [其他]	复数：forensics
 
+amphora	
+英[ˈæmfərə] 美['æmfərə]
+n.	双耳细颈椭圆土罐;
+[例句]Like an amphora stuffed with serpents.
+像一个土罐塞满毒蛇。
+[其他]	复数：amphorae
+
+hierarchy	
+英[ˈhaɪərɑ:ki] 美[ˈhaɪərɑ:rki]
+n.	[计] 分层，层次; 等级制度; 统治集团; 天使的级别或等级;
+[例句]Like most other American companies with a rigid hierarchy, workers and managers had strictly defined duties
+和其他多数拥有严格等级制度的美国公司一样，这里的工人和管理人员都有界定严格的职责。
+[其他]	复数：hierarchies
+
+rigid	
+英[ˈrɪdʒɪd] 美[ˈrɪdʒɪd]
+adj.	僵硬的; 严格的; （规则、方法等） 死板的; 刚硬的，顽固的;
+[例句]Several colleges in our study have rigid rules about student conduct
+在我们的研究中，有几所大学制定了严格的学生行为规则。
+[其他]	比较级：more rigid 最高级：most rigid
+
+serpent	
+英[ˈsɜ:pənt] 美[ˈsɜ:rpənt]
+n.	蛇; 狡猾的人;
+[例句]Ive also invented two new chess pieces, the Serpent and the Old Woman!
+我还发明了两个新棋子，毒蛇和老妇。
+[其他]	复数：serpents
 
 adjacent	
 英[əˈdʒeɪsnt] 美[əˈdʒesənt]
