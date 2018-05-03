@@ -27,6 +27,25 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+
+tantalizing
+英['tæntəlaɪzɪŋ] 美[ˈtæntl:aɪzɪŋ]
+adj.	撩人的; 逗人的; 惹弄人的; 煽情的;
+v.	逗弄，引诱，折磨( tantalize的现在分词 );
+[例句]Come here for great dim sum and tantalizing cocktails.
+来到这里，为伟大的点心和诱人的鸡尾酒。
+[其他]	原型： tantalize
+
+
+dim	
+英[dɪm] 美[dɪm]
+adj.	暗淡的，昏暗的; 不光明的; 看不清的; （性质和特征上） 不显著的;
+vt.	（使） 变暗淡; （使） 变模糊; （使） 减弱; 变淡漠;
+n.	笨蛋，傻子;
+[例句]She stood waiting, in the dim light
+她站在昏暗的光线下等待。
+[其他]	比较级：dimmer 最高级：dimmest 第三人称单数：dims 现在分词：dimming 过去式：dimmed 过去分词：dimmed
+
 malicious	
 英[məˈlɪʃəs] 美[məˈlɪʃəs]
 adj.	恶意的，有敌意的; 蓄意的; 预谋的; 存心不良的;
