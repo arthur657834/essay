@@ -27,6 +27,34 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+malicious	
+英[məˈlɪʃəs] 美[məˈlɪʃəs]
+adj.	恶意的，有敌意的; 蓄意的; 预谋的; 存心不良的;
+[例句]That might merely have been malicious gossip
+那也许仅仅是些不怀好意的流言蜚语罢了。
+
+obfuscate	
+英[ˈɒbfʌskeɪt] 美[ˈɑ:bfʌskeɪt]
+vt.	使模糊，使混乱; 使糊涂;
+[例句]They are obfuscating the issue, as only insurance companies can
+他们在此问题上混淆视听，这事只有保险公司才做得出来。
+[其他]	第三人称单数：obfuscates 现在分词：obfuscating 过去式：obfuscated 过去分词：obfuscated
+
+repudiate	
+英[rɪˈpju:dieɪt] 美[rɪˈpjudiˌeɪt]
+vt.	拒绝接受; （正式地） 否认; 拒绝与…往来; 拒不履行（法律义务）;
+[例句]Leaders urged people to turn out in large numbers to repudiate the violence
+领导们力劝人们集体出面反对暴力。
+[其他]	第三人称单数：repudiates 现在分词：repudiating 过去式：repudiated 过去分词：repudiated
+
+combine	
+英[kəmˈbaɪn] 美[kəmˈbaɪn]
+v.	使结合; 使化合; 兼有; 用联合收割机收割;
+n.	联合; 联合收割机; 联合集团; 组合艺术品（由画，拼贴和构成派雕塑等拼凑而成的艺术品）;
+[例句]The Church has something to say on how to combine freedom with responsibility
+教会想就如何把自由与责任结合起来发表一下意见。
+[其他]	第三人称单数：combines 现在分词：combining 过去式：combined 过去分词：combined
+
 forensic	
 英[fəˈrensɪk] 美[fəˈrɛnsɪk,-zɪk]
 adj.	法庭的，法院的; 公开辩论的，论争的; 适于法庭的;
