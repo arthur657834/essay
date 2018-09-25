@@ -560,6 +560,33 @@ dextro
 英['dekstrəʊ] 美['dekstroʊ]
 n.	右旋性的;
 
+feasible	
+英[ˈfi:zəbl] 美[ˈfizəbəl]
+adj.	可行的; 可用的; 可实行的; 可能的;
+[例句]She questioned whether it was feasible to stimulate investment in these regions
+她对在这些地区刺激投资是否可行表示怀疑。
+
+clench	
+英[klentʃ] 美[klɛntʃ]
+vt.	紧握，抓紧; 钉牢; [航海] 系紧：用绳结捆绑;
+n.	抓紧，咬紧; 抓紧用具;
+[例句]Alex clenched her fists and gritted her teeth
+亚历克丝攥紧拳头，牙咬得咯咯响。
+[其他]	第三人称单数：clenches 现在分词：clenching 过去式：clenched 过去分词：clenched
+
+soluble	
+英[ˈsɒljəbl] 美[ˈsɑ:ljəbl]
+adj.	[化] 可溶的; 可以解决的; 可以解释的; [数] 可解的;
+[例句]Uranium is soluble in sea water.
+铀可溶解于海水。
+
+hierarchy	
+英[ˈhaɪərɑ:ki] 美[ˈhaɪərɑ:rki]
+n.	[计] 分层，层次; 等级制度; 统治集团; 天使的级别或等级;
+[例句]Like most other American companies with a rigid hierarchy, workers and managers had strictly defined duties
+和其他多数拥有严格等级制度的美国公司一样，这里的工人和管理人员都有界定严格的职责。
+
+
 
 
 ```
