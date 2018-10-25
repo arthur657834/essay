@@ -27,6 +27,136 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+incubate
+英[ˈɪŋkjubeɪt]
+美[ˈɪnkjəˌbet, ˈɪŋ-]
+vt.	孵化; 培育;
+vt.	孵（卵）; <医>潜伏; 逐渐形成; 潜伏在体内;
+[例句]The birds returned to their nests and continued to incubate the eggs.
+鸟儿回到巢里继续孵卵。
+[其他]	第三人称单数：incubates 现在分词：incubating 过去式：incubated 过去分词：incubated
+
+citadel	
+英[ˈsɪtədəl] 美[ˈsɪtədəl, -ˌdɛl]
+n.	城堡，要塞; 大本营，根据地，避难所; （军舰上的） 炮廓;
+[例句]The citadel at Besan ç on towered above the river.
+贝桑松的城堡高高地耸立在河边。
+[其他]	复数：citadels
+
+ancestors	
+英['ænsestəz] 美['ænsestəz]
+n.	祖宗; 祖先( ancestor的名词复数 ); 原型; （动物的） 原种;
+[例句]Diplomacy was in his blood: his ancestors had been feudal lords
+他天生擅长交际：他的祖先曾是封建领主。
+[其他]	原型： ancestor
+
+culprit	
+英[ˈkʌlprɪt] 美[ˈkʌlprɪt]
+n.	犯人，罪犯; 肇事者，被告人;
+[例句]All the men were being deported even though the real culprits in the fight have not been identified.
+尽管真凶尚未查出，所有参与斗殴的男子均被驱逐出境。
+[其他]	复数：culprits
+
+adopt	
+英[əˈdɒpt] 美[əˈdɑ:pt]
+vt.	收养; 采用，采取，采纳; 正式接受，接受; 批准;
+[例句]Parliament adopted a resolution calling for the complete withdrawal of troops
+议会采纳了要求全部撤军的决议。
+[其他]	第三人称单数：adopts 现在分词：adopting 过去式：adopted 过去分词：adopted
+
+adapt	
+英[əˈdæpt] 美[əˈdæpt]
+vi.	适应于，适应不同情况（或环境）(to);
+vt.	改编，改写; 改变…以适合(for);
+[例句]The world will be different, and we will have to be prepared to adapt to the change
+世界会变得不同，我们必须做好准备以适应其变化。
+[其他]	第三人称单数：adapts 现在分词：adapting 过去式：adapted 过去分词：adapted
+
+insufficient
+英[ˌɪnsəˈfɪʃnt] 美[ˌɪnsəˈfɪʃənt]
+adj.	不足的，不够的; 绌; 亏短; 支绌;
+[例句]He decided there was insufficient evidence to justify criminal proceedings
+他认定证据不充分无法提起刑事诉讼。
+
+hystrix	
+英[hɪst'rɪks] 美[hɪst'rɪks]
+[词典]	[医] 高起[鱼] 鳞癣;
+[例句]Genetic diversity of Castanopsis hystrix germplasm resources by ISSR and cluster analysis
+优良红锥种质资源遗传多样性的ISSR分析与聚类
+
+cog	
+英[kɒg] 美[kɑ:g]
+vt.	（用假骰子） 欺骗，行贿; （大机构中的） 无足轻重的成员;
+n.	钝齿; 雄榫;
+[例句]Mr Lake was an important cog in the Republican campaign machine.
+莱克先生是共和党竞选机器中一枚重要的螺丝钉。
+[其他]	第三人称单数：cogs 复数：cogs 现在分词：cogged 过去式：cogged 过去分词：cogged
+
+granular	
+英[ˈgrænjələ(r)] 美[ˈɡrænjəlɚ]
+adj.	颗粒状的;
+[例句]The granular sludge and their microbial morphology were observed by SEM.
+同时，对颗粒污泥性质及微生物相变化进行了跟踪分析。
+
+sludge	
+英[slʌdʒ] 美[slʌdʒ]
+n.	泥浆，烂泥; 沉淀物; 泥状雪;
+v.	清除污泥;
+[例句]All dumping of sludge will be banned by 1998.
+从1998年起，将禁止所有倾倒淤泥的行为。
+[其他]	第三人称单数：sludges 复数：sludges 现在分词：sludging 过去式：sludged 过去分词：sludged
+
+compliant	
+英[kəmˈplaɪənt] 美[kəmˈplaɪənt]
+adj.	遵从的; 依从的; （与系列规则相） 符合的; 一致的;
+[例句]She was much naughtier than her compliant brother.
+她哥哥很听话，她却调皮得多。
+
+complain
+英 [kəmˈpleɪn]   美 [kəmˈplen]  
+vi.
+抱怨，诉苦;申诉，控诉，抗议
+vt.
+诉说，申诉，控告[后面常跟从句]
+
+grumble	
+英[ˈgrʌmbl] 美[ˈɡrʌmbəl]
+vi.	抱怨; 发牢骚; 嘟囔; （雷等） 隆隆响;
+vt.	喃喃地说出;
+n.	抱怨; 牢骚; 咕哝; （雷等的） 隆隆声;
+[例句]I shouldn't grumble about Mum — she's lovely really
+我不该抱怨妈妈——她真的很好。
+[其他]	第三人称单数：grumbles 现在分词：grumbling 过去式：grumbled 过去分词：grumbled
+
+tenure	
+英[ˈtenjə(r)] 美[ˈtɛnjɚ, -ˌjʊr]
+n.	占有（职位，不动产等）; 占有期; 终身职位;
+[例句]Lack of security of tenure was a reason for many families becoming homeless.
+居住权得不到保证是许多家庭居无定所的一个原因。
+
+
+delicate	
+英[ˈdelɪkət] 美[ˈdɛlɪkɪt]
+adj.	微妙的; 熟练的; 纤弱的; 易损的;
+[例句]He had delicate hands.
+他有一双纤细的手。
+
+
+toolkit	英[ˈtu:lkɪt]
+n.	工具包，工具箱;
+[例句]This toolkit is a collection of advice and information that farmers in southern Africa have been testing.
+工具包收集了经过南部非洲农民测试的建议和信息。
+
+
+mesh	英[meʃ]
+美[mɛʃ]
+n.	网孔，网眼，网状物; 陷阱，困境; [机] （齿轮的） 啮合;
+vt.	（使） 吻合; 相配，匹配; 用网捕，使缠住; 紧密配合;
+vi.	（机器零件） 啮合;
+[例句]The ground-floor windows are obscured by wire mesh.
+一楼的窗户装有防盗网。
+[其他]	第三人称单数：meshes 复数：meshes 现在分词：meshing 过去式：meshed 过去分词：meshed
+
 
 tantalizing
 英['tæntəlaɪzɪŋ] 美[ˈtæntl:aɪzɪŋ]
