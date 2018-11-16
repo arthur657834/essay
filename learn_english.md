@@ -27,6 +27,74 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+semantic	
+英[sɪˈmæntɪk] 美[sɪˈmæntɪk]
+adj.	<语>语义的，语义学的;
+[例句]He did not want to enter into a semantic debate.
+他不想就语义进行争辩。
+
+scavenge	
+英[ˈskævɪndʒ] 美[ˈskævəndʒ]
+vt.	清除污物，打扫; （在废物中） 寻觅; （动物） 食腐肉;
+[例句]Many are orphans, their parents killed as they scavenged for food
+很多人是孤儿，他们的父母在垃圾中找吃的时丢了性命。
+[其他]	第三人称单数：scavenges 现在分词：scavenging 过去式：scavenged 过去分词：scavenged
+
+concise	
+英[kənˈsaɪs] 美[kənˈsaɪs]
+adj.	简约; 简明的，简洁的; 精炼;
+[例句]Burton's text is concise and informative
+伯顿的文章语言简洁，信息丰富。
+
+mortem	
+[词典]	事后剖析;
+[例句]Methods: Strictly nursing procedures in critically ill patients sputum suction mortem mirror the clinical effect of lavage observations.
+方法：严格护理操作在危重患者纤支镜吸痰灌洗的临床效果观察。
+
+proverb	
+英[ˈprɒvɜ:b] 美[ˈprɑ:vɜ:rb]
+n.	谚语，格言; 话柄，笑柄; 人人知道的事情，有名的事情; 俚谚剧，俚谚游戏;
+[例句]An old Arab proverb says, 'The enemy of my enemy is my friend'.
+一句古老的阿拉伯谚语说，“敌人的敌人是朋友。”
+[其他]	复数：proverbs
+
+idiom	
+英[ˈɪdiəm] 美[ˈɪdiəm]
+n.	习语，成语; 方言，土语; （语言） 风格; 惯用语法;
+[例句]McCartney was also keen to write in a classical idiom, rather than a pop one
+麦卡特尼也热衷于古典风格而不是通俗风格的创作。
+[其他]	复数：idioms
+
+hula	
+英['hu:lə] 美['hu:lə]
+n.	呼拉圈舞，草裙舞;
+[例句]I like sports. I can play, I can play hula hoop.
+我喜欢运动。我会玩，我会玩呼啦圈。
+
+originate
+英[əˈrɪdʒɪneɪt] 美[əˈrɪdʒəˌnet]
+vt.	引起; 创始，创作; 开始，发生; 发明;
+vi.	产生; 起源于，来自; 起航;
+[例句]The disease originated in Africa
+这种病源于非洲。
+[其他]	第三人称单数：originates 现在分词：originating 过去式：originated 过去分词：originated
+
+traverse	
+英[trəˈvɜ:s] 美[trəˈvɜ:rs]
+n.	穿过; 横贯，横切; 横木; [建] 横梁;
+vt.	通过; 横越，横贯; [法] 否认，反驳; [木工] 横刨;
+vi.	横越; 来回移动; 旋转;
+[例句]I traversed the narrow pedestrian bridge.
+我走过狭窄的人行天桥。
+[其他]	第三人称单数：traverses 现在分词：traversing 过去式：traversed 过去分词：traversed
+
+kludge	英[klu:dʒ]
+美[kludʒ]
+n.	杂牌电脑，组装（计算）机;
+[例句]Isn't this just another kludge to try and emulate real desktop GUI application capabilities?
+这是不是一种临时搭配，以尝试和模拟真正的桌面GUI应用程序功能？
+[其他]	复数：kludges
+
 incubate
 英[ˈɪŋkjubeɪt]
 美[ˈɪnkjəˌbet, ˈɪŋ-]
