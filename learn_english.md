@@ -27,6 +27,35 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+cognitive	
+英[ˈkɒgnətɪv] 美[ˈkɑ:gnətɪv]
+adj.	认知的; 认识的;
+[例句]As children grow older, their cognitive processes become sharper.
+孩子们越长越大，他们的认知过程变得更为敏锐。
+
+histogram	
+英[ˈhɪstəgræm] 美[ˈhɪstəˌɡræm]
+n.	柱状图;
+[例句]In this paper, a method for image signature based on histogram is put forward.
+提出了一种基于直方图的图像签名方法。
+
+hoist	
+英[hɔɪst] 美[hɔɪst]
+vt.	升起，提起;
+vi.	被举起或抬高;
+n.	升起; 起重机，升降机; <俚>推，托，举;
+[例句]Hoisting my suitcase on to my shoulder, I turned and headed toward my hotel
+我把手提箱扛到肩上，转身向入住的旅馆走去。
+[其他]	第三人称单数：hoists 现在分词：hoisting 过去式：hoisted 过去分词：hoisted
+
+derived	
+英[dɪ'raɪvd] 美[dɪ'raɪvd]
+vi.	衍生; 导出; 起源; 由来;
+v.	得到( derive的过去式和过去分词 ); （从…中） 得到获得; 源于; （从…中） 提取;
+[例句]Many English words are derived from Latin and Greek words.
+许多英语词是从拉丁词和希腊词派生而来的。
+
+
 semantic	
 英[sɪˈmæntɪk] 美[sɪˈmæntɪk]
 adj.	<语>语义的，语义学的;
