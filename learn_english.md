@@ -27,6 +27,63 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+wrapper	
+英[ˈræpə(r)] 美[ˈræpɚ]
+n.	包装纸; 封套; 封皮; （食品等的） 包装材料;
+[例句]I emptied the sweet wrappers from the ashtray.
+我把烟灰缸里的糖纸倒掉。
+[其他]	复数：wrappers
+
+ashtray	
+英[ˈæʃtreɪ] 美[ˈæʃˌtre]
+n.	烟灰缸;
+[例句]I emptied the ashtray
+我把烟灰缸倒空了。
+[其他]	复数：ashtrays
+
+relevant	
+英[ˈreləvənt] 美[ˈrɛləvənt]
+adj.	有关的，中肯的; 相关联的; 确切的; 有重大意义[作用]的，实质性的;
+[例句]We are trying to make politics more relevant to younger people.
+我们试图使政治活动更加贴近年轻人。
+
+additional	
+英[əˈdɪʃənl] 美[ə'dɪʃənl]
+adj.	补充; 额外的，附加的; 另外的，追加的; 外加;
+[例句]The US is sending additional troops to the region
+美国正向该地区增兵。
+
+suppress	
+英[səˈpres] 美[səˈprɛs]
+vt.	镇压，压制; 止住，忍住; 禁止发表; 阻止…的生长（或发展）;
+[例句]The reproduction and growth of the cancerous cells can be suppressed by bombarding them with radiation.
+可以通过放疗杀死癌细胞来抑制其再生和扩散。
+[其他]	第三人称单数：suppresses 现在分词：suppressing 过去式：suppressed 过去分词：suppressed
+
+revamp	
+英[ˌri:ˈvæmp] 美[riˈvæmp]
+vt.	将（某物）更新，翻新; 修补，修改; 修理;
+n.	改进; 换新鞋面;
+[例句]All Italy's political parties have accepted that it is time to revamp the system
+所有的意大利政党都已经承认现在是时候对体制进行改组了。
+[其他]	第三人称单数：revamps 复数：revamps 现在分词：revamping 过去式：revamped 过去分词：revamped
+
+
+obsolete	
+英[ˈɒbsəli:t] 美[ˌɑ:bsəˈli:t]
+adj.	废弃的; 老式的，已过时的; [生] 已废退的;
+n.	废词; 被废弃的事物;
+vt.	淘汰; 废弃;
+[例句]So much equipment becomes obsolete almost as soon as it's made.
+这么多设备几乎一生产出来就要被淘汰。
+[其他]	第三人称单数：obsoletes 现在分词：obsoleting 过去式：obsoleted 过去分词：obsoleted
+
+insufficient
+英[ˌɪnsəˈfɪʃnt]
+美[ˌɪnsəˈfɪʃənt]
+adj.	不足的，不够的; 绌; 亏短; 支绌;
+[例句]He decided there was insufficient evidence to justify criminal proceedings
+他认定证据不充分无法提起刑事诉讼。
 
 conduit	英[ˈkɒndjuɪt]
 美[ˈkɑ:nduɪt]
