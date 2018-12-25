@@ -27,6 +27,336 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+
+conduit	英[ˈkɒndjuɪt]
+美[ˈkɑ:nduɪt]
+n.	[电] 导管; 水道，沟渠;
+[例句]Pakistan became a conduit for drugs produced in Afghanistan.
+巴基斯坦成了阿富汗毒品的贩运通道。
+[其他]	复数：conduits
+
+disorder	
+英[dɪsˈɔ:də(r)] 美[dɪsˈɔ:rdə(r)]
+n.	混乱，凌乱; 动乱，骚乱; 不正当行为; （身心机能的） 失调;
+vt.	使混乱，使凌乱; 扰乱; 使（身心等）失调; 使（神经等）错乱;
+[例句]He appeared to be suffering from a severe mental disorder and had served a term in prison.
+他看上去患有严重的精神疾病，而且坐过牢。
+[其他]	复数：disorders
+
+faux	
+英[fəʊ] 美[foʊ]
+adj.	人造的; <法>假的; 伪的; 人工的;
+[例句]It was not long before I realised the enormity of my faux pas.
+没过多久，我就意识到自己有多么失态。
+
+faux pas	
+英[ˌfəʊ ˈpɑ:] 美[ˌfoʊ ˈpɑ:]
+n.	失礼，失言;
+
+enormity	
+英[ɪˈnɔ:məti] 美[ɪˈnɔ:rməti]
+n.	巨大; 穷凶极恶; 弥天大罪; 极大;
+[例句]I was numbed by the enormity of the responsibility
+责任之大让我惊慌失措。
+[其他]	复数：enormities
+
+
+obsolete	
+英[ˈɒbsəli:t] 美[ˌɑ:bsəˈli:t]
+adj.	废弃的; 老式的，已过时的; [生] 已废退的;
+n.	废词; 被废弃的事物;
+vt.	淘汰; 废弃;
+[例句]So much equipment becomes obsolete almost as soon as it's made.
+这么多设备几乎一生产出来就要被淘汰。
+[其他]	第三人称单数：obsoletes 现在分词：obsoleting 过去式：obsoleted 过去分词：obsoleted
+
+
+jargon	
+英[ˈdʒɑ:gən] 美[ˈdʒɑ:rgən]
+n.	行话; 行业术语; 黑话;
+[例句]The manual is full of the jargon and slang of self-improvement courses.
+手册里满是有关自修课程的行话术语。
+[其他]	复数：jargons
+
+
+exact	
+英[ɪgˈzækt] 美[ɪɡˈzækt]
+adj.	准确的; 严密的; 精密的，精确的;
+vt.	要求; 苛求; 迫使; 强求;
+[例句]I don't remember the exact words
+我不记得确切的话语。
+[其他]	比较级：exacter 最高级：exactest 第三人称单数：exacts 现在分词：exacting 过去式：exacted 过去分词：exacted
+
+
+permute	
+英[pə'mju:t] 美[pə'mju:t]
+v.	序列改变;
+[例句]Application of Permute Matrix in the Commutation of Tensor Products of Matrices
+换位矩阵在矩阵张量积交换中的应用
+[其他]	第三人称单数：permutes 现在分词：permuting 过去式：permuted 过去分词：permuted
+
+
+pore	
+英[pɔ:(r)] 美[pɔr, por]
+n.	毛孔; 气孔; 细孔;
+vi.	细看; 钻研; 凝视;
+[例句]The size of your pores is determined by the amount of oil they produce.
+毛孔大小取决于其出油多少。
+[其他]	第三人称单数：pores 现在分词：poring 过去式：pored 过去分词：pored
+
+texture	
+英[ˈtekstʃə(r)] 美[ˈtɛkstʃɚ]
+n.	质地; 结构; 本质;
+v.	使具有某种结构;
+[例句]Aloe Vera is used in moisturisers to give them a wonderfully silky texture
+芦荟用于润肤霜中，使之具有美妙的丝般润滑感。
+[其他]	第三人称单数：textures 复数：textures 现在分词：texturing 过去式：textured 过去分词：textured
+
+fickle	
+英[ˈfɪkl] 美[ˈfɪkəl]
+adj.	浮躁的; 薄情的; （爱情、友谊等） 易变的，无常的;
+[例句]The group has been notoriously fickle in the past.
+这伙人过去一直是出了名的善变。
+[其他]	比较级：fickler 最高级：ficklest
+
+millennial	
+英[mɪ'lenɪəl] 美[mɪ'lenɪrl]
+adj.	一千年的，千福年的;
+[例句]You have often talked about the "millennial" customer, the digital generation.
+你经常谈及“千禧年”客户，也就是数字化的一代。
+
+
+by-product
+英[baɪ 'prɒdʌkt] 美[ˈbaɪˌprɑdəkt]
+n.	副产品; 副作用; 意外结果;
+[例句]The raw material for the tyre is a by-product of petrol refining.
+制造轮胎的原材料是提炼汽油时产生的一种副产品。
+[其他]	复数：by-products
+
+veil	
+英[veɪl] 美[vel]
+n.	面纱; 掩饰; 覆盖物; 托词;
+vt.	用面纱遮盖; 掩饰; 用帷幕分隔; 隐匿;
+[例句]She's got long fair hair but she's got a veil over it
+她有一头金色的长发，但她用头巾包住了。
+[其他]	第三人称单数：veils 复数：veils 现在分词：veiling 过去式：veiled 过去分词：veiled
+
+spine	
+英[spaɪn] 美[spaɪn]
+n.	脊柱; 脊椎; 书脊; （动植物的） 刺;
+[例句]Her spine curved
+她的脊柱弯曲了。
+[其他]	复数：spines
+
+chamber	
+英[ˈtʃeɪmbə(r)] 美[ˈtʃembɚ]
+n.	室，卧室，会客室; 内庭; [多用于英国] 律师的办公室; 议事厅;
+vt.	限制，幽禁，封闭或限制; 使备有房间;
+[例句]We are going to make sure we are in the council chamber every time he speaks.
+每次他发表讲话我们都会确保赶到市议会会议厅去。
+
+commerce	
+英[ˈkɒmɜ:s] 美[ˈkɑ:mɜ:rs]
+n.	商务; 商业; 贸易;
+[例句]They have made their fortunes from industry and commerce.
+他们靠工商业发了财。
+[其他]	复数：commerces
+
+mild	
+英[maɪld] 美[maɪld]
+adj.	轻微的; 温柔的; 温暖的; （味道） 不浓的;
+n.	淡味麦芽啤酒;
+[例句]Teddy turned to Mona with a look of mild confusion
+泰迪表情略带困惑地向莫娜求助。
+[其他]	比较级：milder 最高级：mildest
+
+bouncy	
+英[ˈbaʊnsi] 美[ˈbaʊnsi]
+adj.	快活的; 有弹性的; 精神的; 自大的;
+[例句]She was bouncy and full of energy.
+她朝气蓬勃，充满活力。
+
+regime	
+英[reɪˈʒi:m] 美[reˈʒim, rɪ-]
+n.	政治制度，政权，政体; 管理，方法; [医] 养生法; （病人等的） 生活规则;
+[例句]Pujol was imprisoned and tortured under the Franco regime.
+普约尔在佛朗哥政权统治时期受到了监禁和折磨。
+[其他]	复数：regimes
+
+chronic	
+英[ˈkrɒnɪk] 美[ˈkrɑ:nɪk]
+adj.	慢性的; 长期的; 习惯性的; 痼;
+[例句]Anyone who does not believe that smoking is an addiction has never been a chronic smoker.
+不相信抽烟能上瘾的人肯定不是老烟民。
+
+hunchback	
+英[ˈhʌntʃbæk] 美[ˈhʌntʃˌbæk]
+n.	驼背，驼背者;
+[例句]She must be a hunchback or ugly.
+她不是驼背就是长的丑。
+[其他]	复数：hunchbacks
+
+hunch	
+英[hʌntʃ] 美[hʌntʃ]
+n.	预感，直觉; 肉峰;
+v.	隆起; 向前移动;
+[例句]I had a hunch that Susan and I would work well together
+我有预感和苏珊共事会很融洽。
+[其他]	第三人称单数：hunches 复数：hunches 现在分词：hunching 过去式：hunched 过去分词：hunched
+
+cohesion	
+英[kəʊˈhi:ʒn] 美[koʊˈhi:ʒn]
+n.	凝聚，内聚; （各部的） 结合; [力] 内聚力; [植] 连着;
+[例句]By 1990, it was clear that the cohesion of the armed forces was rapidly breaking down
+显然，到1990年时，武装部队的凝聚力正迅速瓦解。
+
+puddle	
+英[ˈpʌdl] 美[ˈpʌdl]
+n.	水坑; 胶土;
+vt.	使泥泞; 把…做成胶土; 搅炼;
+vi.	搅泥浆;
+[例句]The road was shiny with puddles, but the rain was at an end.
+马路上到处是水洼，闪着光，不过雨停了。
+[其他]	复数：puddles
+
+burial	
+英[ˈberiəl] 美[ˈbɛriəl]
+n.	葬礼; 葬，掩埋;
+[例句]The priest prepared the body for burial
+牧师给死者作安葬准备。
+[其他]	复数：burials
+
+
+cremate	
+英[krəˈmeɪt] 美[ˈkriˌmet,krɪˈmet]
+vt.	烧成灰; 火葬，火化;
+[例句]She wants Chris to be cremated.
+她想把克里斯的尸体火化。
+[其他]	第三人称单数：cremates 现在分词：cremating 过去式：cremated 过去分词：cremated
+
+veteran	
+英[ˈvetərən] 美[ˈvɛtərən]
+n.	退伍军人; 经验丰富的人，老兵;
+adj.	老兵的; 有作战经验的; [美国英语] 退伍军人的; 老练的，资深的，经验丰富的;
+[例句]They approved a$ 1.1 billion package of pay increases for the veterans of the Persian Gulf War.
+他们通过了对参加过波斯湾战争的老兵增发共计11亿美元的一揽子提案。
+[其他]	复数：veterans
+
+Elysium	
+英[iˈliziəm] 美[ɪˈlɪziəm, ɪˈlɪʒ-]
+n.	极乐世界，至福之境;
+[例句]I am very excited for the upcoming release of my new album ELYSIUM that is full of great and uplifting songs and to tour your beautiful country.
+我很高兴为我的新专辑即将发行的极乐世界的伟大和令人振奋的歌曲，充分和参观你们美丽的国家。
+
+orbit	
+英[ˈɔ:bɪt] 美[ˈɔ:rbɪt]
+n.	轨道; 眼眶; 势力范围; （人生的） 旅程，生活过程;
+vt.	在…轨道上运行，环绕轨道运行;
+vi.	盘旋; 绕轨道运行;
+[例句]Mars and Earth have orbits which change with time
+火星与地球的运行轨道随着时间而变化。
+[其他]	第三人称单数：orbits 复数：orbits 现在分词：orbiting 过去式：orbited 过去分词：orbited
+
+falcon	
+英[ˈfɔ:lkən] 美[ˈfælkən]
+n.	猎鹰;
+[例句]The shooting of The Maltese Falcon proceeded without a hitch.
+《马耳他之鹰》的拍摄进展顺利。
+[其他]	
+
+
+possum	
+英[ˈpɒsəm] 美[ˈpɑ:səm]
+n.	负鼠;
+vi.	装死;
+[例句]This morning I woke up a possum.
+今天早上醒来我还是负鼠。
+[其他]	复数：possums
+
+viral	
+英[ˈvaɪrəl] 美[ˈvaɪrəl]
+adj.	病毒的，病毒引起的;
+[例句]Two types of viral symmetry have been recognized, the cubical symmetry and helical symmetry.
+已经证实病毒有两种对称型，即立体对称和螺旋对称。
+to go viral 像病毒一样传播开来 ; 像病毒一样迅速在网上传播
+
+
+tipple	
+英[ˈtɪpl] 美[ˈtɪpəl]
+n.	致醉的饮料，烈酒;
+v.	不断喝，饮烈酒;
+[例句]My favourite tipple is a glass of port.
+我最喜欢喝的酒是波尔图葡萄酒。
+[其他]	复数：tipples
+
+entice	
+英[ɪnˈtaɪs] 美[ɛnˈtaɪs]
+vt.	诱惑; 怂恿;
+[例句]Retailers have tried almost everything to entice shoppers through their doors
+零售商们几乎尝试了所有办法以吸引购物者进入商店。
+[其他]	第三人称单数：entices 现在分词：enticing 过去式：enticed 过去分词：enticed
+
+spaghetti	
+英[spəˈgeti] 美[spəˈɡɛti]
+n.	意大利面条; [电] 漆布绝缘管;
+[例句]Nicholas ate a dish of spaghetti.
+尼古拉斯吃了一盘意大利面条。
+
+
+grunge	
+英[grʌndʒ] 美[ɡrʌndʒ]
+n.	<美俚>蹩脚货，难看的东西; 难看的或乏味的东西;
+[例句]I used the Grunge Corner Brush Pack to help me accomplish that.
+我用了垃圾角刷包，以帮助我做到这一点。
+
+
+calumniate	
+英[kə'lʌmnɪeɪt] 美[kəˈlʌmniˌet]
+vt.	诽谤，中伤;
+[例句]Ascend the wave son to strictly forbid in to cause disturbance wildly for the and calumniate without restraint.
+对于骄狂登徒浪子严禁进入捣乱和肆意诽谤。
+[其他]	第三人称单数：calumniates 现在分词：calumniating 过去式：calumniated 过去分词：calumniated
+
+flavour	
+英[ˈfleɪvə(r)] 美[ˈflevɚ]
+n.	风味，情趣; 味，滋味; 香味，气味;
+vt.	给…添风味[添情趣，添风趣]; 给…增加香气; 给…调味;
+[例句]This cheese has a crumbly texture with a strong flavour
+这种奶酪口感松脆，味道浓郁。
+[其他]	第三人称单数：flavours 复数：flavours 现在分词：flavouring 过去式：flavoured 过去分词：flavoured
+
+symptoms	
+英['sɪmptəmz] 美['sɪmptəmz]
+n.	征兆; 症状( symptom的名词复数 );
+[例句]Symptoms are a slight fever, headache and loss of appetite.
+症状包括低烧、头痛和食欲不振。
+[其他]	原型： symptom
+
+
+doggone	
+英[ˈdɒgɒn] 美[ˈdɔ:gɔ:n]
+adj.	可憎的，可恶的;
+adv.	非常，极端地;
+int.	畜生！他妈的！;
+[例句]Of course, if you don't dare, I don't give a doggone.
+当然了，如果你不敢，也不关我事。
+
+concerto
+英[kənˈtʃɜ:təʊ]
+美[kənˈtʃɜ:rtoʊ]
+n.	协奏曲;
+[例句]Mary, at the end of a long concerto, was glad to purchase praise and gratitude by Scotch and Irish airs.
+曼丽奏完了很长的一支协奏曲之后，高兴地演奏了几支苏格兰和爱尔兰小调，为的是要博得别人的夸赞和感激。
+[其他]	复数：concertos
+
+lullaby	
+英[ˈlʌləbaɪ] 美[ˈlʌləˌbaɪ]
+n.	摇篮曲，催眠曲;
+[例句]Place your baby in her seat and play her a lullaby
+把宝宝放到座位上，给她弹一首摇篮曲。
+[其他]	复数：lullabies
+
+
 cognitive	
 英[ˈkɒgnətɪv] 美[ˈkɑ:gnətɪv]
 adj.	认知的; 认识的;
