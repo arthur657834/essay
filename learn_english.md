@@ -27,6 +27,93 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+enlist	
+英[ɪnˈlɪst] 美[ɛnˈlɪst]
+vt.	征募; 赢得…的支持或合作; 赞助;
+vi.	应募，入伍; 积极参与;
+[例句]Michael Hughes of Lackawanna, Pennsylvania, enlisted in the 82nd Airborne 20 years ago
+来自宾夕法尼亚州拉克万纳的迈克尔·休斯20年前参军，在第82空降师服役。
+[其他]	第三人称单数：enlists 现在分词：enlisting 过去式：enlisted 过去分词：enlisted
+
+
+triage	
+英[ˈtri:ɑ:ʒ] 美[tri:ˈɑ:ʒ]
+n.	治疗类选法（根据紧迫性和救活的可能性等在战场上决定哪些人优先治疗的方法）;
+[例句]Who has been assigned the latest change request introduced in the triage meeting?
+谁分配到了由分类会议中引出的最近的变更请求？
+
+photon	
+英[ˈfəʊtɒn] 美[ˈfoʊtɑ:n]
+n.	<物>光子，光量子;
+[例句]This is the energy of an ultraviolet photon, a "large" energy on the atomic scale.
+这是一个紫外光子的能量，在原子尺度上，它是一个“大”能量。
+[其他]	复数：photons
+
+demonstration
+英[ˌdemənˈstreɪʃn] 美[ˌdɛmənˈstreʃən]
+n.	示范; 证明; 游行示威; 表露;
+[例句]Riot police broke up a demonstration by students.
+防暴警察驱散了示威的学生。
+[其他]	复数：demonstrations
+
+literal	 计算机中表示字面常量
+英[ˈlɪtərəl] 美[ˈlɪtərəl]
+adj.	照字面的; 原义的; 逐字的; 平实的，避免夸张;
+n.	[印] 错排，文字上的错误;
+[例句]In many cases, the people there are fighting, in a literal sense, for their homes.
+很多情况下，那里的人们是真刀真枪地在为家园而抗争。
+
+
+pragma	
+英[p'ræɡmə] 美[p'ræɡmə]
+[词典]	杂注; 编译指示;
+[例句]Learn to use warning pragma to enable and disable code analysis warnings.
+了解如何使用警告杂注来启用和禁用代码分析警告。
+
+
+vanilla	
+英[vəˈnɪlə] 美[vəˈnɪlə]
+n.	香子兰，香草; 香子兰荚; 香子兰精，香草精;
+adj.	香草的; 香草味的; 相对没有新意的，普通的;
+[例句]I added a dollop of vanilla ice-cream to the pie.
+我在馅饼里加了一块香草冰激凌。
+[其他]	复数：vanillas
+
+idiomatic
+英[ˌɪdiəˈmætɪk] 美[ˌɪdiəˈmætɪk]
+adj.	符合语言习惯的，成语的; 含有习语的;
+adv.	符合语言习惯地;
+n.	符合语言习惯;
+[例句]English is a language abounding with idiomatic expressions.
+英语是一种习用语极其丰富的语言。
+
+
+husk	
+英[hʌsk] 美[hʌsk]
+n.	外皮，荚，壳;
+[例句]If you're in China, you might use a rice husk or a cottonseed hull.
+如果你在中国，你可以使用稻壳或者棉籽壳。
+[其他]	复数：husks
+
+
+husky	
+英[ˈhʌski] 美[ˈhʌski]
+adj.	强壮的; 嗓子哑的; 有壳的;
+n.	哈士奇; 强壮结实的人;
+[例句]His voice was husky with grief.
+他因伤心而声音沙哑。
+[其他]	比较级：huskier 最高级：huskiest 复数：huskies
+
+
+hull	
+英[hʌl] 美[hʌl]
+n.	外壳; 果皮，外皮; [航海] 船壳，船体;
+vt.	去（谷物、豆等的）壳;
+[例句]The hull had suffered extensive damage to the starboard side.
+船体右舷遭到重创。
+[其他]	第三人称单数：hulls 复数：hulls 现在分词：hulling 过去式：hulled 过去分词：hulled
+
+
 
 compound	英[ˈkɒmpaʊnd]
 美[ˈkɑ:mpaʊnd]
