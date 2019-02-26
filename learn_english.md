@@ -27,6 +27,146 @@ It was all cut and dried - the same old speakers saying the same things they sai
 
 chairman of the board: 董事长
 
+
+compound	英[ˈkɒmpaʊnd]
+美[ˈkɑ:mpaʊnd]
+n.	复合物; 场地; （筑有围墙的） 院子; 复合词;
+vt.	调和; 使混合; 使严重; 调停;
+adj.	复合; [语法学] （句子） 复合的; 合成的; 多功能的;
+[例句]Police fired on them as they fled into the embassy compound.
+当他们逃进使馆大院时，警察向他们开了枪。
+[其他]	第三人称单数：compounds 复数：compounds 现在分词：compounding 过去式：compounded 过去分词：compounded
+
+
+compatibility
+英[kəmˌpætəˈbɪləti]
+美[kəmˌpætəˈbɪlətɪ]
+n.	适合; 互换性; 通用性; 和睦相处;
+[例句]Chamber compatibility and injector durability involve the control of the combustion environment.
+室相容性和喷注器耐久性包括对燃烧环境的控制
+
+
+commercial	英[kəˈmɜ:ʃl]
+美[kəˈmɜ:rʃl]
+adj.	商业的; 贸易的; 营利的; 靠广告收入的;
+n.	（电台或电视播放的） 广告;
+[例句]Docklands in its heyday was a major centre of industrial and commercial activity
+港区在其最繁荣的时期曾是主要的工商业活动中心。
+[其他]	复数：commercials
+
+
+bump	
+英[bʌmp] 美[bʌmp]
+vt.	颠簸; 碰撞，冲撞;
+vi.	颠簸着前进;
+n.	肿块; 碰撞，撞击; 隆起物; 鹭鸶的叫声;
+[例句]They stopped walking and he almost bumped into them
+他们停下了脚步，结果他差点儿撞到他们身上。
+[其他]	第三人称单数：bumps 复数：bumps 现在分词：bumping 过去式：bumped 过去分词：bumped
+
+chapter	
+英[ˈtʃæptə(r)] 美[ˈtʃæptɚ]
+n.	章，回; （俱乐部、协会等的） 分会; 人生或历史上的重要时期;
+vt.	把…分成章节;
+[例句]Chromium supplements were used successfully in the treatment of diabetes ( see Chapter 4)
+铬补充剂被成功运用于治疗糖尿病（见第4章）。
+[其他]	复数：chapters
+
+mechanism	
+英[ˈmekənɪzəm] 美[ˈmɛkəˌnɪzəm]
+n.	[生]机制，机能，[乐] 机理; （机械） 结构，机械装置[作用]，（故事的）结构; [艺] 手法，技巧，途径; 机械作用;
+[例句]A bomb has been detonated by a special mechanism.
+炸弹由一个专门装置引爆。
+[其他]	复数：mechanisms
+
+velocity	
+英[vəˈlɒsəti] 美[vəˈlɑ:səti]
+n.	速率，速度; 周转率; 高速，快速;
+[例句]The velocity of light is about 300000 kilometres per second.
+光速约为每秒300000公里。
+[其他]	复数：velocities
+
+
+infringe	
+英[ɪnˈfrɪndʒ] 美[ɪnˈfrɪndʒ]
+vt.	侵犯; 违反（规章等）; 侵犯（某人的权利）; 侵害（某人的自由、权益等）;
+[例句]The film exploited his image and infringed his copyright
+这部电影使用了他的形象，侵犯了他的肖像权。
+[其他]	第三人称单数：infringes 现在分词：infringing 过去式：infringed 过去分词：infringed
+
+zodiac	
+英[ˈzəʊdiæk] 美[ˈzoʊdiæk]
+n.	黄道带; 黄道十二宫图; <罕>一圈;
+[例句]She covered the walls with the signs of the zodiac.
+她在墙上贴满了十二星座的标志。
+[其他]	复数：zodiacs
+
+hierarchy	
+英[ˈhaɪərɑ:ki] 美[ˈhaɪərɑ:rki]
+n.	[计] 分层，层次; 等级制度; 统治集团; 天使的级别或等级;
+[例句]Like most other American companies with a rigid hierarchy, workers and managers had strictly defined duties
+和其他多数拥有严格等级制度的美国公司一样，这里的工人和管理人员都有界定严格的职责。
+[其他]	复数：hierarchies
+
+trophy	
+英[ˈtrəʊfi] 美[ˈtroʊfi]
+n.	纪念品，战利品; 奖品，奖杯（牌）; 胜利纪念柱; 战利品雕饰;
+adj.	显示身份或地位的; 提高身价的; 有威望的;
+[例句]He finished third in the Tote Gold Trophy.
+他在托特黄金大奖赛中获得季军。
+[其他]	复数：trophies
+
+anguish	
+英[ˈæŋgwɪʃ] 美[ˈæŋɡwɪʃ]
+n.	痛苦; 苦恼; 伤心; 令人心酸;
+vt.	使极度痛苦; 使苦恼; 悲痛万分;
+vi.	苦恼; 感到极度的痛苦;
+[例句]A cry of anguish burst from her lips
+她突然痛苦地大叫了一声。
+[其他]	第三人称单数：anguishes 现在分词：anguishing 过去式：anguished 过去分词：anguished
+
+caution	
+英[ˈkɔ:ʃn] 美[ˈkɔʃən]
+n.	警告; 小心; 〈英〉担保; 〈口〉须警惕的事或人;
+vt.	警告; 提醒;
+[例句]Extreme caution should be exercised when buying part-worn tyres
+购买部分磨损轮胎时要格外当心。
+[其他]	第三人称单数：cautions 现在分词：cautioning 过去式：cautioned 过去分词：cautioned
+
+
+initiative	
+英[ɪˈnɪʃətɪv] 美[ɪˈnɪʃətɪv]
+n.	倡议; 主动性; 主动权; 主动精神;
+adj.	自发的; 创始的; 初步的;
+[例句]Government initiatives to help young people have been inadequate
+政府在积极帮助年轻人方面做得还不够。
+[其他]	复数：initiatives
+
+defect	
+英[ˈdi:fekt] 美[ˈdiˌfɛkt, dɪˈfɛkt]
+n.	瑕疵，毛病; 欠缺，缺点;
+vi.	叛逃; 背叛;
+[例句]He was born with a hearing defect.
+他患有先天性听力缺损。
+[其他]	第三人称单数：defects 复数：defects 现在分词：defecting 过去式：defected 过去分词：defected
+
+
+dubbed	
+英['dʌbd] 美['dʌbd]
+v.	配音; 给…起绰号( dub的过去式和过去分词 ); 把…称为; 复制;
+[例句]It was dubbed into Spanish for Mexican audiences.
+它被译制成西班牙语以方便墨西哥观众观看。
+[其他]	原型： dub
+
+
+midget	
+英[ˈmɪdʒɪt] 美[ˈmɪdʒɪt]
+n.	侏儒，小矮人;
+adj.	极小的，微型的;
+[例句]I guess I'd have to go with the midget.
+我猜我只能和侏儒出去了。
+[其他]	复数：midgets
+
 wrapper	
 英[ˈræpə(r)] 美[ˈræpɚ]
 n.	包装纸; 封套; 封皮; （食品等的） 包装材料;
