@@ -1427,6 +1427,205 @@ n.	[计] 分层，层次; 等级制度; 统治集团; 天使的级别或等级;
 [例句]Like most other American companies with a rigid hierarchy, workers and managers had strictly defined duties
 和其他多数拥有严格等级制度的美国公司一样，这里的工人和管理人员都有界定严格的职责。
 
+eligible	
+英[ˈelɪdʒəbl] 美[ˈelɪdʒəbl]
+adj.	有资格的; 合格的; 具备条件的; (指认为可做夫妻的男女) 合意的，合适的，中意的;
+[例句]Almost half the population are eligible to vote in today's election
+大约有一半人有资格参加今天的选举投票。
+[其他]	复数：eligibles
+
+lumps	
+英[lʌmps] 美[lʌmps]
+n.	(通常为无定形的) 块; 肿块; 隆起; 笨重的人; 懒汉; 傻大个;
+v.	把…归并一起(或合起来考虑);
+[词典]	lump的第三人称单数和复数;
+[例句]'No sugar,' I said, and Jim asked for two lumps.
+“不加糖，”我说道。吉姆则要了两块。
+[其他]	原型： lump
+
+
+papaya	
+英[pəˈpaɪə] 美[pəˈpaɪə]
+n.	番木瓜; (俗称) 木瓜;
+[例句]Mexican Indians used to wrap tough meat in leaves from the papaya tree.
+墨西哥印第安人过去常用番木瓜树叶把难嚼的肉包起来。
+[其他]	复数：papayas
+
+
+pineapple	
+英[ˈpaɪnæpl] 美[ˈpaɪnæpl]
+n.	菠萝; 凤梨;
+[例句]It's a drink made by steeping pineapple rind in water.
+这是用菠萝皮泡在水里做的饮料。
+[其他]	复数：pineapples
+
+
+flake	
+英[fleɪk] 美[fleɪk]
+n.	小薄片; (尤指) 碎片; 古怪的人; 奇特的人; 健忘的人;
+v.	(成小薄片) 脱落，剥落; 把(鱼、食物等)切成薄片; 成为薄片;
+[例句]Large flakes of snow began swiftly to fall.
+大片大片的雪花开始簌簌飘落。
+[其他]	第三人称单数：flakes 复数：flakes 现在分词：flaking 过去式：flaked 过去分词：flaked
+
+
+skim	
+英[skɪm] 美[skɪm]
+v.	撇去(液体上的油脂或乳脂等); (使) 掠过，擦过，滑过; 浏览; 略读;
+[例句]Rough seas today prevented specially equipped ships from skimming oil off the water's surface
+今天海面上风浪很大，那些配有专门设备的船只无法展开清除海面浮油的工作。
+[其他]	第三人称单数：skims 现在分词：skimming 过去式：skimmed 过去分词：skimmed
+
+
+eggplant	
+英[ˈeɡplɑːnt] 美[ˈeɡplænt]
+n.	茄子;
+[例句]Now you just alternate layers of that mixture and eggplant
+现在你只需把茄子和拌料一层层交替放好。
+[其他]	复数：eggplants
+
+carrot	
+英[ˈkærət] 美[ˈkærət]
+n.	胡萝卜; (为说服人做事所许诺的) 酬报，好处;
+[例句]They will be set targets, with a carrot of extra cash and pay if they achieve them
+会给他们设定目标，如果能达到，就能得到额外的现金和报酬。
+[其他]	复数：carrots
+
+omission	
+英[əˈmɪʃn] 美[əˈmɪʃn]
+n.	省略; 删除; 免除; 遗漏; 疏忽;
+[例句]The duke was surprised by his wife's omission from the guest list.
+公爵对他的夫人未在获邀宾客之列感到意外。
+[其他]	复数：omissions
+
+spin	
+英[spɪn] 美[spɪn]
+v.	(使) 快速旋转; (使) 急转身，猛转回头，急转弯; 纺(线); 纺(纱);
+n.	高速旋转; (飞机的) 尾旋，螺旋式下坠; 兜风;
+[例句]The latest discs, used for small portable computers, spin 3600 times a minute
+用在小型便携式计算机上的最新光盘转速为每分钟3,600转。
+[其他]	第三人称单数：spins 复数：spins 现在分词：spinning 过去式：spun 过去分词：spun
+
+
+damp	
+英[dæmp] 美[dæmp]
+adj.	潮湿的; 微湿的; 湿气重的;
+n.	潮湿; 潮气; 湿气; 湿块;
+v.	弄潮; 使潮湿; 抑制，减弱(感情等);
+[例句]Her hair was still damp
+她的头发还有点儿湿。
+[其他]	比较级：damper 最高级：dampest 第三人称单数：damps 现在分词：damping 过去式：damped 过去分词：damped
+
+
+leverage	英[ˈliːvərɪdʒ]
+美[ˈlevərɪdʒ]
+n.	影响力; 杠杆作用; 杠杆效力;
+[例句]His function as a Mayor affords him the leverage to get things done through attending committee meetings.
+他的市长身份使他有能力通过出席委员会会议来达成一些事情。
+[其他]	第三人称单数：leverages 现在分词：leveraging 过去式：leveraged 过去分词：leveraged
+
+
+delegate
+英[ˈdelɪɡət , ˈdelɪɡeɪt]
+美[ˈdelɪɡət , ˈdelɪɡeɪt]
+n.	代表; 会议代表;
+v.	授(权); 把(工作、权力等)委托(给下级); 选派(某人做某事);
+[例句]He plans to delegate more authority to his deputies
+他打算把更多的权力交给副手。
+[其他]	第三人称单数：delegates 复数：delegates 现在分词：delegating 过去式：delegated 过去分词：delegated
+
+cumbersome	英[ˈkʌmbəsəm]
+美[ˈkʌmbərsəm]
+adj.	大而笨重的; 难以携带的; 缓慢复杂的; 冗长的; 累赘的; 复杂的;
+[例句]Although the machine looks cumbersome, it is actually easy to use.
+尽管这台机器看上去很笨重，操作起来却很容易。
+
+paddle	英[ˈpædl]
+美[ˈpædl]
+n.	桨; 船桨; (机具的) 桨状部分; (尤指) 食物搅拌器的桨叶; 蹚水; 赤脚涉水;
+v.	用桨划船; 蹚水; 赤足涉水; 狗趴式游泳;
+[例句]We might be able to push ourselves across with the paddle.
+我们也许可以用桨把自己推过去。
+[其他]	第三人称单数：paddles 复数：paddles 现在分词：paddling 过去式：paddled 过去分词：paddled
+
+lite	英[laɪt]
+美[laɪt]
+adj.	低热量的，清淡的(light的一种拼写方法); 类似…的劣质品;
+[例句]The iNotes full and lite modes offer a fairly rich user experience.
+iNotes full和lite模式提供了相当丰富的用户体验。
+
+hopper	英[ˈhɒpə(r)]
+美[ˈhɑːpər]
+n.	V形送料斗; 漏斗;
+[例句]Sound beans from storage flow into a feeding hopper that regulates their flow into the plant.
+完整的大豆从仓库输运到喂料斗里，喂料斗可调节大豆运入工厂的数量。
+[其他]	复数：hoppers
+
+malicious	英[məˈlɪʃəs]
+美[məˈlɪʃəs]
+adj.	恶意的，有敌意的; 蓄意的; 预谋的; 存心不良的;
+[例句]That might merely have been malicious gossip
+那也许仅仅是些不怀好意的流言蜚语罢了。
+
+breach	英[bri:tʃ]
+美[britʃ]
+n.	违背; 破坏; 缺口; 破裂;
+vt.	攻破; 破坏，违反;
+[例句]The newspaper breached the code of conduct on privacy
+该报违反了保护隐私的行为准则。
+[其他]	第三人称单数：breaches 复数：breaches 现在分词：breaching 过去式：breached 过去分词：breached
+
+mediate	英[ˈmi:dieɪt]
+美[ˈmidiˌet]
+vt.	经调解解决; 斡旋促成;
+vi.	调停，调解，斡旋;
+adj.	居间的，间接的;
+[例句]My mom was the one who mediated between Zelda and her mom
+我妈妈充当了泽尔达和她妈妈之间的调解人。
+[其他]	第三人称单数：mediates 现在分词：mediating 过去式：mediated 过去分词：mediated
+
+caret	英[ˈkærət]
+美['kærət]
+n.	脱字号，补字号; 补字符号;
+[例句]We also introduced the caret and the dollar.
+我们还推出了插入符号和美元。
+
+notation	英[nəʊˈteɪʃn]
+美[noʊˈteɪʃn]
+n.	记号，标记法;
+[例句]Musical notation was conceived for the C major scale and each line and space represents a note in this scale.
+五线谱以C大音阶构成，每一个线和间代表这个音阶的音符。
+[其他]	复数：notations
+
+
+harness	英[ˈhɑ:nɪs]
+美[ˈhɑ:rnɪs]
+n.	背带; 马具，挽具; 系带;
+vt.	利用; 给（马等）套轭具; 控制;
+[例句]Turkey plans to harness the waters of the Tigris and Euphrates rivers for big hydro-electric power projects.
+土耳其计划利用底格里斯河和幼发拉底河的河水开发大型水电项目。
+[其他]	第三人称单数：harnesses 复数：harnesses 现在分词：harnessing 过去式：harnessed 过去分词：harnessed
+
+
+ambiguous	英[æmˈbɪgjuəs]
+美[æmˈbɪɡjuəs]
+adj.	模棱两可; 含糊的，不明确的; 引起歧义的; 有两种或多种意思的;
+[例句]This agreement is very ambiguous and open to various interpretations
+这份协议非常含糊，可以有多种解释。
+
+
+cumbersome	英[ˈkʌmbəsəm]
+美[ˈkʌmbərsəm]
+adj.	笨重的; 麻烦的; 累赘的，难以携带的; 缓慢复杂的，冗长的;
+[例句]Although the machine looks cumbersome, it is actually easy to use.
+尽管这台机器看上去很笨重，操作起来却很容易。
+
+brittle	英[ˈbrɪtl]
+美[ˈbrɪtl]
+adj.	易碎的; 难以相处的，尖刻暴躁的; 冷淡的; 声音尖利的;
+[例句]Pine is brittle and breaks.
+松树很脆，容易折断。
+[其他]	比较级：brittler  最高级：brittlest
 
 
 
