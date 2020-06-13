@@ -1853,4 +1853,35 @@ fictive
 adj.	想象的；虚构的;
 [例句]Viewing the Fictive Gain and Loss of the Historical Novel from
 从《三国演义》看历史小说虚构的得与失
+
+ennui	
+英[ɒnˈwiː] 美[ɑːnˈwiː]
+n.	无聊; 厌倦; 倦怠;
+[例句]The patient's cheerful smile was just a facade; actually, she was suffering from ennui.
+那病人愉快的微笑只是表面上的；事实上她倦怠的很。
+
+lattice	
+英[ˈlætɪs] 美[ˈlætɪs]
+n.	格子木架，格子金属架，格栅(用作篱笆等); 斜条结构; 斜格图案;
+[例句]We were crawling along the narrow steel lattice of the bridge.
+我们沿着桥上狭窄的钢制格架往前爬。
+[其他]	复数：lattices
+
+evict	
+英[ɪˈvɪkt] 美[ɪˈvɪkt]
+v.	(尤指依法从房屋或土地上) 驱逐，赶出，逐出;
+[例句]They were evicted from their apartment after their mother became addicted to drugs
+他们的母亲吸毒上瘾后，他们被从公寓里赶了出来。
+[其他]	第三人称单数：evicts 现在分词：evicting 过去式：evicted 过去分词：evicted
+
+
+transient	
+英[ˈtrænziənt] 美[ˈtrænʃnt]
+adj.	短暂的; 转瞬即逝的; 倏忽; 暂住的; 过往的; 临时的;
+n.	暂住某地的人; 过往旅客; 临时工;
+[例句]In most cases, pain is transient.
+大多数情况下，疼痛是短暂的。
+[其他]	复数：transients
+
+
 ```
